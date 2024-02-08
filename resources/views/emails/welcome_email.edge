@@ -1,0 +1,17 @@
+@mjml()
+  <mjml>
+    <mj-body>
+      <mj-section>
+        <mj-column>
+          <mj-text>
+            {{ t('emails.users.welcome_email.title', { firstName: user.firstName, lastName: user.lastName }) }}
+          </mj-text>
+
+          <mj-text>
+            {{ t('emails.users.welcome_email.content')}}
+          </mj-text>
+        </mj-column>
+      </mj-section>
+    </mj-body>
+  </mjml>
+@end

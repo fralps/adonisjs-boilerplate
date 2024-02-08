@@ -1,0 +1,14 @@
+{
+  "users": {
+    "welcome_email": {
+      "subject": "🎉 Welcome onboard new user",
+      "title": "Welcome { firstName } { lastName }",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis autem exercitationem nemo illo eius a minus repellat facilis!"
+    },
+    "farewell_email": {
+      "subject": "👋 Goodbye",
+      "title": "Goodbye { firstName } { lastName }",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis autem exercitationem nemo illo eius a minus repellat facilis!"
+    }
+  }
+}

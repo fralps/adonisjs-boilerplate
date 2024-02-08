@@ -1,0 +1,105 @@
+name: CI
+on:
+  push:
+    branches:
+      - '**' # matches every branch
+      - '!main'
+  pull_request:
+    branches:
+      - 'staging'
+
+jobs:
+  build:
+    name: 🏗 Build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: latest
+
+      - uses: pnpm/action-setup@v2
+        with:
+          version: 8
+
+      - name: 🔧 Install modules
+        run: pnpm install
+
+      - name: ⚙️ Build app
+        run: pnpm run build
+
+  testing:
+    name: 🧪 Testing
+    if: success()
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: latest
+
+      - uses: pnpm/action-setup@v2
+        with:
+          version: 8
+
+      - name: 🔧 Install modules
+        run: pnpm install
+
+      - uses: harmon758/postgresql-action@v1
+        with:
+          postgresql db: 'adonisjs_boilerplate_test'
+          postgresql user: 'developer'
+          postgresql password: 'password'
+
+      - name: 🧪 Run tests
+        shell: bash
+        run: bash ./scripts/test
+
+  linters:
+    name: 🔬 Linters
+    if: success()
+    needs: testing
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: latest
+
+      - uses: pnpm/action-setup@v2
+        with:
+          version: 8
+
+      - name: 🔧 Install modules
+        run: pnpm install
+
+      - name: 🔬 Run ESLint
+        run: pnpm run lint
+
+  licenses:
+    name: ©️ Licenses
+    if: success()
+    needs: testing
+    runs-on: ubuntu-latest
+    steps:
+      - name: 🔧 Checkout code
+        uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: latest
+
+      - uses: pnpm/action-setup@v2
+        with:
+          version: 8
+
+      - name: 🔧 Install modules
+        run: pnpm install
+
+      - name: 🧪 Run licenses check
+        shell: bash
+        run: bash ".github/scripts/check-licenses.sh"

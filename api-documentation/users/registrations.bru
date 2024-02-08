@@ -1,0 +1,21 @@
+meta {
+  name: /registrations
+  type: http
+  seq: 3
+}
+
+post {
+  url: http://localhost:3333/api/v1/users/registrations
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+      "email": "donaffld@gmail.com",
+      "password": "password",
+      "password_confirmation": "password",
+      "firstName": "Donale",
+      "lastName": "Duck"
+  }
+}
