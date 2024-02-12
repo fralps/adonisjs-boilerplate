@@ -21,8 +21,8 @@ dependencies:
     specifier: ^20.1.0
     version: 20.1.0(@adonisjs/assembler@7.1.1)(@adonisjs/core@6.2.3)(luxon@3.4.4)(pg@8.11.3)
   '@adonisjs/mail':
-    specifier: ^9.1.0
-    version: 9.1.0(@adonisjs/core@6.2.3)(@types/luxon@3.4.2)(@types/node@20.11.17)(edge.js@6.0.1)(luxon@3.4.4)
+    specifier: ^9.2.0
+    version: 9.2.0(@adonisjs/core@6.2.3)(@types/luxon@3.4.2)(@types/node@20.11.17)(edge.js@6.0.1)(luxon@3.4.4)
   '@adonisjs/session':
     specifier: ^7.1.1
     version: 7.1.1(@adonisjs/core@6.2.3)(@japa/api-client@2.0.2)(edge.js@6.0.1)
@@ -467,8 +467,8 @@ packages:
       - tedious
     dev: false
 
-  /@adonisjs/mail@9.1.0(@adonisjs/core@6.2.3)(@types/luxon@3.4.2)(@types/node@20.11.17)(edge.js@6.0.1)(luxon@3.4.4):
-    resolution: {integrity: sha512-4TIKENfYP+jU/+PSuJZY0TpCqfD97JJgcCopRqAOeR4d1YV4m2XYo5Ym2vi3Z6tq0TboS6S3j65wRzYzcXeXnA==}
+  /@adonisjs/mail@9.2.0(@adonisjs/core@6.2.3)(@types/luxon@3.4.2)(@types/node@20.11.17)(edge.js@6.0.1)(luxon@3.4.4):
+    resolution: {integrity: sha512-TeZuB0VV3dDh4lPdHxvR9nxWFYkgjtRCURCT4mBMpa3Pxu0XtLwCs8s6jLYvt8k+L4pG2zHJttCrKNpM6hsrlw==}
     engines: {node: '>=18.16.0'}
     peerDependencies:
       '@adonisjs/core': ^6.2.0
