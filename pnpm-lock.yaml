@@ -22,7 +22,7 @@ dependencies:
     version: 20.1.0(@adonisjs/assembler@7.1.1)(@adonisjs/core@6.2.3)(luxon@3.4.4)(pg@8.11.3)
   '@adonisjs/mail':
     specifier: ^9.2.0
-    version: 9.2.0(@adonisjs/core@6.2.3)(@types/luxon@3.4.2)(@types/node@20.11.19)(edge.js@6.0.1)(luxon@3.4.4)
+    version: 9.2.0(@adonisjs/core@6.2.3)(@types/luxon@3.4.2)(@types/node@20.11.20)(edge.js@6.0.1)(luxon@3.4.4)
   '@adonisjs/session':
     specifier: ^7.1.1
     version: 7.1.1(@adonisjs/core@6.2.3)(@japa/api-client@2.0.2)(edge.js@6.0.1)
@@ -80,8 +80,8 @@ devDependencies:
     specifier: ^3.4.2
     version: 3.4.2
   '@types/node':
-    specifier: ^20.11.19
-    version: 20.11.19
+    specifier: ^20.11.20
+    version: 20.11.20
   eslint:
     specifier: ^8.56.0
     version: 8.56.0
@@ -93,7 +93,7 @@ devDependencies:
     version: 3.2.5
   ts-node:
     specifier: ^10.9.2
-    version: 10.9.2(@swc/core@1.4.2)(@types/node@20.11.19)(typescript@5.3.3)
+    version: 10.9.2(@swc/core@1.4.2)(@types/node@20.11.20)(typescript@5.3.3)
   typescript:
     specifier: ^5.3.3
     version: 5.3.3
@@ -467,7 +467,7 @@ packages:
       - tedious
     dev: false
 
-  /@adonisjs/mail@9.2.0(@adonisjs/core@6.2.3)(@types/luxon@3.4.2)(@types/node@20.11.19)(edge.js@6.0.1)(luxon@3.4.4):
+  /@adonisjs/mail@9.2.0(@adonisjs/core@6.2.3)(@types/luxon@3.4.2)(@types/node@20.11.20)(edge.js@6.0.1)(luxon@3.4.4):
     resolution: {integrity: sha512-TeZuB0VV3dDh4lPdHxvR9nxWFYkgjtRCURCT4mBMpa3Pxu0XtLwCs8s6jLYvt8k+L4pG2zHJttCrKNpM6hsrlw==}
     engines: {node: '>=18.16.0'}
     peerDependencies:
@@ -487,7 +487,7 @@ packages:
       fastq: 1.17.0
       formdata-node: 6.0.3
       got: 14.2.0
-      ical-generator: 6.0.1(@types/luxon@3.4.2)(@types/node@20.11.19)(luxon@3.4.4)
+      ical-generator: 6.0.1(@types/luxon@3.4.2)(@types/node@20.11.20)(luxon@3.4.4)
       nodemailer: 6.9.9
     transitivePeerDependencies:
       - '@touch4it/ical-timezones'
@@ -873,7 +873,7 @@ packages:
       '@jest/schemas': 29.6.3
       '@types/istanbul-lib-coverage': 2.0.6
       '@types/istanbul-reports': 3.0.4
-      '@types/node': 20.11.19
+      '@types/node': 20.11.20
       '@types/yargs': 17.0.32
       chalk: 4.1.2
     dev: true
@@ -1252,15 +1252,15 @@ packages:
   /@types/luxon@3.4.2:
     resolution: {integrity: sha512-TifLZlFudklWlMBfhubvgqTXRzLDI5pCbGa4P8a3wPyUQSW+1xQ5eDsreP9DWHX3tjq1ke96uYG/nwundroWcA==}
 
-  /@types/node@20.11.19:
-    resolution: {integrity: sha512-7xMnVEcZFu0DikYjWOlRq7NTPETrm7teqUT2WkQjrTIkEgUyyGdWsj/Zg8bEJt5TNklzbPD1X3fqfsHw3SpapQ==}
+  /@types/node@20.11.20:
+    resolution: {integrity: sha512-7/rR21OS+fq8IyHTgtLkDK949uzsa6n8BkziAKtPVpugIkO6D+/ooXMvzXxDnZrmtXVfjb1bKQafYpb8s89LOg==}
     dependencies:
       undici-types: 5.26.5
 
   /@types/nodemailer@6.4.14:
     resolution: {integrity: sha512-fUWthHO9k9DSdPCSPRqcu6TWhYyxTBg382vlNIttSe9M7XfsT06y0f24KHXtbnijPGGRIcVvdKHTNikOI6qiHA==}
     dependencies:
-      '@types/node': 20.11.19
+      '@types/node': 20.11.20
     dev: false
 
   /@types/normalize-package-data@2.4.4:
@@ -1285,7 +1285,7 @@ packages:
     resolution: {integrity: sha512-mEafCgyKiMFin24SDzWN7yAADt4gt6YawFiNMp0QS5ZPboORfyxFt0s3VzJKhTaKg9py/4FUmrHLTNfJKt9Rbw==}
     dependencies:
       '@types/cookiejar': 2.1.5
-      '@types/node': 20.11.19
+      '@types/node': 20.11.20
 
   /@types/validator@13.11.8:
     resolution: {integrity: sha512-c/hzNDBh7eRF+KbCf+OoZxKbnkpaK/cKp9iLQWqB7muXtM+MtL9SUUH8vCFcLn6dH1Qm05jiexK0ofWY7TfOhQ==}
@@ -3019,7 +3019,7 @@ packages:
     resolution: {integrity: sha512-AXcZb6vzzrFAUE61HnN4mpLqd/cSIwNQjtNWR0euPm6y0iqx3G4gOXaIDdtdDwZmhwe82LA6+zinmW4UBWVePQ==}
     engines: {node: '>=16.17.0'}
 
-  /ical-generator@6.0.1(@types/luxon@3.4.2)(@types/node@20.11.19)(luxon@3.4.4):
+  /ical-generator@6.0.1(@types/luxon@3.4.2)(@types/node@20.11.20)(luxon@3.4.4):
     resolution: {integrity: sha512-m0Li239l4xddH+MveodfAWFFrHrT8F3rGmgR0zyWUe0Mg7Q/XxiPssN+cKer3+WSpfFNyhjdAsqalTUivKl/vQ==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
@@ -3053,7 +3053,7 @@ packages:
         optional: true
     dependencies:
       '@types/luxon': 3.4.2
-      '@types/node': 20.11.19
+      '@types/node': 20.11.20
       luxon: 3.4.4
       uuid-random: 1.3.2
     dev: false
@@ -3305,7 +3305,7 @@ packages:
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
     dependencies:
       '@jest/types': 29.6.3
-      '@types/node': 20.11.19
+      '@types/node': 20.11.20
       chalk: 4.1.2
       ci-info: 3.9.0
       graceful-fs: 4.2.11
@@ -5192,7 +5192,7 @@ packages:
       '@ts-morph/common': 0.22.0
       code-block-writer: 12.0.0
 
-  /ts-node@10.9.2(@swc/core@1.4.2)(@types/node@20.11.19)(typescript@5.3.3):
+  /ts-node@10.9.2(@swc/core@1.4.2)(@types/node@20.11.20)(typescript@5.3.3):
     resolution: {integrity: sha512-f0FFpIdcHgn8zcPSbf1dRevwt047YMnaiJM3u2w2RewrB+fob/zePZcrOyQoLMMO7aBIddLcQIEK5dYjkLnGrQ==}
     hasBin: true
     peerDependencies:
@@ -5212,7 +5212,7 @@ packages:
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.4
-      '@types/node': 20.11.19
+      '@types/node': 20.11.20
       acorn: 8.11.3
       acorn-walk: 8.3.2
       arg: 4.1.3
