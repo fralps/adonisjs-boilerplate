@@ -90,5 +90,9 @@ export default defineConfig({
       pattern: 'resources/views/**/*.edge',
       reloadServer: false,
     },
+    {
+      pattern: 'resources/lang/**/*.json',
+      reloadServer: false,
+    },
   ],
 })
