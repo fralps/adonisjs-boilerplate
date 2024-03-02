@@ -47,7 +47,6 @@
     "eslint": "^8.57.0",
     "pino-pretty": "^10.3.1",
     "prettier": "^3.2.5",
-    "ts-node": "^10.9.2",
     "typescript": "^5.3.3"
   },
   "dependencies": {
@@ -63,7 +62,8 @@
     "luxon": "^3.4.4",
     "mjml": "^4.15.3",
     "pg": "^8.11.3",
-    "reflect-metadata": "^0.2.1"
+    "reflect-metadata": "^0.2.1",
+    "ts-node": "^10.9.2"
   },
   "eslintConfig": {
     "extends": "@adonisjs/eslint-config/app"
