@@ -50,8 +50,8 @@ devDependencies:
     specifier: ^7.2.3
     version: 7.2.3(typescript@5.3.3)
   '@adonisjs/eslint-config':
-    specifier: ^1.2.2
-    version: 1.2.2(eslint@8.57.0)(prettier@3.2.5)(typescript@5.3.3)
+    specifier: ^1.3.0
+    version: 1.3.0(eslint@8.57.0)(prettier@3.2.5)(typescript@5.3.3)
   '@adonisjs/prettier-config':
     specifier: ^1.3.0
     version: 1.3.0
@@ -294,13 +294,13 @@ packages:
       dotenv: 16.4.1
       split-lines: 3.0.0
 
-  /@adonisjs/eslint-config@1.2.2(eslint@8.57.0)(prettier@3.2.5)(typescript@5.3.3):
-    resolution: {integrity: sha512-RempMUWWNJjuCYgxC93eeQUC+1cuzYzF/7ijdEIiVefkZ1vqZW+xOHMdzBqJMq9wly3MCvxUob6SiNg06CffJg==}
+  /@adonisjs/eslint-config@1.3.0(eslint@8.57.0)(prettier@3.2.5)(typescript@5.3.3):
+    resolution: {integrity: sha512-CBt/fl17+OCmaCd0rt79GvroDidaF/cBTc6iqjEh08IawAcanQE339kPRMgL1T43B6BDFmSahePvYU5es5j4yw==}
     peerDependencies:
       eslint: '>=7.4.0'
       prettier: '>=2.0.0'
     dependencies:
-      '@adonisjs/eslint-plugin': 1.2.2(eslint@8.57.0)(typescript@5.3.3)
+      '@adonisjs/eslint-plugin': 1.3.0(eslint@8.57.0)(typescript@5.3.3)
       '@typescript-eslint/eslint-plugin': 6.20.0(@typescript-eslint/parser@6.20.0)(eslint@8.57.0)(typescript@5.3.3)
       '@typescript-eslint/parser': 6.20.0(eslint@8.57.0)(typescript@5.3.3)
       eslint: 8.57.0
@@ -316,8 +316,8 @@ packages:
       - typescript
     dev: true
 
-  /@adonisjs/eslint-plugin@1.2.2(eslint@8.57.0)(typescript@5.3.3):
-    resolution: {integrity: sha512-EKMobeIy+eaLPVj6QPC2RIC55yU9HPPsIo+GmF0bdFJh3gsmx/qwL1i5FhoaQCOG7dgm03ejh1P5PrE+KejKdg==}
+  /@adonisjs/eslint-plugin@1.3.0(eslint@8.57.0)(typescript@5.3.3):
+    resolution: {integrity: sha512-LpN85yyuKkfo4t5PlE2Pij1GU3BcFh15cOH6BK7iDDcMkR6KduXB90hYiRu013EVIH+/sfxP5k2VjhBRc31Mqw==}
     dependencies:
       '@typescript-eslint/utils': 6.20.0(eslint@8.57.0)(typescript@5.3.3)
     transitivePeerDependencies:
