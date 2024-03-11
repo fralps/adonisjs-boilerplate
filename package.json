@@ -35,7 +35,7 @@
     "@adonisjs/assembler": "^7.2.3",
     "@adonisjs/eslint-config": "^1.3.0",
     "@adonisjs/prettier-config": "^1.3.0",
-    "@adonisjs/tsconfig": "^1.2.2",
+    "@adonisjs/tsconfig": "^1.3.0",
     "@japa/api-client": "^2.0.2",
     "@japa/assert": "^2.1.0",
     "@japa/expect": "^3.0.1",
