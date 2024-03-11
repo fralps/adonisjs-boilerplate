@@ -53,8 +53,8 @@ devDependencies:
     specifier: ^1.2.2
     version: 1.2.2(eslint@8.57.0)(prettier@3.2.5)(typescript@5.3.3)
   '@adonisjs/prettier-config':
-    specifier: ^1.2.2
-    version: 1.2.2
+    specifier: ^1.3.0
+    version: 1.3.0
   '@adonisjs/tsconfig':
     specifier: ^1.2.2
     version: 1.2.2
@@ -532,8 +532,8 @@ packages:
       '@poppinss/utils': 6.7.2
     dev: false
 
-  /@adonisjs/prettier-config@1.2.2:
-    resolution: {integrity: sha512-JM8+btOpE/9BVyKcUCh+8dGlUWQgurtQ4ih28sMDu7/+CcsnYEWX5M5+dYN36dDH6Ud9k552kWK3qIIr4teSTQ==}
+  /@adonisjs/prettier-config@1.3.0:
+    resolution: {integrity: sha512-StwX1dGsf8Yt5Vz48evSDGKMS5iOEgMHUYcDhkQJ79NUXopJ5PiAqb/GbjvA+XmEa+aZNPHqmafgFbfKlLAFZA==}
     dev: true
 
   /@adonisjs/repl@4.0.1:
