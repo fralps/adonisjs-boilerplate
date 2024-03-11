@@ -15,8 +15,8 @@ dependencies:
     specifier: ^2.2.1
     version: 2.2.1(@adonisjs/core@6.3.1)
   '@adonisjs/i18n':
-    specifier: ^2.0.0
-    version: 2.0.0(@adonisjs/core@6.3.1)(@vinejs/vine@1.7.1)(edge.js@6.0.1)
+    specifier: ^2.0.1
+    version: 2.0.1(@adonisjs/core@6.3.1)(@vinejs/vine@1.7.1)(edge.js@6.0.1)
   '@adonisjs/lucid':
     specifier: ^20.3.1
     version: 20.3.1(@adonisjs/assembler@7.2.3)(@adonisjs/core@6.3.1)(luxon@3.4.4)(pg@8.11.3)
@@ -397,8 +397,8 @@ packages:
       vary: 1.1.2
       youch: 3.3.3
 
-  /@adonisjs/i18n@2.0.0(@adonisjs/core@6.3.1)(@vinejs/vine@1.7.1)(edge.js@6.0.1):
-    resolution: {integrity: sha512-l7RC2GXVNO4cRqrJc9hIBHnmY20YZnzbFMk9Q55cEk/oAMO+u+ism38uh6AHXjRlPc8NEtxoQrHwXaTkEzJTNw==}
+  /@adonisjs/i18n@2.0.1(@adonisjs/core@6.3.1)(@vinejs/vine@1.7.1)(edge.js@6.0.1):
+    resolution: {integrity: sha512-IdAG5S9k70cwTCYGkmx94At5Tv4CLQtZUxLso5mPFQ+CSBm0zxgDJmvSWU3l4X++ND6Pqr+zFcNTqGGZ/unimA==}
     engines: {node: '>=18.16.0'}
     peerDependencies:
       '@adonisjs/core': ^6.2.0
@@ -412,7 +412,7 @@ packages:
     dependencies:
       '@adonisjs/core': 6.3.1(@adonisjs/assembler@7.2.3)(@vinejs/vine@1.7.1)(edge.js@6.0.1)
       '@poppinss/intl-formatter': 3.0.1
-      '@poppinss/utils': 6.7.1
+      '@poppinss/utils': 6.7.2
       '@vinejs/vine': 1.7.1
       edge.js: 6.0.1
       intl-messageformat: 10.5.11
