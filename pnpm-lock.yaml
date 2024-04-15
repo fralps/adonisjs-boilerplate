@@ -7,7 +7,7 @@ settings:
 dependencies:
   '@adonisjs/auth':
     specifier: ^9.1.1
-    version: 9.1.1(@adonisjs/assembler@7.4.0)(@adonisjs/core@6.5.0)(@adonisjs/lucid@20.5.1)(@adonisjs/session@7.3.0)(@japa/api-client@2.0.2)(@japa/plugin-adonisjs@3.0.0)
+    version: 9.1.1(@adonisjs/assembler@7.4.0)(@adonisjs/core@6.5.0)(@adonisjs/lucid@20.5.1)(@adonisjs/session@7.3.0)(@japa/api-client@2.0.3)(@japa/plugin-adonisjs@3.0.0)
   '@adonisjs/core':
     specifier: ^6.5.0
     version: 6.5.0(@adonisjs/assembler@7.4.0)(@vinejs/vine@1.8.0)(edge.js@6.0.2)
@@ -25,7 +25,7 @@ dependencies:
     version: 9.2.1(@adonisjs/core@6.5.0)(@types/luxon@3.4.2)(@types/node@20.12.6)(edge.js@6.0.2)(luxon@3.4.4)
   '@adonisjs/session':
     specifier: ^7.3.0
-    version: 7.3.0(@adonisjs/core@6.5.0)(@japa/api-client@2.0.2)(edge.js@6.0.2)
+    version: 7.3.0(@adonisjs/core@6.5.0)(@japa/api-client@2.0.3)(edge.js@6.0.2)
   '@vinejs/vine':
     specifier: ^1.8.0
     version: 1.8.0
@@ -59,8 +59,8 @@ devDependencies:
     specifier: ^1.3.0
     version: 1.3.0
   '@japa/api-client':
-    specifier: ^2.0.2
-    version: 2.0.2(@japa/assert@2.1.0)(@japa/runner@3.1.2)
+    specifier: ^2.0.3
+    version: 2.0.3(@japa/assert@2.1.0)(@japa/runner@3.1.2)
   '@japa/assert':
     specifier: ^2.1.0
     version: 2.1.0(@japa/runner@3.1.2)(openapi-types@12.1.3)
@@ -69,7 +69,7 @@ devDependencies:
     version: 3.0.2(@japa/runner@3.1.2)
   '@japa/plugin-adonisjs':
     specifier: ^3.0.0
-    version: 3.0.0(@adonisjs/core@6.5.0)(@japa/api-client@2.0.2)(@japa/runner@3.1.2)
+    version: 3.0.0(@adonisjs/core@6.5.0)(@japa/api-client@2.0.3)(@japa/runner@3.1.2)
   '@japa/runner':
     specifier: ^3.1.2
     version: 3.1.2
@@ -162,7 +162,7 @@ packages:
     transitivePeerDependencies:
       - babel-plugin-macros
 
-  /@adonisjs/auth@9.1.1(@adonisjs/assembler@7.4.0)(@adonisjs/core@6.5.0)(@adonisjs/lucid@20.5.1)(@adonisjs/session@7.3.0)(@japa/api-client@2.0.2)(@japa/plugin-adonisjs@3.0.0):
+  /@adonisjs/auth@9.1.1(@adonisjs/assembler@7.4.0)(@adonisjs/core@6.5.0)(@adonisjs/lucid@20.5.1)(@adonisjs/session@7.3.0)(@japa/api-client@2.0.3)(@japa/plugin-adonisjs@3.0.0):
     resolution: {integrity: sha512-gusUQT/9xWYZvdOzHQeqFlI1WDsxi0DIHxjkCNcExwLHpCwBvJ2+VItQ5+dBx5Aryi7Szm2C4od/vg08f//A5g==}
     engines: {node: '>=18.16.0'}
     peerDependencies:
@@ -187,9 +187,9 @@ packages:
       '@adonisjs/core': 6.5.0(@adonisjs/assembler@7.4.0)(@vinejs/vine@1.8.0)(edge.js@6.0.2)
       '@adonisjs/lucid': 20.5.1(@adonisjs/assembler@7.4.0)(@adonisjs/core@6.5.0)(luxon@3.4.4)(pg@8.11.3)
       '@adonisjs/presets': 2.2.4(@adonisjs/assembler@7.4.0)(@adonisjs/core@6.5.0)
-      '@adonisjs/session': 7.3.0(@adonisjs/core@6.5.0)(@japa/api-client@2.0.2)(edge.js@6.0.2)
-      '@japa/api-client': 2.0.2(@japa/assert@2.1.0)(@japa/runner@3.1.2)
-      '@japa/plugin-adonisjs': 3.0.0(@adonisjs/core@6.5.0)(@japa/api-client@2.0.2)(@japa/runner@3.1.2)
+      '@adonisjs/session': 7.3.0(@adonisjs/core@6.5.0)(@japa/api-client@2.0.3)(edge.js@6.0.2)
+      '@japa/api-client': 2.0.3(@japa/assert@2.1.0)(@japa/runner@3.1.2)
+      '@japa/plugin-adonisjs': 3.0.0(@adonisjs/core@6.5.0)(@japa/api-client@2.0.3)(@japa/runner@3.1.2)
       basic-auth: 2.0.1
     transitivePeerDependencies:
       - '@adonisjs/assembler'
@@ -543,7 +543,7 @@ packages:
       '@poppinss/colors': 4.1.3
       string-width: 7.1.0
 
-  /@adonisjs/session@7.3.0(@adonisjs/core@6.5.0)(@japa/api-client@2.0.2)(edge.js@6.0.2):
+  /@adonisjs/session@7.3.0(@adonisjs/core@6.5.0)(@japa/api-client@2.0.3)(edge.js@6.0.2):
     resolution: {integrity: sha512-ntRDubmOJf8fHZY7IlXHVv4QKgGwfMsWghj9rBh9TVWLVwPeHLBnfHF3oLw25nbXM6hQTa1fPpencol71KrPnw==}
     engines: {node: '>=18.16.0'}
     peerDependencies:
@@ -563,7 +563,7 @@ packages:
         optional: true
     dependencies:
       '@adonisjs/core': 6.5.0(@adonisjs/assembler@7.4.0)(@vinejs/vine@1.8.0)(edge.js@6.0.2)
-      '@japa/api-client': 2.0.2(@japa/assert@2.1.0)(@japa/runner@3.1.2)
+      '@japa/api-client': 2.0.3(@japa/assert@2.1.0)(@japa/runner@3.1.2)
       '@poppinss/utils': 6.7.2
       edge.js: 6.0.2
     dev: false
@@ -759,21 +759,21 @@ packages:
       wrap-ansi-cjs: /wrap-ansi@7.0.0
     dev: false
 
-  /@japa/api-client@2.0.2(@japa/assert@2.1.0)(@japa/runner@3.1.2):
-    resolution: {integrity: sha512-wQrmT8Fxdu+2W0NU209zWHXDeX5a+9PKJs5Ux+jd7NR2y2ndFIi1bSAvN/c5N2UtywNFht2gTmQSCFSTC9kVNg==}
+  /@japa/api-client@2.0.3(@japa/assert@2.1.0)(@japa/runner@3.1.2):
+    resolution: {integrity: sha512-2Eh68Kg1+7glMo+mLSPfBGN21wUEA61niTMwdmhEXyw5VrS4IctZxQWhn5fzwj5KnQJfPpxrRnt9432Zs0uN/g==}
     engines: {node: '>=18.16.0'}
     peerDependencies:
-      '@japa/assert': ^2.0.0
-      '@japa/runner': ^3.0.0
+      '@japa/assert': ^2.0.0 || ^3.0.0
+      '@japa/runner': ^3.1.2
     peerDependenciesMeta:
       '@japa/assert':
         optional: true
     dependencies:
       '@japa/assert': 2.1.0(@japa/runner@3.1.2)(openapi-types@12.1.3)
       '@japa/runner': 3.1.2
-      '@poppinss/hooks': 7.2.2
-      '@poppinss/macroable': 1.0.1
-      '@types/superagent': 4.1.24
+      '@poppinss/hooks': 7.2.3
+      '@poppinss/macroable': 1.0.2
+      '@types/superagent': 8.1.6
       cookie: 0.6.0
       set-cookie-parser: 2.6.0
       superagent: 8.1.2
@@ -825,7 +825,7 @@ packages:
       expect: 29.7.0
     dev: true
 
-  /@japa/plugin-adonisjs@3.0.0(@adonisjs/core@6.5.0)(@japa/api-client@2.0.2)(@japa/runner@3.1.2):
+  /@japa/plugin-adonisjs@3.0.0(@adonisjs/core@6.5.0)(@japa/api-client@2.0.3)(@japa/runner@3.1.2):
     resolution: {integrity: sha512-gw92tnOlNeVuZoI/ysX/AW9AZdACd5cm50Jpa+dUPQ7VJU7J7PQCNGhp3FF98h7czdGvw8KJvszr/grr3SENEA==}
     engines: {node: '>=18.16.0'}
     peerDependencies:
@@ -843,7 +843,7 @@ packages:
         optional: true
     dependencies:
       '@adonisjs/core': 6.5.0(@adonisjs/assembler@7.4.0)(@vinejs/vine@1.8.0)(edge.js@6.0.2)
-      '@japa/api-client': 2.0.2(@japa/assert@2.1.0)(@japa/runner@3.1.2)
+      '@japa/api-client': 2.0.3(@japa/assert@2.1.0)(@japa/runner@3.1.2)
       '@japa/runner': 3.1.2
 
   /@japa/runner@3.1.2:
@@ -1002,6 +1002,7 @@ packages:
   /@poppinss/hooks@7.2.2:
     resolution: {integrity: sha512-EDivPMt9sAUV5kNhH2bvtVjuLvHhQ6SKVP19OjvvcyRalqAa6KqCItJ2qeU8A93s0cr1a28Sytu+KSwsmOY8pg==}
     engines: {node: '>=18.16.0'}
+    dev: false
 
   /@poppinss/hooks@7.2.3:
     resolution: {integrity: sha512-+B7YSazGaCMcoUubwEkCTnpAvJ+Fv7tqgtpu7cm9qt1adEjmXDmaiG76loEnmxAkyHrbZJ5xHGNSD0NwMhLcnA==}
@@ -1299,6 +1300,9 @@ packages:
   /@types/luxon@3.4.2:
     resolution: {integrity: sha512-TifLZlFudklWlMBfhubvgqTXRzLDI5pCbGa4P8a3wPyUQSW+1xQ5eDsreP9DWHX3tjq1ke96uYG/nwundroWcA==}
 
+  /@types/methods@1.1.4:
+    resolution: {integrity: sha512-ymXWVrDiCxTBE3+RIrrP533E70eA+9qu7zdWoHuOmGujkYtzf4HQF96b8nwHLqhuf4ykX61IGRIB38CC6/sImQ==}
+
   /@types/node@20.12.6:
     resolution: {integrity: sha512-3KurE8taB8GCvZBPngVbp0lk5CKi8M9f9k1rsADh0Evdz5SzJ+Q+Hx9uHoFGsLnLnd1xmkDQr2hVhlA0Mn0lKQ==}
     dependencies:
@@ -1328,10 +1332,11 @@ packages:
     resolution: {integrity: sha512-9aEbYZ3TbYMznPdcdr3SmIrLXwC/AKZXQeCf9Pgao5CKb8CyHuEX5jzWPTkvregvhRJHcpRO6BFoGW9ycaOkYw==}
     dev: true
 
-  /@types/superagent@4.1.24:
-    resolution: {integrity: sha512-mEafCgyKiMFin24SDzWN7yAADt4gt6YawFiNMp0QS5ZPboORfyxFt0s3VzJKhTaKg9py/4FUmrHLTNfJKt9Rbw==}
+  /@types/superagent@8.1.6:
+    resolution: {integrity: sha512-yzBOv+6meEHSzV2NThYYOA6RtqvPr3Hbob9ZLp3i07SH27CrYVfm8CrF7ydTmidtelsFiKx2I4gZAiAOamGgvQ==}
     dependencies:
       '@types/cookiejar': 2.1.5
+      '@types/methods': 1.1.4
       '@types/node': 20.12.6
 
   /@types/validator@13.11.9:
