@@ -7,10 +7,10 @@ settings:
 dependencies:
   '@adonisjs/auth':
     specifier: ^9.1.1
-    version: 9.1.1(@adonisjs/assembler@7.4.0)(@adonisjs/core@6.5.0)(@adonisjs/lucid@20.5.1)(@adonisjs/session@7.3.0)(@japa/api-client@2.0.3)(@japa/plugin-adonisjs@3.0.0)
+    version: 9.1.1(@adonisjs/assembler@7.5.0)(@adonisjs/core@6.5.0)(@adonisjs/lucid@20.5.1)(@adonisjs/session@7.3.0)(@japa/api-client@2.0.3)(@japa/plugin-adonisjs@3.0.0)
   '@adonisjs/core':
     specifier: ^6.5.0
-    version: 6.5.0(@adonisjs/assembler@7.4.0)(@vinejs/vine@1.8.0)(edge.js@6.0.2)
+    version: 6.5.0(@adonisjs/assembler@7.5.0)(@vinejs/vine@1.8.0)(edge.js@6.0.2)
   '@adonisjs/cors':
     specifier: ^2.2.1
     version: 2.2.1(@adonisjs/core@6.5.0)
@@ -19,7 +19,7 @@ dependencies:
     version: 2.0.1(@adonisjs/core@6.5.0)(@vinejs/vine@1.8.0)(edge.js@6.0.2)
   '@adonisjs/lucid':
     specifier: ^20.5.1
-    version: 20.5.1(@adonisjs/assembler@7.4.0)(@adonisjs/core@6.5.0)(luxon@3.4.4)(pg@8.11.3)
+    version: 20.5.1(@adonisjs/assembler@7.5.0)(@adonisjs/core@6.5.0)(luxon@3.4.4)(pg@8.11.3)
   '@adonisjs/mail':
     specifier: ^9.2.1
     version: 9.2.1(@adonisjs/core@6.5.0)(@types/luxon@3.4.2)(@types/node@20.12.6)(edge.js@6.0.2)(luxon@3.4.4)
@@ -47,8 +47,8 @@ dependencies:
 
 devDependencies:
   '@adonisjs/assembler':
-    specifier: ^7.4.0
-    version: 7.4.0(typescript@5.4.5)
+    specifier: ^7.5.0
+    version: 7.5.0(typescript@5.4.5)
   '@adonisjs/eslint-config':
     specifier: ^1.3.0
     version: 1.3.0(eslint@8.57.0)(prettier@3.2.5)(typescript@5.4.5)
@@ -136,8 +136,8 @@ packages:
       glob-parent: 6.0.2
       tempura: 0.4.0
 
-  /@adonisjs/assembler@7.4.0(typescript@5.4.5):
-    resolution: {integrity: sha512-IFfRIB4Jzxiu7+/sL6lYIPu0EThdubuKGGPLvQVGmEqDVdPBx1kzqXO4XwX0B9WEp1kCZQn6E8NKjMjVOLcdIA==}
+  /@adonisjs/assembler@7.5.0(typescript@5.4.5):
+    resolution: {integrity: sha512-8HAulosGXhKTNK/0Z1Fg27shg2l8JODHPS9rEY525N2ZUDaIC5galtqzmsayWmst7tSKIMz79ErCvimdTMAhHg==}
     engines: {node: '>=20.6.0'}
     peerDependencies:
       typescript: ^4.0.0 || ^5.0.0
@@ -149,7 +149,7 @@ packages:
       '@poppinss/hooks': 7.2.3
       '@poppinss/utils': 6.7.3
       cpy: 11.0.1
-      dedent: 1.5.1
+      dedent: 1.5.3
       execa: 8.0.1
       fast-glob: 3.3.2
       get-port: 7.1.0
@@ -162,7 +162,7 @@ packages:
     transitivePeerDependencies:
       - babel-plugin-macros
 
-  /@adonisjs/auth@9.1.1(@adonisjs/assembler@7.4.0)(@adonisjs/core@6.5.0)(@adonisjs/lucid@20.5.1)(@adonisjs/session@7.3.0)(@japa/api-client@2.0.3)(@japa/plugin-adonisjs@3.0.0):
+  /@adonisjs/auth@9.1.1(@adonisjs/assembler@7.5.0)(@adonisjs/core@6.5.0)(@adonisjs/lucid@20.5.1)(@adonisjs/session@7.3.0)(@japa/api-client@2.0.3)(@japa/plugin-adonisjs@3.0.0):
     resolution: {integrity: sha512-gusUQT/9xWYZvdOzHQeqFlI1WDsxi0DIHxjkCNcExwLHpCwBvJ2+VItQ5+dBx5Aryi7Szm2C4od/vg08f//A5g==}
     engines: {node: '>=18.16.0'}
     peerDependencies:
@@ -184,9 +184,9 @@ packages:
       '@japa/plugin-adonisjs':
         optional: true
     dependencies:
-      '@adonisjs/core': 6.5.0(@adonisjs/assembler@7.4.0)(@vinejs/vine@1.8.0)(edge.js@6.0.2)
-      '@adonisjs/lucid': 20.5.1(@adonisjs/assembler@7.4.0)(@adonisjs/core@6.5.0)(luxon@3.4.4)(pg@8.11.3)
-      '@adonisjs/presets': 2.2.4(@adonisjs/assembler@7.4.0)(@adonisjs/core@6.5.0)
+      '@adonisjs/core': 6.5.0(@adonisjs/assembler@7.5.0)(@vinejs/vine@1.8.0)(edge.js@6.0.2)
+      '@adonisjs/lucid': 20.5.1(@adonisjs/assembler@7.5.0)(@adonisjs/core@6.5.0)(luxon@3.4.4)(pg@8.11.3)
+      '@adonisjs/presets': 2.2.4(@adonisjs/assembler@7.5.0)(@adonisjs/core@6.5.0)
       '@adonisjs/session': 7.3.0(@adonisjs/core@6.5.0)(@japa/api-client@2.0.3)(edge.js@6.0.2)
       '@japa/api-client': 2.0.3(@japa/assert@2.1.0)(@japa/runner@3.1.2)
       '@japa/plugin-adonisjs': 3.0.0(@adonisjs/core@6.5.0)(@japa/api-client@2.0.3)(@japa/runner@3.1.2)
@@ -220,7 +220,7 @@ packages:
     dependencies:
       '@poppinss/utils': 6.7.3
 
-  /@adonisjs/core@6.5.0(@adonisjs/assembler@7.4.0)(@vinejs/vine@1.8.0)(edge.js@6.0.2):
+  /@adonisjs/core@6.5.0(@adonisjs/assembler@7.5.0)(@vinejs/vine@1.8.0)(edge.js@6.0.2):
     resolution: {integrity: sha512-p9/s8KFLqUxh/36J6KzLRkEIaoZfIP8wOyjgv2L1Ma2ky8UgFX/sIcg3ILe4f4oWbKVX+5/YUqEiyTpde7mEBw==}
     engines: {node: '>=20.6.0'}
     hasBin: true
@@ -244,7 +244,7 @@ packages:
     dependencies:
       '@adonisjs/ace': 13.0.0
       '@adonisjs/application': 8.2.1(@adonisjs/config@5.0.1)(@adonisjs/fold@10.0.1)
-      '@adonisjs/assembler': 7.4.0(typescript@5.4.5)
+      '@adonisjs/assembler': 7.5.0(typescript@5.4.5)
       '@adonisjs/bodyparser': 10.0.1(@adonisjs/http-server@7.2.0)
       '@adonisjs/config': 5.0.1
       '@adonisjs/encryption': 6.0.1
@@ -276,7 +276,7 @@ packages:
     peerDependencies:
       '@adonisjs/core': ^6.2.0
     dependencies:
-      '@adonisjs/core': 6.5.0(@adonisjs/assembler@7.4.0)(@vinejs/vine@1.8.0)(edge.js@6.0.2)
+      '@adonisjs/core': 6.5.0(@adonisjs/assembler@7.5.0)(@vinejs/vine@1.8.0)(edge.js@6.0.2)
     dev: false
 
   /@adonisjs/encryption@6.0.1:
@@ -410,7 +410,7 @@ packages:
       edge.js:
         optional: true
     dependencies:
-      '@adonisjs/core': 6.5.0(@adonisjs/assembler@7.4.0)(@vinejs/vine@1.8.0)(edge.js@6.0.2)
+      '@adonisjs/core': 6.5.0(@adonisjs/assembler@7.5.0)(@vinejs/vine@1.8.0)(edge.js@6.0.2)
       '@poppinss/intl-formatter': 3.0.1
       '@poppinss/utils': 6.7.2
       '@vinejs/vine': 1.8.0
@@ -429,7 +429,7 @@ packages:
       abstract-logging: 2.0.1
       pino: 8.18.0
 
-  /@adonisjs/lucid@20.5.1(@adonisjs/assembler@7.4.0)(@adonisjs/core@6.5.0)(luxon@3.4.4)(pg@8.11.3):
+  /@adonisjs/lucid@20.5.1(@adonisjs/assembler@7.5.0)(@adonisjs/core@6.5.0)(luxon@3.4.4)(pg@8.11.3):
     resolution: {integrity: sha512-PXzeRTbkPFhf5ttRv6LbKYbtXXWrYUWxrVmXecHvNbrKZSlP7XQOm45Pgk75lStAXBkEqxgvlC9PRHgM+Bdrog==}
     engines: {node: '>=18.16.0'}
     peerDependencies:
@@ -442,9 +442,9 @@ packages:
       luxon:
         optional: true
     dependencies:
-      '@adonisjs/assembler': 7.4.0(typescript@5.4.5)
-      '@adonisjs/core': 6.5.0(@adonisjs/assembler@7.4.0)(@vinejs/vine@1.8.0)(edge.js@6.0.2)
-      '@adonisjs/presets': 2.2.5(@adonisjs/assembler@7.4.0)(@adonisjs/core@6.5.0)
+      '@adonisjs/assembler': 7.5.0(typescript@5.4.5)
+      '@adonisjs/core': 6.5.0(@adonisjs/assembler@7.5.0)(@vinejs/vine@1.8.0)(edge.js@6.0.2)
+      '@adonisjs/presets': 2.2.5(@adonisjs/assembler@7.5.0)(@adonisjs/core@6.5.0)
       '@faker-js/faker': 8.4.1
       '@poppinss/hooks': 7.2.2
       '@poppinss/macroable': 1.0.1
@@ -481,7 +481,7 @@ packages:
       '@aws-sdk/client-ses':
         optional: true
     dependencies:
-      '@adonisjs/core': 6.5.0(@adonisjs/assembler@7.4.0)(@vinejs/vine@1.8.0)(edge.js@6.0.2)
+      '@adonisjs/core': 6.5.0(@adonisjs/assembler@7.5.0)(@vinejs/vine@1.8.0)(edge.js@6.0.2)
       '@poppinss/colors': 4.1.3
       '@poppinss/macroable': 1.0.2
       '@poppinss/utils': 6.7.3
@@ -504,7 +504,7 @@ packages:
       - rrule
     dev: false
 
-  /@adonisjs/presets@2.2.4(@adonisjs/assembler@7.4.0)(@adonisjs/core@6.5.0):
+  /@adonisjs/presets@2.2.4(@adonisjs/assembler@7.5.0)(@adonisjs/core@6.5.0):
     resolution: {integrity: sha512-bYciFKma/M2JkKR2bxg3A9/oNGGIXgGNLatgvGVSxCJvAZ5LRkcPsdCr+n0rruAmY/BedUrhAV4b82UyDVxBEg==}
     peerDependencies:
       '@adonisjs/assembler': ^7.0.0
@@ -513,12 +513,12 @@ packages:
       '@adonisjs/assembler':
         optional: true
     dependencies:
-      '@adonisjs/assembler': 7.4.0(typescript@5.4.5)
-      '@adonisjs/core': 6.5.0(@adonisjs/assembler@7.4.0)(@vinejs/vine@1.8.0)(edge.js@6.0.2)
+      '@adonisjs/assembler': 7.5.0(typescript@5.4.5)
+      '@adonisjs/core': 6.5.0(@adonisjs/assembler@7.5.0)(@vinejs/vine@1.8.0)(edge.js@6.0.2)
       '@poppinss/utils': 6.7.3
     dev: false
 
-  /@adonisjs/presets@2.2.5(@adonisjs/assembler@7.4.0)(@adonisjs/core@6.5.0):
+  /@adonisjs/presets@2.2.5(@adonisjs/assembler@7.5.0)(@adonisjs/core@6.5.0):
     resolution: {integrity: sha512-VgVU0b4WkRAAvn4GKlDAicfneu9s1StcviF5JbTwFkvzrz2AR3RIPzES2DeLvQTYXRq67RIxJWyGEKlJN7WTwA==}
     peerDependencies:
       '@adonisjs/assembler': ^7.0.0
@@ -527,8 +527,8 @@ packages:
       '@adonisjs/assembler':
         optional: true
     dependencies:
-      '@adonisjs/assembler': 7.4.0(typescript@5.4.5)
-      '@adonisjs/core': 6.5.0(@adonisjs/assembler@7.4.0)(@vinejs/vine@1.8.0)(edge.js@6.0.2)
+      '@adonisjs/assembler': 7.5.0(typescript@5.4.5)
+      '@adonisjs/core': 6.5.0(@adonisjs/assembler@7.5.0)(@vinejs/vine@1.8.0)(edge.js@6.0.2)
       '@poppinss/utils': 6.7.3
     dev: false
 
@@ -562,7 +562,7 @@ packages:
       edge.js:
         optional: true
     dependencies:
-      '@adonisjs/core': 6.5.0(@adonisjs/assembler@7.4.0)(@vinejs/vine@1.8.0)(edge.js@6.0.2)
+      '@adonisjs/core': 6.5.0(@adonisjs/assembler@7.5.0)(@vinejs/vine@1.8.0)(edge.js@6.0.2)
       '@japa/api-client': 2.0.3(@japa/assert@2.1.0)(@japa/runner@3.1.2)
       '@poppinss/utils': 6.7.2
       edge.js: 6.0.2
@@ -842,7 +842,7 @@ packages:
       playwright:
         optional: true
     dependencies:
-      '@adonisjs/core': 6.5.0(@adonisjs/assembler@7.4.0)(@vinejs/vine@1.8.0)(edge.js@6.0.2)
+      '@adonisjs/core': 6.5.0(@adonisjs/assembler@7.5.0)(@vinejs/vine@1.8.0)(edge.js@6.0.2)
       '@japa/api-client': 2.0.3(@japa/assert@2.1.0)(@japa/runner@3.1.2)
       '@japa/runner': 3.1.2
 
@@ -1858,21 +1858,6 @@ packages:
       parse5-htmlparser2-tree-adapter: 7.0.0
     dev: false
 
-  /chokidar@3.5.3:
-    resolution: {integrity: sha512-Dr3sfKRP6oTcjf2JmUmFJfeVMvXBdegxB0iVQ5eb2V10uFJUCAS8OByZdVAyVb8xXNz3GjjTgj9kLWsZTqE6kw==}
-    engines: {node: '>= 8.10.0'}
-    dependencies:
-      anymatch: 3.1.3
-      braces: 3.0.2
-      glob-parent: 5.1.2
-      is-binary-path: 2.1.0
-      is-glob: 4.0.3
-      normalize-path: 3.0.0
-      readdirp: 3.6.0
-    optionalDependencies:
-      fsevents: 2.3.3
-    dev: false
-
   /chokidar@3.6.0:
     resolution: {integrity: sha512-7VT13fmjotKpGipCW9JEQAusEPE+Ei8nl6/g4FBAmIm0GOOLMua9NDDo/DWp0ZAxCr3cPq5ZpBqmPAQgDda2Pw==}
     engines: {node: '>= 8.10.0'}
@@ -2148,8 +2133,8 @@ packages:
       mimic-response: 3.1.0
     dev: false
 
-  /dedent@1.5.1:
-    resolution: {integrity: sha512-+LxW+KLWxu3HW3M2w2ympwtqPrqYRzU8fqi6Fhd18fBALe15blJPI/I4+UHveMVG6lJqB4JNd4UG0S5cnVHwIg==}
+  /dedent@1.5.3:
+    resolution: {integrity: sha512-NHQtfOOW68WD8lgypbLA5oT+Bt0xXJhiYvoR6SmmNXZfpzOGXwdKWmcwG8N7PwVVWV3eF/68nmD9BaJSsTBhyQ==}
     peerDependencies:
       babel-plugin-macros: ^3.1.0
     peerDependenciesMeta:
@@ -3830,7 +3815,7 @@ packages:
     hasBin: true
     dependencies:
       '@babel/runtime': 7.23.9
-      chokidar: 3.5.3
+      chokidar: 3.6.0
       glob: 10.3.10
       html-minifier: 4.0.0
       js-beautify: 1.14.11
