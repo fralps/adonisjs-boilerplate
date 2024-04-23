@@ -60,19 +60,19 @@ devDependencies:
     version: 1.3.0
   '@japa/api-client':
     specifier: ^2.0.3
-    version: 2.0.3(@japa/assert@3.0.0)(@japa/runner@3.1.2)
+    version: 2.0.3(@japa/assert@3.0.0)(@japa/runner@3.1.4)
   '@japa/assert':
     specifier: ^3.0.0
-    version: 3.0.0(@japa/runner@3.1.2)(openapi-types@12.1.3)
+    version: 3.0.0(@japa/runner@3.1.4)(openapi-types@12.1.3)
   '@japa/expect':
     specifier: ^3.0.2
-    version: 3.0.2(@japa/runner@3.1.2)
+    version: 3.0.2(@japa/runner@3.1.4)
   '@japa/plugin-adonisjs':
     specifier: ^3.0.0
-    version: 3.0.0(@adonisjs/core@6.5.0)(@japa/api-client@2.0.3)(@japa/runner@3.1.2)
+    version: 3.0.0(@adonisjs/core@6.5.0)(@japa/api-client@2.0.3)(@japa/runner@3.1.4)
   '@japa/runner':
-    specifier: ^3.1.2
-    version: 3.1.2
+    specifier: ^3.1.4
+    version: 3.1.4
   '@swc/core':
     specifier: ^1.4.14
     version: 1.4.14
@@ -188,8 +188,8 @@ packages:
       '@adonisjs/lucid': 20.5.1(@adonisjs/assembler@7.5.0)(@adonisjs/core@6.5.0)(luxon@3.4.4)(pg@8.11.3)
       '@adonisjs/presets': 2.2.4(@adonisjs/assembler@7.5.0)(@adonisjs/core@6.5.0)
       '@adonisjs/session': 7.3.0(@adonisjs/core@6.5.0)(@japa/api-client@2.0.3)(edge.js@6.0.2)
-      '@japa/api-client': 2.0.3(@japa/assert@3.0.0)(@japa/runner@3.1.2)
-      '@japa/plugin-adonisjs': 3.0.0(@adonisjs/core@6.5.0)(@japa/api-client@2.0.3)(@japa/runner@3.1.2)
+      '@japa/api-client': 2.0.3(@japa/assert@3.0.0)(@japa/runner@3.1.4)
+      '@japa/plugin-adonisjs': 3.0.0(@adonisjs/core@6.5.0)(@japa/api-client@2.0.3)(@japa/runner@3.1.4)
       basic-auth: 2.0.1
     transitivePeerDependencies:
       - '@adonisjs/assembler'
@@ -563,7 +563,7 @@ packages:
         optional: true
     dependencies:
       '@adonisjs/core': 6.5.0(@adonisjs/assembler@7.5.0)(@vinejs/vine@1.8.0)(edge.js@6.0.2)
-      '@japa/api-client': 2.0.3(@japa/assert@3.0.0)(@japa/runner@3.1.2)
+      '@japa/api-client': 2.0.3(@japa/assert@3.0.0)(@japa/runner@3.1.4)
       '@poppinss/utils': 6.7.2
       edge.js: 6.0.2
     dev: false
@@ -759,7 +759,7 @@ packages:
       wrap-ansi-cjs: /wrap-ansi@7.0.0
     dev: false
 
-  /@japa/api-client@2.0.3(@japa/assert@3.0.0)(@japa/runner@3.1.2):
+  /@japa/api-client@2.0.3(@japa/assert@3.0.0)(@japa/runner@3.1.4):
     resolution: {integrity: sha512-2Eh68Kg1+7glMo+mLSPfBGN21wUEA61niTMwdmhEXyw5VrS4IctZxQWhn5fzwj5KnQJfPpxrRnt9432Zs0uN/g==}
     engines: {node: '>=18.16.0'}
     peerDependencies:
@@ -769,8 +769,8 @@ packages:
       '@japa/assert':
         optional: true
     dependencies:
-      '@japa/assert': 3.0.0(@japa/runner@3.1.2)(openapi-types@12.1.3)
-      '@japa/runner': 3.1.2
+      '@japa/assert': 3.0.0(@japa/runner@3.1.4)(openapi-types@12.1.3)
+      '@japa/runner': 3.1.4
       '@poppinss/hooks': 7.2.3
       '@poppinss/macroable': 1.0.2
       '@types/superagent': 8.1.6
@@ -780,13 +780,13 @@ packages:
     transitivePeerDependencies:
       - supports-color
 
-  /@japa/assert@3.0.0(@japa/runner@3.1.2)(openapi-types@12.1.3):
+  /@japa/assert@3.0.0(@japa/runner@3.1.4)(openapi-types@12.1.3):
     resolution: {integrity: sha512-4Uvixj78PBpRGeNTqO1GN/qYyl4EeWmIwt/cKiQSLLsoZQpQfe8tvF4PO2Z+zteUi3Zv7WR6pluKYbLQrn3vjg==}
     engines: {node: '>=18.16.0'}
     peerDependencies:
       '@japa/runner': ^3.1.2
     dependencies:
-      '@japa/runner': 3.1.2
+      '@japa/runner': 3.1.4
       '@poppinss/macroable': 1.0.2
       '@types/chai': 4.3.14
       api-contract-validator: 2.2.8(openapi-types@12.1.3)
@@ -806,26 +806,27 @@ packages:
       string-width: 7.1.0
       time-span: 5.1.0
 
-  /@japa/errors-printer@3.0.3:
-    resolution: {integrity: sha512-H62mkxzE+vZLeuERCugJn1rGXS/DQWQFrtsxl269CFdEXfOiqZnlaAtc8XpbxiXSupNoRGkeDwF9Yn28s7Cvlg==}
+  /@japa/errors-printer@3.0.4:
+    resolution: {integrity: sha512-gqBWkc8X6n5y91HH7H8fXyfe3rKV1+YeMNgE/+CY6hXf0/BS7J55s/QldosKEV2ZiWj/WmE6UPZiFH8W873fGw==}
     engines: {node: '>=18.16.0'}
     dependencies:
       '@poppinss/colors': 4.1.3
       jest-diff: 29.7.0
+      supports-color: 9.4.0
       youch: 3.3.3
       youch-terminal: 2.2.3
 
-  /@japa/expect@3.0.2(@japa/runner@3.1.2):
+  /@japa/expect@3.0.2(@japa/runner@3.1.4):
     resolution: {integrity: sha512-xmzC+RxzlGgdzvnmoS0vyjzqJkh+qxl5K5sEom8jBYamJuqJTDYSdFZ4Br1FDdLhFVv7SX2uPGCu/AFfVUvx9g==}
     engines: {node: '>=18.16.0'}
     peerDependencies:
       '@japa/runner': ^3.0.0
     dependencies:
-      '@japa/runner': 3.1.2
+      '@japa/runner': 3.1.4
       expect: 29.7.0
     dev: true
 
-  /@japa/plugin-adonisjs@3.0.0(@adonisjs/core@6.5.0)(@japa/api-client@2.0.3)(@japa/runner@3.1.2):
+  /@japa/plugin-adonisjs@3.0.0(@adonisjs/core@6.5.0)(@japa/api-client@2.0.3)(@japa/runner@3.1.4):
     resolution: {integrity: sha512-gw92tnOlNeVuZoI/ysX/AW9AZdACd5cm50Jpa+dUPQ7VJU7J7PQCNGhp3FF98h7czdGvw8KJvszr/grr3SENEA==}
     engines: {node: '>=18.16.0'}
     peerDependencies:
@@ -843,15 +844,15 @@ packages:
         optional: true
     dependencies:
       '@adonisjs/core': 6.5.0(@adonisjs/assembler@7.5.0)(@vinejs/vine@1.8.0)(edge.js@6.0.2)
-      '@japa/api-client': 2.0.3(@japa/assert@3.0.0)(@japa/runner@3.1.2)
-      '@japa/runner': 3.1.2
+      '@japa/api-client': 2.0.3(@japa/assert@3.0.0)(@japa/runner@3.1.4)
+      '@japa/runner': 3.1.4
 
-  /@japa/runner@3.1.2:
-    resolution: {integrity: sha512-PoKUP6fAjvIuFRHkwbzav3/XRaMiaw3vMalGzG0//nwk26h/zrqLHVwGWsWdIb3XspnTN8RXVvguOumetKWLDw==}
+  /@japa/runner@3.1.4:
+    resolution: {integrity: sha512-ShaVZLdYq3GbFwyNiqQMCfdEoNq9vgYC0P6Z9gflqPcSUfOmN5jeJTLrLpChCBM5Sx9kYuAm5Bh6cqv1ZrArkQ==}
     engines: {node: '>=18.16.0'}
     dependencies:
       '@japa/core': 9.0.1
-      '@japa/errors-printer': 3.0.3
+      '@japa/errors-printer': 3.0.4
       '@poppinss/colors': 4.1.3
       '@poppinss/hooks': 7.2.3
       fast-glob: 3.3.2
@@ -860,6 +861,7 @@ packages:
       ms: 2.1.3
       serialize-error: 11.0.3
       slash: 5.1.0
+      supports-color: 9.4.0
 
   /@jest/expect-utils@29.7.0:
     resolution: {integrity: sha512-GlsNBWiFQFCVi9QVSx7f5AgMeLxe9YCCs5PuP2O2LdjDAA8Jh9eX7lA1Jq/xdXw3Wb3hyvlFNfZIfcRetSzYcA==}
