@@ -7,7 +7,7 @@ settings:
 dependencies:
   '@adonisjs/auth':
     specifier: ^9.1.1
-    version: 9.1.1(@adonisjs/assembler@7.5.0)(@adonisjs/core@6.5.0)(@adonisjs/lucid@20.5.1)(@adonisjs/session@7.3.0)(@japa/api-client@2.0.3)(@japa/plugin-adonisjs@3.0.0)
+    version: 9.1.1(@adonisjs/assembler@7.5.0)(@adonisjs/core@6.5.0)(@adonisjs/lucid@20.5.1)(@adonisjs/session@7.3.0)(@japa/api-client@2.0.3)(@japa/plugin-adonisjs@3.0.1)
   '@adonisjs/core':
     specifier: ^6.5.0
     version: 6.5.0(@adonisjs/assembler@7.5.0)(@vinejs/vine@1.8.0)(edge.js@6.0.2)
@@ -68,8 +68,8 @@ devDependencies:
     specifier: ^3.0.2
     version: 3.0.2(@japa/runner@3.1.4)
   '@japa/plugin-adonisjs':
-    specifier: ^3.0.0
-    version: 3.0.0(@adonisjs/core@6.5.0)(@japa/api-client@2.0.3)(@japa/runner@3.1.4)
+    specifier: ^3.0.1
+    version: 3.0.1(@adonisjs/core@6.5.0)(@japa/api-client@2.0.3)(@japa/runner@3.1.4)
   '@japa/runner':
     specifier: ^3.1.4
     version: 3.1.4
@@ -162,7 +162,7 @@ packages:
     transitivePeerDependencies:
       - babel-plugin-macros
 
-  /@adonisjs/auth@9.1.1(@adonisjs/assembler@7.5.0)(@adonisjs/core@6.5.0)(@adonisjs/lucid@20.5.1)(@adonisjs/session@7.3.0)(@japa/api-client@2.0.3)(@japa/plugin-adonisjs@3.0.0):
+  /@adonisjs/auth@9.1.1(@adonisjs/assembler@7.5.0)(@adonisjs/core@6.5.0)(@adonisjs/lucid@20.5.1)(@adonisjs/session@7.3.0)(@japa/api-client@2.0.3)(@japa/plugin-adonisjs@3.0.1):
     resolution: {integrity: sha512-gusUQT/9xWYZvdOzHQeqFlI1WDsxi0DIHxjkCNcExwLHpCwBvJ2+VItQ5+dBx5Aryi7Szm2C4od/vg08f//A5g==}
     engines: {node: '>=18.16.0'}
     peerDependencies:
@@ -189,7 +189,7 @@ packages:
       '@adonisjs/presets': 2.2.4(@adonisjs/assembler@7.5.0)(@adonisjs/core@6.5.0)
       '@adonisjs/session': 7.3.0(@adonisjs/core@6.5.0)(@japa/api-client@2.0.3)(edge.js@6.0.2)
       '@japa/api-client': 2.0.3(@japa/assert@3.0.0)(@japa/runner@3.1.4)
-      '@japa/plugin-adonisjs': 3.0.0(@adonisjs/core@6.5.0)(@japa/api-client@2.0.3)(@japa/runner@3.1.4)
+      '@japa/plugin-adonisjs': 3.0.1(@adonisjs/core@6.5.0)(@japa/api-client@2.0.3)(@japa/runner@3.1.4)
       basic-auth: 2.0.1
     transitivePeerDependencies:
       - '@adonisjs/assembler'
@@ -826,15 +826,15 @@ packages:
       expect: 29.7.0
     dev: true
 
-  /@japa/plugin-adonisjs@3.0.0(@adonisjs/core@6.5.0)(@japa/api-client@2.0.3)(@japa/runner@3.1.4):
-    resolution: {integrity: sha512-gw92tnOlNeVuZoI/ysX/AW9AZdACd5cm50Jpa+dUPQ7VJU7J7PQCNGhp3FF98h7czdGvw8KJvszr/grr3SENEA==}
+  /@japa/plugin-adonisjs@3.0.1(@adonisjs/core@6.5.0)(@japa/api-client@2.0.3)(@japa/runner@3.1.4):
+    resolution: {integrity: sha512-xUZOzfBXSz2sWRoQT+qs+6LZBtWWE+cCBZ3j9ckz6+nPw3VI0nV6yLaX+oud3AY8Zb+BH+pErABBhaovZYv9dA==}
     engines: {node: '>=18.16.0'}
     peerDependencies:
-      '@adonisjs/core': ^6.2.0
-      '@japa/api-client': ^2.0.2
-      '@japa/browser-client': ^2.0.2
-      '@japa/runner': ^3.1.1
-      playwright: ^1.40.1
+      '@adonisjs/core': ^6.5.0
+      '@japa/api-client': ^2.0.3
+      '@japa/browser-client': ^2.0.3
+      '@japa/runner': ^3.1.2
+      playwright: ^1.42.1
     peerDependenciesMeta:
       '@japa/api-client':
         optional: true
