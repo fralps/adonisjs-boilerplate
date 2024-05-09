@@ -7,7 +7,7 @@ settings:
 dependencies:
   '@adonisjs/auth':
     specifier: ^9.2.1
-    version: 9.2.1(@adonisjs/assembler@7.5.1)(@adonisjs/core@6.5.0)(@adonisjs/lucid@20.5.1)(@adonisjs/session@7.3.0)(@japa/api-client@2.0.3)(@japa/plugin-adonisjs@3.0.1)
+    version: 9.2.1(@adonisjs/assembler@7.5.1)(@adonisjs/core@6.5.0)(@adonisjs/lucid@20.6.0)(@adonisjs/session@7.3.0)(@japa/api-client@2.0.3)(@japa/plugin-adonisjs@3.0.1)
   '@adonisjs/core':
     specifier: ^6.5.0
     version: 6.5.0(@adonisjs/assembler@7.5.1)(@vinejs/vine@1.8.0)(edge.js@6.0.2)
@@ -18,8 +18,8 @@ dependencies:
     specifier: ^2.0.1
     version: 2.0.1(@adonisjs/core@6.5.0)(@vinejs/vine@1.8.0)(edge.js@6.0.2)
   '@adonisjs/lucid':
-    specifier: ^20.5.1
-    version: 20.5.1(@adonisjs/assembler@7.5.1)(@adonisjs/core@6.5.0)(luxon@3.4.4)(pg@8.11.5)
+    specifier: ^20.6.0
+    version: 20.6.0(@adonisjs/assembler@7.5.1)(@adonisjs/core@6.5.0)(luxon@3.4.4)(pg@8.11.5)
   '@adonisjs/mail':
     specifier: ^9.2.1
     version: 9.2.1(@adonisjs/core@6.5.0)(@types/luxon@3.4.2)(@types/node@20.12.7)(edge.js@6.0.2)(luxon@3.4.4)
@@ -162,7 +162,7 @@ packages:
     transitivePeerDependencies:
       - babel-plugin-macros
 
-  /@adonisjs/auth@9.2.1(@adonisjs/assembler@7.5.1)(@adonisjs/core@6.5.0)(@adonisjs/lucid@20.5.1)(@adonisjs/session@7.3.0)(@japa/api-client@2.0.3)(@japa/plugin-adonisjs@3.0.1):
+  /@adonisjs/auth@9.2.1(@adonisjs/assembler@7.5.1)(@adonisjs/core@6.5.0)(@adonisjs/lucid@20.6.0)(@adonisjs/session@7.3.0)(@japa/api-client@2.0.3)(@japa/plugin-adonisjs@3.0.1):
     resolution: {integrity: sha512-HS5LtVsc5X494cCcddZ7mNCF8py6PVv+nRtYPoSGkBkxFuQEomSL+t3IxH4OzcpA2+muy3fBMCpLadymDxXpTA==}
     engines: {node: '>=18.16.0'}
     peerDependencies:
@@ -185,7 +185,7 @@ packages:
         optional: true
     dependencies:
       '@adonisjs/core': 6.5.0(@adonisjs/assembler@7.5.1)(@vinejs/vine@1.8.0)(edge.js@6.0.2)
-      '@adonisjs/lucid': 20.5.1(@adonisjs/assembler@7.5.1)(@adonisjs/core@6.5.0)(luxon@3.4.4)(pg@8.11.5)
+      '@adonisjs/lucid': 20.6.0(@adonisjs/assembler@7.5.1)(@adonisjs/core@6.5.0)(luxon@3.4.4)(pg@8.11.5)
       '@adonisjs/presets': 2.4.0(@adonisjs/assembler@7.5.1)(@adonisjs/core@6.5.0)
       '@adonisjs/session': 7.3.0(@adonisjs/core@6.5.0)(@japa/api-client@2.0.3)(edge.js@6.0.2)
       '@japa/api-client': 2.0.3(@japa/assert@3.0.0)(@japa/runner@3.1.4)
@@ -429,8 +429,8 @@ packages:
       abstract-logging: 2.0.1
       pino: 8.18.0
 
-  /@adonisjs/lucid@20.5.1(@adonisjs/assembler@7.5.1)(@adonisjs/core@6.5.0)(luxon@3.4.4)(pg@8.11.5):
-    resolution: {integrity: sha512-PXzeRTbkPFhf5ttRv6LbKYbtXXWrYUWxrVmXecHvNbrKZSlP7XQOm45Pgk75lStAXBkEqxgvlC9PRHgM+Bdrog==}
+  /@adonisjs/lucid@20.6.0(@adonisjs/assembler@7.5.1)(@adonisjs/core@6.5.0)(luxon@3.4.4)(pg@8.11.5):
+    resolution: {integrity: sha512-LTHc3xjGukjEcy0972l4DUkmlnhXuzvlMGt7zqyfbbn4XmRk6b6RczYPhjUEVqUvNzx845L7RnqTJ8mblHHnmQ==}
     engines: {node: '>=18.16.0'}
     peerDependencies:
       '@adonisjs/assembler': ^7.0.0
@@ -444,11 +444,11 @@ packages:
     dependencies:
       '@adonisjs/assembler': 7.5.1(typescript@5.4.5)
       '@adonisjs/core': 6.5.0(@adonisjs/assembler@7.5.1)(@vinejs/vine@1.8.0)(edge.js@6.0.2)
-      '@adonisjs/presets': 2.2.5(@adonisjs/assembler@7.5.1)(@adonisjs/core@6.5.0)
+      '@adonisjs/presets': 2.4.0(@adonisjs/assembler@7.5.1)(@adonisjs/core@6.5.0)
       '@faker-js/faker': 8.4.1
-      '@poppinss/hooks': 7.2.2
-      '@poppinss/macroable': 1.0.1
-      '@poppinss/utils': 6.7.2
+      '@poppinss/hooks': 7.2.3
+      '@poppinss/macroable': 1.0.2
+      '@poppinss/utils': 6.7.3
       fast-deep-equal: 3.1.3
       igniculus: 1.5.0
       kleur: 4.1.5
@@ -456,7 +456,7 @@ packages:
       knex-dynamic-connection: 3.1.1(pg@8.11.5)
       luxon: 3.4.4
       pretty-hrtime: 1.0.3
-      qs: 6.11.2
+      qs: 6.12.1
       slash: 5.1.0
       tarn: 3.0.2
     transitivePeerDependencies:
@@ -502,20 +502,6 @@ packages:
       - moment
       - moment-timezone
       - rrule
-    dev: false
-
-  /@adonisjs/presets@2.2.5(@adonisjs/assembler@7.5.1)(@adonisjs/core@6.5.0):
-    resolution: {integrity: sha512-VgVU0b4WkRAAvn4GKlDAicfneu9s1StcviF5JbTwFkvzrz2AR3RIPzES2DeLvQTYXRq67RIxJWyGEKlJN7WTwA==}
-    peerDependencies:
-      '@adonisjs/assembler': ^7.0.0
-      '@adonisjs/core': ^6.2.0
-    peerDependenciesMeta:
-      '@adonisjs/assembler':
-        optional: true
-    dependencies:
-      '@adonisjs/assembler': 7.5.1(typescript@5.4.5)
-      '@adonisjs/core': 6.5.0(@adonisjs/assembler@7.5.1)(@vinejs/vine@1.8.0)(edge.js@6.0.2)
-      '@poppinss/utils': 6.7.3
     dev: false
 
   /@adonisjs/presets@2.4.0(@adonisjs/assembler@7.5.1)(@adonisjs/core@6.5.0):
@@ -1000,11 +986,6 @@ packages:
     engines: {node: '>=18.16.0'}
     dependencies:
       kleur: 4.1.5
-
-  /@poppinss/hooks@7.2.2:
-    resolution: {integrity: sha512-EDivPMt9sAUV5kNhH2bvtVjuLvHhQ6SKVP19OjvvcyRalqAa6KqCItJ2qeU8A93s0cr1a28Sytu+KSwsmOY8pg==}
-    engines: {node: '>=18.16.0'}
-    dev: false
 
   /@poppinss/hooks@7.2.3:
     resolution: {integrity: sha512-+B7YSazGaCMcoUubwEkCTnpAvJ+Fv7tqgtpu7cm9qt1adEjmXDmaiG76loEnmxAkyHrbZJ5xHGNSD0NwMhLcnA==}
@@ -1766,6 +1747,17 @@ packages:
       get-intrinsic: 1.2.3
       set-function-length: 1.2.0
 
+  /call-bind@1.0.7:
+    resolution: {integrity: sha512-GHTSNSYICQ7scH7sZ+M2rFopRoLh8t2bLSW6BbgrtLsahOIB5iyAVJf9GjWK3cYTDaMj4XdBpM1cA6pIS0Kv2w==}
+    engines: {node: '>= 0.4'}
+    dependencies:
+      es-define-property: 1.0.0
+      es-errors: 1.3.0
+      function-bind: 1.1.2
+      get-intrinsic: 1.2.4
+      set-function-length: 1.2.2
+    dev: false
+
   /call-me-maybe@1.0.2:
     resolution: {integrity: sha512-HpX65o1Hnr9HH25ojC1YGs7HCQLq0GCOibSaWER0eNpgJ/Z1MZv2mTc7+xh6WOPxbRVcmgbv4hGU+uSQ/2xFZQ==}
 
@@ -2162,6 +2154,15 @@ packages:
       gopd: 1.0.1
       has-property-descriptors: 1.0.1
 
+  /define-data-property@1.1.4:
+    resolution: {integrity: sha512-rBMvIzlpA8v6E+SJZoo++HAYqsLrkg7MSfIinMPFhmkorw7X+dOXVJQs+QT69zGkzMyfDnIMN2Wid1+NbL3T+A==}
+    engines: {node: '>= 0.4'}
+    dependencies:
+      es-define-property: 1.0.0
+      es-errors: 1.3.0
+      gopd: 1.0.1
+    dev: false
+
   /delayed-stream@1.0.0:
     resolution: {integrity: sha512-ZySD7Nf91aLB0RxL4KGrKHBXl7Eds1DAmEdcoVawXnLD7SDhpNgtuII2aAkg7a7QS41jxPSZ17p4VdGnMHk3MQ==}
     engines: {node: '>=0.4.0'}
@@ -2374,6 +2375,13 @@ packages:
     dependencies:
       is-arrayish: 0.2.1
     dev: true
+
+  /es-define-property@1.0.0:
+    resolution: {integrity: sha512-jxayLKShrEqqzJ0eumQbVhTYQM27CfT1T35+gCgDFoL82JLsXqTJ76zv6A0YLOgEnLUMvLzsDsGIrl8NFpT2gQ==}
+    engines: {node: '>= 0.4'}
+    dependencies:
+      get-intrinsic: 1.2.4
+    dev: false
 
   /es-errors@1.3.0:
     resolution: {integrity: sha512-Zf5H2Kxt2xjTvbJvP2ZWLEICxA6j+hAmMzIlypy4xcBg1vKVnx89Wy0GbS+kf5cwCVFFzdCFh2XSCFNULS6csw==}
@@ -2843,6 +2851,16 @@ packages:
       has-symbols: 1.0.3
       hasown: 2.0.0
 
+  /get-intrinsic@1.2.4:
+    resolution: {integrity: sha512-5uYhsJH8VJBTv7oslg4BznJYhDoRI6waYCxMmCdnTrcCrHA/fCFKoTFz2JKKE0HdDFUF7/oQuhzumXJK7paBRQ==}
+    engines: {node: '>= 0.4'}
+    dependencies:
+      es-errors: 1.3.0
+      function-bind: 1.1.2
+      has-proto: 1.0.1
+      has-symbols: 1.0.3
+      hasown: 2.0.0
+
   /get-package-type@0.1.0:
     resolution: {integrity: sha512-pjzuKtY64GYfWizNAJ0fr9VqttZkNiK2iS430LtIHzjBEr6bX8Am2zm4sW4Ro5wjWW5cAlRL1qAMTcXbjNAO2Q==}
     engines: {node: '>=8.0.0'}
@@ -2937,7 +2955,7 @@ packages:
   /gopd@1.0.1:
     resolution: {integrity: sha512-d65bNlIadxvpb/A2abVdlqKqV563juRnZ1Wtk6s1sIR8uNsXR70xqIzVqxVf1eTqDunwT2MkczEeaezCKTZhwA==}
     dependencies:
-      get-intrinsic: 1.2.3
+      get-intrinsic: 1.2.4
 
   /got@14.2.1:
     resolution: {integrity: sha512-KOaPMremmsvx6l9BLC04LYE6ZFW4x7e4HkTe3LwBmtuYYQwpeS4XKqzhubTIkaQ1Nr+eXxeori0zuwupXMovBQ==}
@@ -2976,6 +2994,12 @@ packages:
     resolution: {integrity: sha512-VsX8eaIewvas0xnvinAe9bw4WfIeODpGYikiWYLH+dma0Jw6KHYqWiWfhQlgOVK8D6PvjubK5Uc4P0iIhIcNVg==}
     dependencies:
       get-intrinsic: 1.2.3
+
+  /has-property-descriptors@1.0.2:
+    resolution: {integrity: sha512-55JNKuIW+vq4Ke1BjOTjM2YctQIvCT7GFzHwmfZPGo5wnrgkid0YQtnAleFSqumZm4az3n2BS+erby5ipJdgrg==}
+    dependencies:
+      es-define-property: 1.0.0
+    dev: false
 
   /has-proto@1.0.1:
     resolution: {integrity: sha512-7qE+iP+O+bgF9clE5+UoBFzE65mlBiVj3tKCrlNQ0Ogwm0BjpT/gK4SlLYDMybDh5I3TCTKnPPa0oMG7JDYrhg==}
@@ -4671,6 +4695,13 @@ packages:
     dependencies:
       side-channel: 1.0.4
 
+  /qs@6.12.1:
+    resolution: {integrity: sha512-zWmv4RSuB9r2mYQw3zxQuHWeU+42aKi1wWig/j4ele4ygELZ7PEO6MM7rim9oAQH2A5MWfsAVf/jPvTPgCbvUQ==}
+    engines: {node: '>=0.6'}
+    dependencies:
+      side-channel: 1.0.6
+    dev: false
+
   /queue-microtask@1.2.3:
     resolution: {integrity: sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==}
 
@@ -4901,6 +4932,18 @@ packages:
       gopd: 1.0.1
       has-property-descriptors: 1.0.1
 
+  /set-function-length@1.2.2:
+    resolution: {integrity: sha512-pgRc4hJ4/sNjWCSS9AmnS40x3bNMDTknHgL5UaMBTMyJnU90EgWh1Rz+MC9eFu4BuN/UwZjKQuY/1v3rM7HMfg==}
+    engines: {node: '>= 0.4'}
+    dependencies:
+      define-data-property: 1.1.4
+      es-errors: 1.3.0
+      function-bind: 1.1.2
+      get-intrinsic: 1.2.4
+      gopd: 1.0.1
+      has-property-descriptors: 1.0.2
+    dev: false
+
   /setprototypeof@1.2.0:
     resolution: {integrity: sha512-E5LDX7Wrp85Kil5bhZv46j8jOeboKq5JMmYM3gVGdGH8xFpPWXUMsNrlODCrkoxMEeNi/XZIwuRvY4XNwYMJpw==}
 
@@ -4926,6 +4969,16 @@ packages:
       call-bind: 1.0.5
       get-intrinsic: 1.2.3
       object-inspect: 1.13.1
+
+  /side-channel@1.0.6:
+    resolution: {integrity: sha512-fDW/EZ6Q9RiO8eFG8Hj+7u/oW+XrPTIChwCOM2+th2A6OblDtYYIpve9m+KvI9Z4C9qSEXlaGR6bTEYHReuglA==}
+    engines: {node: '>= 0.4'}
+    dependencies:
+      call-bind: 1.0.7
+      es-errors: 1.3.0
+      get-intrinsic: 1.2.4
+      object-inspect: 1.13.1
+    dev: false
 
   /signal-exit@3.0.7:
     resolution: {integrity: sha512-wnD2ZE+l+SPC/uoS0vXeE9L1+0wuaMqKlfz9AMUo38JsyLSBWSFcHR1Rri62LZc12vLr1gb3jl7iwQhgwpAbGQ==}
