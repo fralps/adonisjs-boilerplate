@@ -11,8 +11,10 @@ jobs:
     runs-on: ubuntu-latest
     if: ${{ github.event.workflow_run.conclusion == 'success' }}
     steps:
-      - uses: sws2apps/render-deployment@main
-        with:
-          serviceId: ${{ secrets.RENDER_SERVICE_ID }}
-          apiKey: ${{ secrets.RENDER_API_KEY }}
-          multipleDeployment: false
+      # - uses: sws2apps/render-deployment@main
+      #   with:
+      #     serviceId: ${{ secrets.RENDER_SERVICE_ID }}
+      #     apiKey: ${{ secrets.RENDER_API_KEY }}
+      #     multipleDeployment: false
+      - name: Deploy to Render
+        run: echo "Deploying to Render"
