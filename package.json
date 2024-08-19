@@ -43,7 +43,7 @@
     "@japa/runner": "^3.1.4",
     "@swc/core": "^1.7.10",
     "@types/luxon": "^3.4.2",
-    "@types/node": "^22.2.0",
+    "@types/node": "^22.4.1",
     "eslint": "^8.57.0",
     "pino-pretty": "^11.2.2",
     "prettier": "^3.3.3",
