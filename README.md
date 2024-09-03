@@ -12,10 +12,20 @@
 - postgresql
 
 ## Development
+
+- **(ℹ️ only for first setup)** Create manually your DB via psql or TablePlus
+- Open psql console: `psql postgres`
+- Create DB: `CREATE DATABASE db_name;`
+- Grant privileges to your DB: `GRANT ALL PRIVILEGES ON DATABASE db_name TO your_user;`
 - Run `./scripts/reset-db` to setup database and seed
 - Run `./scripts/dev` to start development server
 
 ## Testing
+
+- **(ℹ️ only for first setup)** Create manually your DB via psql or TablePlus
+- Open psql console: `psql postgres`
+- Create DB: `CREATE DATABASE db_name;`
+- Grant privileges to your DB: `GRANT ALL PRIVILEGES ON DATABASE db_name TO your_user;`
 - Run `./scripts/test` to start test suites
 
 ## Tools
