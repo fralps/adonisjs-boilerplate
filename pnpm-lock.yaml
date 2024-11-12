@@ -88,8 +88,8 @@ importers:
         specifier: ^8.57.1
         version: 8.57.1
       pino-pretty:
-        specifier: ^11.3.0
-        version: 11.3.0
+        specifier: ^13.0.0
+        version: 13.0.0
       prettier:
         specifier: ^3.3.3
         version: 3.3.3
@@ -2748,8 +2748,8 @@ packages:
   pino-abstract-transport@2.0.0:
     resolution: {integrity: sha512-F63x5tizV6WCh4R6RHyi2Ml+M70DNRXt/+HANowMflpgGFMAym/VKm6G7ZOQRjqN7XbGxK1Lg9t6ZrtzOaivMw==}
 
-  pino-pretty@11.3.0:
-    resolution: {integrity: sha512-oXwn7ICywaZPHmu3epHGU2oJX4nPmKvHvB/bwrJHlGcbEWaVcotkpyVHMKLKmiVryWYByNp0jpgAcXpFJDXJzA==}
+  pino-pretty@13.0.0:
+    resolution: {integrity: sha512-cQBBIVG3YajgoUjo1FdKVRX6t9XPxwB9lcNJVD5GCnNM4Y6T12YYx8c6zEejxQsU0wrg9TwmDulcE9LR7qcJqA==}
     hasBin: true
 
   pino-std-serializers@6.2.2:
@@ -6429,7 +6429,7 @@ snapshots:
     dependencies:
       split2: 4.2.0
 
-  pino-pretty@11.3.0:
+  pino-pretty@13.0.0:
     dependencies:
       colorette: 2.0.20
       dateformat: 4.6.3
@@ -6441,7 +6441,6 @@ snapshots:
       on-exit-leak-free: 2.1.2
       pino-abstract-transport: 2.0.0
       pump: 3.0.0
-      readable-stream: 4.5.2
       secure-json-parse: 2.7.0
       sonic-boom: 4.0.1
       strip-json-comments: 3.1.1
