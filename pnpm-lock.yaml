@@ -67,8 +67,8 @@ importers:
         specifier: ^3.0.0
         version: 3.0.0(@japa/runner@3.1.4)(openapi-types@12.1.3)
       '@japa/expect':
-        specifier: ^3.0.2
-        version: 3.0.2(@japa/runner@3.1.4)
+        specifier: ^3.0.3
+        version: 3.0.3(@japa/runner@3.1.4)
       '@japa/plugin-adonisjs':
         specifier: ^3.0.1
         version: 3.0.1(@adonisjs/core@6.5.0(@adonisjs/assembler@7.8.2(typescript@5.7.2))(@vinejs/vine@1.8.0)(edge.js@6.2.0))(@japa/api-client@2.0.4(@japa/assert@3.0.0(@japa/runner@3.1.4)(openapi-types@12.1.3))(@japa/runner@3.1.4))(@japa/runner@3.1.4)
@@ -458,11 +458,11 @@ packages:
     resolution: {integrity: sha512-gqBWkc8X6n5y91HH7H8fXyfe3rKV1+YeMNgE/+CY6hXf0/BS7J55s/QldosKEV2ZiWj/WmE6UPZiFH8W873fGw==}
     engines: {node: '>=18.16.0'}
 
-  '@japa/expect@3.0.2':
-    resolution: {integrity: sha512-xmzC+RxzlGgdzvnmoS0vyjzqJkh+qxl5K5sEom8jBYamJuqJTDYSdFZ4Br1FDdLhFVv7SX2uPGCu/AFfVUvx9g==}
+  '@japa/expect@3.0.3':
+    resolution: {integrity: sha512-o6M8jJuVAvkbM6LZm11AElj0sndjaICWgIWIn7yEH6VookMz6jz0gCGHvEICF0M0gVTrV0daS8hRFwtkcV4Xhg==}
     engines: {node: '>=18.16.0'}
     peerDependencies:
-      '@japa/runner': ^3.0.0
+      '@japa/runner': ^3.0.0 || ^4.0.0
 
   '@japa/plugin-adonisjs@3.0.1':
     resolution: {integrity: sha512-xUZOzfBXSz2sWRoQT+qs+6LZBtWWE+cCBZ3j9ckz6+nPw3VI0nV6yLaX+oud3AY8Zb+BH+pErABBhaovZYv9dA==}
@@ -3956,7 +3956,7 @@ snapshots:
       youch: 3.3.3
       youch-terminal: 2.2.3
 
-  '@japa/expect@3.0.2(@japa/runner@3.1.4)':
+  '@japa/expect@3.0.3(@japa/runner@3.1.4)':
     dependencies:
       '@japa/runner': 3.1.4
       expect: 29.7.0
@@ -5647,7 +5647,7 @@ snapshots:
       '@types/stack-utils': 2.0.3
       chalk: 4.1.2
       graceful-fs: 4.2.11
-      micromatch: 4.0.5
+      micromatch: 4.0.8
       pretty-format: 29.7.0
       slash: 3.0.0
       stack-utils: 2.0.6
