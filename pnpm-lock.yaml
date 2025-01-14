@@ -25,7 +25,7 @@ importers:
         version: 20.6.0(@adonisjs/assembler@7.8.2(typescript@5.7.3))(@adonisjs/core@6.5.0(@adonisjs/assembler@7.8.2(typescript@5.7.3))(@vinejs/vine@1.8.0)(edge.js@6.2.0))(luxon@3.5.0)(pg@8.13.1)
       '@adonisjs/mail':
         specifier: ^9.2.2
-        version: 9.2.2(@adonisjs/core@6.5.0(@adonisjs/assembler@7.8.2(typescript@5.7.3))(@vinejs/vine@1.8.0)(edge.js@6.2.0))(@types/luxon@3.4.2)(@types/node@22.10.5)(dayjs@1.11.10)(edge.js@6.2.0)(luxon@3.5.0)
+        version: 9.2.2(@adonisjs/core@6.5.0(@adonisjs/assembler@7.8.2(typescript@5.7.3))(@vinejs/vine@1.8.0)(edge.js@6.2.0))(@types/luxon@3.4.2)(@types/node@22.10.6)(dayjs@1.11.10)(edge.js@6.2.0)(luxon@3.5.0)
       '@adonisjs/session':
         specifier: ^7.3.0
         version: 7.3.0(@adonisjs/core@6.5.0(@adonisjs/assembler@7.8.2(typescript@5.7.3))(@vinejs/vine@1.8.0)(edge.js@6.2.0))(@japa/api-client@2.0.4(@japa/assert@3.0.0(@japa/runner@3.1.4)(openapi-types@12.1.3))(@japa/runner@3.1.4))(edge.js@6.2.0)
@@ -82,8 +82,8 @@ importers:
         specifier: ^3.4.2
         version: 3.4.2
       '@types/node':
-        specifier: ^22.10.5
-        version: 22.10.5
+        specifier: ^22.10.6
+        version: 22.10.6
       eslint:
         specifier: ^8.57.1
         version: 8.57.1
@@ -95,7 +95,7 @@ importers:
         version: 3.4.2
       ts-node:
         specifier: ^10.9.2
-        version: 10.9.2(@swc/core@1.10.7)(@types/node@22.10.5)(typescript@5.7.3)
+        version: 10.9.2(@swc/core@1.10.7)(@types/node@22.10.6)(typescript@5.7.3)
       typescript:
         specifier: ^5.7.3
         version: 5.7.3
@@ -773,8 +773,8 @@ packages:
   '@types/methods@1.1.4':
     resolution: {integrity: sha512-ymXWVrDiCxTBE3+RIrrP533E70eA+9qu7zdWoHuOmGujkYtzf4HQF96b8nwHLqhuf4ykX61IGRIB38CC6/sImQ==}
 
-  '@types/node@22.10.5':
-    resolution: {integrity: sha512-F8Q+SeGimwOo86fiovQh8qiXfFEh2/ocYv7tU5pJ3EXMSSxk1Joj5wefpFK2fHTf/N6HKGSxIDBT9f3gCxXPkQ==}
+  '@types/node@22.10.6':
+    resolution: {integrity: sha512-qNiuwC4ZDAUNcY47xgaSuS92cjf8JbSUoaKS77bmLG1rU7MlATVSiw/IlrjtIyyskXBZ8KkNfjK/P5na7rgXbQ==}
 
   '@types/nodemailer@6.4.14':
     resolution: {integrity: sha512-fUWthHO9k9DSdPCSPRqcu6TWhYyxTBg382vlNIttSe9M7XfsT06y0f24KHXtbnijPGGRIcVvdKHTNikOI6qiHA==}
@@ -3721,7 +3721,7 @@ snapshots:
       - supports-color
       - tedious
 
-  '@adonisjs/mail@9.2.2(@adonisjs/core@6.5.0(@adonisjs/assembler@7.8.2(typescript@5.7.3))(@vinejs/vine@1.8.0)(edge.js@6.2.0))(@types/luxon@3.4.2)(@types/node@22.10.5)(dayjs@1.11.10)(edge.js@6.2.0)(luxon@3.5.0)':
+  '@adonisjs/mail@9.2.2(@adonisjs/core@6.5.0(@adonisjs/assembler@7.8.2(typescript@5.7.3))(@vinejs/vine@1.8.0)(edge.js@6.2.0))(@types/luxon@3.4.2)(@types/node@22.10.6)(dayjs@1.11.10)(edge.js@6.2.0)(luxon@3.5.0)':
     dependencies:
       '@adonisjs/core': 6.5.0(@adonisjs/assembler@7.8.2(typescript@5.7.3))(@vinejs/vine@1.8.0)(edge.js@6.2.0)
       '@poppinss/colors': 4.1.3
@@ -3732,7 +3732,7 @@ snapshots:
       fastq: 1.17.1
       formdata-node: 6.0.3
       got: 14.2.1
-      ical-generator: 7.0.0(@types/luxon@3.4.2)(@types/node@22.10.5)(dayjs@1.11.10)(luxon@3.5.0)
+      ical-generator: 7.0.0(@types/luxon@3.4.2)(@types/node@22.10.6)(dayjs@1.11.10)(luxon@3.5.0)
       nodemailer: 6.9.13
     transitivePeerDependencies:
       - '@touch4it/ical-timezones'
@@ -4002,7 +4002,7 @@ snapshots:
       '@jest/schemas': 29.6.3
       '@types/istanbul-lib-coverage': 2.0.6
       '@types/istanbul-reports': 3.0.4
-      '@types/node': 22.10.5
+      '@types/node': 22.10.6
       '@types/yargs': 17.0.32
       chalk: 4.1.2
 
@@ -4269,13 +4269,13 @@ snapshots:
 
   '@types/methods@1.1.4': {}
 
-  '@types/node@22.10.5':
+  '@types/node@22.10.6':
     dependencies:
       undici-types: 6.20.0
 
   '@types/nodemailer@6.4.14':
     dependencies:
-      '@types/node': 22.10.5
+      '@types/node': 22.10.6
 
   '@types/normalize-package-data@2.4.4': {}
 
@@ -4291,7 +4291,7 @@ snapshots:
     dependencies:
       '@types/cookiejar': 2.1.5
       '@types/methods': 1.1.4
-      '@types/node': 22.10.5
+      '@types/node': 22.10.6
       form-data: 4.0.0
 
   '@types/validator@13.11.9': {}
@@ -5488,12 +5488,12 @@ snapshots:
 
   human-signals@8.0.0: {}
 
-  ical-generator@7.0.0(@types/luxon@3.4.2)(@types/node@22.10.5)(dayjs@1.11.10)(luxon@3.5.0):
+  ical-generator@7.0.0(@types/luxon@3.4.2)(@types/node@22.10.6)(dayjs@1.11.10)(luxon@3.5.0):
     dependencies:
       uuid-random: 1.3.2
     optionalDependencies:
       '@types/luxon': 3.4.2
-      '@types/node': 22.10.5
+      '@types/node': 22.10.6
       dayjs: 1.11.10
       luxon: 3.5.0
 
@@ -5655,7 +5655,7 @@ snapshots:
   jest-util@29.7.0:
     dependencies:
       '@jest/types': 29.6.3
-      '@types/node': 22.10.5
+      '@types/node': 22.10.6
       chalk: 4.1.2
       ci-info: 3.9.0
       graceful-fs: 4.2.11
@@ -6942,14 +6942,14 @@ snapshots:
       '@ts-morph/common': 0.24.0
       code-block-writer: 13.0.1
 
-  ts-node@10.9.2(@swc/core@1.10.7)(@types/node@22.10.5)(typescript@5.7.3):
+  ts-node@10.9.2(@swc/core@1.10.7)(@types/node@22.10.6)(typescript@5.7.3):
     dependencies:
       '@cspotcode/source-map-support': 0.8.1
       '@tsconfig/node10': 1.0.9
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.4
-      '@types/node': 22.10.5
+      '@types/node': 22.10.6
       acorn: 8.11.3
       acorn-walk: 8.3.2
       arg: 4.1.3
