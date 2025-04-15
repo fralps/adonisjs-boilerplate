@@ -1,5 +1,5 @@
 import { test } from '@japa/runner'
-import { status, json } from './shared-examples/http_response.js'
+import { status, json } from '#tests/functional/shared-examples/http_response'
 
 test.group('#GET /health', (): void => {
   test('returns a 401 json status', async ({ client }): Promise<void> => {
