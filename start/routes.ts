@@ -10,6 +10,9 @@
 import router from '@adonisjs/core/services/router'
 import { middleware } from '#start/kernel'
 
+// Importing the health check routes
+const HealthChecksController = () => import('#controllers/health_checks_controller')
+
 // Lazy loading controllers
 const SessionsController = () => import('#controllers/api/v1/users/sessions_controller')
 const RegistrationsController = () => import('#controllers/api/v1/users/registrations_controller')
@@ -34,3 +37,4 @@ router
       .prefix('users')
   })
   .prefix('api/v1')
+router.get('/health', [HealthChecksController])
