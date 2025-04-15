@@ -33,5 +33,5 @@
 
 ## Tools
 
-- ESlint
+- ESLint
 - Prettier
