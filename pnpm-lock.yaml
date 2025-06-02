@@ -58,8 +58,8 @@ importers:
         specifier: ^1.4.4
         version: 1.4.4
       '@adonisjs/tsconfig':
-        specifier: ^1.4.0
-        version: 1.4.0
+        specifier: ^1.4.1
+        version: 1.4.1
       '@japa/api-client':
         specifier: ^3.1.0
         version: 3.1.0(@japa/assert@4.0.1(@japa/runner@4.2.0))(@japa/runner@4.2.0)
@@ -326,8 +326,8 @@ packages:
       edge.js:
         optional: true
 
-  '@adonisjs/tsconfig@1.4.0':
-    resolution: {integrity: sha512-go5KlxE8jJaeoIRzm51PcF2YJSK5i022douVk9OjAqvDiU1t2UepcDoEsSiEOgogUDojp9kbRQmFyf0y0YqvOg==}
+  '@adonisjs/tsconfig@1.4.1':
+    resolution: {integrity: sha512-b7bHdnTaDRGfec4XVtpwsSEukZ549MgqOShScCd1b4xkMK8z1q/jb0Xs4iUL86oIDhty2y7k5vvA6aoQKPAvXQ==}
 
   '@antfu/install-pkg@0.4.1':
     resolution: {integrity: sha512-T7yB5QNG29afhWVkVq7XeIMBa5U/vs9mX69YqayXypPRmYzUmzwnYltplHmPtZ4HPCn+sQKeXW8I47wCbuBOjw==}
@@ -3691,7 +3691,7 @@ snapshots:
       '@japa/api-client': 3.1.0(@japa/assert@4.0.1(@japa/runner@4.2.0))(@japa/runner@4.2.0)
       edge.js: 6.2.1
 
-  '@adonisjs/tsconfig@1.4.0': {}
+  '@adonisjs/tsconfig@1.4.1': {}
 
   '@antfu/install-pkg@0.4.1':
     dependencies:
