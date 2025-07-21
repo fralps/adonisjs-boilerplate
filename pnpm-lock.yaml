@@ -18,8 +18,8 @@ importers:
         specifier: ^2.2.1
         version: 2.2.1(@adonisjs/core@6.19.0(@adonisjs/assembler@7.8.2(typescript@5.8.3))(@vinejs/vine@3.0.1)(edge.js@6.2.1))
       '@adonisjs/i18n':
-        specifier: ^2.2.1
-        version: 2.2.1(@adonisjs/core@6.19.0(@adonisjs/assembler@7.8.2(typescript@5.8.3))(@vinejs/vine@3.0.1)(edge.js@6.2.1))(@vinejs/vine@3.0.1)(edge.js@6.2.1)
+        specifier: ^2.2.2
+        version: 2.2.2(@adonisjs/core@6.19.0(@adonisjs/assembler@7.8.2(typescript@5.8.3))(@vinejs/vine@3.0.1)(edge.js@6.2.1))(@vinejs/vine@3.0.1)(edge.js@6.2.1)
       '@adonisjs/lucid':
         specifier: ^21.7.0
         version: 21.7.0(@adonisjs/assembler@7.8.2(typescript@5.8.3))(@adonisjs/core@6.19.0(@adonisjs/assembler@7.8.2(typescript@5.8.3))(@vinejs/vine@3.0.1)(edge.js@6.2.1))(@vinejs/vine@3.0.1)(luxon@3.7.1)(pg@8.16.3)
@@ -244,8 +244,8 @@ packages:
       '@adonisjs/fold': ^10.0.1
       '@adonisjs/logger': ^6.0.1
 
-  '@adonisjs/i18n@2.2.1':
-    resolution: {integrity: sha512-6Ctc1xD15v3M3PpNxLN364krtNm2LbxzkgapeAQleeaIv6nWxjOW4hs85RbrEuq8IslkcKyVxOt3uwpM4nqE0A==}
+  '@adonisjs/i18n@2.2.2':
+    resolution: {integrity: sha512-fE+IBoxW7btQXbkPoVOQR9FGhIROnMcCSD1dj0JiPqe1+fYDq0IouZaO8+5zhwZ8kHLiTv19U/NwLdc9hpaMiw==}
     engines: {node: '>=18.16.0'}
     peerDependencies:
       '@adonisjs/core': ^6.6.0
@@ -584,9 +584,8 @@ packages:
     resolution: {integrity: sha512-WLneXKQYNClhaMXccO111VQmZahSrcSRDaHRbV6KL5R4pTvK87fMn/MXLUcvOjk0X5dTHDPKF61tM7j826wrjQ==}
     engines: {node: '>=20.6.0'}
 
-  '@poppinss/exception@1.2.1':
-    resolution: {integrity: sha512-aQypoot0HPSJa6gDPEPTntc1GT6QINrSbgRlRhadGW2WaYqUK3tK4Bw9SBMZXhmxd3GeAlZjVcODHgiu+THY7A==}
-    engines: {node: '>=18'}
+  '@poppinss/exception@1.2.2':
+    resolution: {integrity: sha512-m7bpKCD4QMlFCjA/nKTs23fuvoVFoA83brRKmObCUNmi/9tVu8Ve3w4YQAnJu4q3Tjf5fr685HYIC/IA2zHRSg==}
 
   '@poppinss/hooks@7.2.3':
     resolution: {integrity: sha512-+B7YSazGaCMcoUubwEkCTnpAvJ+Fv7tqgtpu7cm9qt1adEjmXDmaiG76loEnmxAkyHrbZJ5xHGNSD0NwMhLcnA==}
@@ -632,8 +631,8 @@ packages:
     resolution: {integrity: sha512-1z78zjqhfjqsvWr+pQzCpRNcZpIM+5vNY5SFOvz28GrL/LRanwtmOku5tBX7jE8/ng3oXaOVrB59lnnXFtvkug==}
     engines: {node: '>=20.6.0'}
 
-  '@poppinss/string@1.6.0':
-    resolution: {integrity: sha512-HfAf9VqTvo31BsruwgwEauQ316RNODdryk6QgYZo4qTV50s0h1H9HmIr+QjwwI3u4Sz7r4Q1dd1EVaLB7pWlaw==}
+  '@poppinss/string@1.7.0':
+    resolution: {integrity: sha512-IuCtWaUwmJeAdby0n1a5cTYsBLe7fPymdc4oNTTl1b6l+Ok+14XpSX0ILOEU6UtZ9D2XI3f4TVUh4Titkk1xgw==}
 
   '@poppinss/types@1.1.0':
     resolution: {integrity: sha512-EJVSxmoU2VO2z9rYc2fvrsYVO5mt/FGjdIShk6tVAFD4G+QBcs6gAYKQa+gvIu87J8YgUYVBYTfi/FnDzdfveg==}
@@ -1306,8 +1305,8 @@ packages:
       supports-color:
         optional: true
 
-  decimal.js@10.5.0:
-    resolution: {integrity: sha512-8vDa8Qxvr/+d94hSh5P3IJwI5t8/c0KsMp+g8bNw9cY2icONa5aPfvKeieW1WlG0WQYwwhJ7mjui2xtiePQSXw==}
+  decimal.js@10.6.0:
+    resolution: {integrity: sha512-YpgQiITW3JXGntzdUmyUR1V812Hn8T1YVXhCu+wO3OpS4eU9l4YdD3qjyiKdV6mvV29zapkMeD390UVEf2lkUg==}
 
   decompress-response@6.0.0:
     resolution: {integrity: sha512-aW35yZM6Bb/4oJlZncMH2LCoZtJXTRxES17vE3hoRiowU2kWHaJKFkSBDnDR+cm9J+9QhXmREyIfv0pji9ejCQ==}
@@ -3578,7 +3577,7 @@ snapshots:
       vary: 1.1.2
       youch: 3.3.4
 
-  '@adonisjs/i18n@2.2.1(@adonisjs/core@6.19.0(@adonisjs/assembler@7.8.2(typescript@5.8.3))(@vinejs/vine@3.0.1)(edge.js@6.2.1))(@vinejs/vine@3.0.1)(edge.js@6.2.1)':
+  '@adonisjs/i18n@2.2.2(@adonisjs/core@6.19.0(@adonisjs/assembler@7.8.2(typescript@5.8.3))(@vinejs/vine@3.0.1)(edge.js@6.2.1))(@vinejs/vine@3.0.1)(edge.js@6.2.1)':
     dependencies:
       '@adonisjs/core': 6.19.0(@adonisjs/assembler@7.8.2(typescript@5.8.3))(@vinejs/vine@3.0.1)(edge.js@6.2.1)
       '@poppinss/intl-formatter': 3.0.5
@@ -3655,7 +3654,7 @@ snapshots:
   '@adonisjs/presets@2.6.4(@adonisjs/assembler@7.8.2(typescript@5.8.3))(@adonisjs/core@6.19.0(@adonisjs/assembler@7.8.2(typescript@5.8.3))(@vinejs/vine@3.0.1)(edge.js@6.2.1))':
     dependencies:
       '@adonisjs/core': 6.19.0(@adonisjs/assembler@7.8.2(typescript@5.8.3))(@vinejs/vine@3.0.1)(edge.js@6.2.1)
-      '@poppinss/utils': 6.10.0
+      '@poppinss/utils': 6.9.2
     optionalDependencies:
       '@adonisjs/assembler': 7.8.2(typescript@5.8.3)
 
@@ -3763,7 +3762,7 @@ snapshots:
     dependencies:
       '@formatjs/fast-memoize': 2.2.7
       '@formatjs/intl-localematcher': 0.6.1
-      decimal.js: 10.5.0
+      decimal.js: 10.6.0
       tslib: 2.8.1
 
   '@formatjs/fast-memoize@2.2.7':
@@ -3977,7 +3976,7 @@ snapshots:
 
   '@poppinss/exception@1.2.0': {}
 
-  '@poppinss/exception@1.2.1': {}
+  '@poppinss/exception@1.2.2': {}
 
   '@poppinss/hooks@7.2.3': {}
 
@@ -4010,7 +4009,7 @@ snapshots:
   '@poppinss/prompts@3.1.4':
     dependencies:
       '@poppinss/colors': 4.1.4
-      '@poppinss/exception': 1.2.1
+      '@poppinss/exception': 1.2.2
       '@poppinss/object-builder': 1.1.0
       enquirer: 2.4.1
 
@@ -4025,7 +4024,7 @@ snapshots:
       slugify: 1.6.6
       truncatise: 0.0.8
 
-  '@poppinss/string@1.6.0':
+  '@poppinss/string@1.7.0':
     dependencies:
       '@lukeed/ms': 2.0.2
       '@types/bytes': 3.1.5
@@ -4040,9 +4039,9 @@ snapshots:
 
   '@poppinss/utils@6.10.0':
     dependencies:
-      '@poppinss/exception': 1.2.1
+      '@poppinss/exception': 1.2.2
       '@poppinss/object-builder': 1.1.0
-      '@poppinss/string': 1.6.0
+      '@poppinss/string': 1.7.0
       flattie: 1.1.1
       safe-stable-stringify: 2.5.0
       secure-json-parse: 4.0.0
@@ -4073,9 +4072,9 @@ snapshots:
 
   '@poppinss/utils@7.0.0-next.3':
     dependencies:
-      '@poppinss/exception': 1.2.1
+      '@poppinss/exception': 1.2.2
       '@poppinss/object-builder': 1.1.0
-      '@poppinss/string': 1.6.0
+      '@poppinss/string': 1.7.0
       '@poppinss/types': 1.1.0
       flattie: 1.1.1
       safe-stable-stringify: 2.5.0
@@ -4696,7 +4695,7 @@ snapshots:
     dependencies:
       ms: 2.1.3
 
-  decimal.js@10.5.0: {}
+  decimal.js@10.6.0: {}
 
   decompress-response@6.0.0:
     dependencies:
@@ -6823,7 +6822,7 @@ snapshots:
 
   youch-core@0.3.2:
     dependencies:
-      '@poppinss/exception': 1.2.1
+      '@poppinss/exception': 1.2.2
       error-stack-parser-es: 1.0.5
 
   youch-terminal@2.2.3:
