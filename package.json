@@ -59,7 +59,7 @@
     "@adonisjs/mail": "^9.2.2",
     "@adonisjs/session": "^7.5.1",
     "@vinejs/vine": "^3.0.1",
-    "edge.js": "^6.2.1",
+    "edge.js": "^6.3.0",
     "luxon": "^3.7.1",
     "mjml": "^4.15.3",
     "pg": "^8.16.3",
