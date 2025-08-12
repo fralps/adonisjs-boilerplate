@@ -41,7 +41,7 @@
     "@japa/expect": "^3.0.6",
     "@japa/plugin-adonisjs": "^4.0.0",
     "@japa/runner": "^4.3.0",
-    "@swc/core": "^1.13.1",
+    "@swc/core": "^1.13.3",
     "@types/luxon": "^3.7.0",
     "@types/node": "^24.1.0",
     "eslint": "^8.57.1",
