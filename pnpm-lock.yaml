@@ -3286,12 +3286,8 @@ packages:
   validate-npm-package-license@3.0.4:
     resolution: {integrity: sha512-DpKm2Ui/xN7/HQKCtpZxoRWBhZ9Z0kqtygG8XCgNQ8ZlDnxuQmWhj566j8fN4Cu3/JmbhsDo7fcAJq4s9h27Ew==}
 
-  validator@13.11.0:
-    resolution: {integrity: sha512-Ii+sehpSfZy+At5nPdnyMhx78fEoPDkR2XW/zimHEL3MyGJQOCQ7WeP20jPYRz7ZCpcKLB21NxuXHF3bxjStBQ==}
-    engines: {node: '>= 0.10'}
-
-  validator@13.15.0:
-    resolution: {integrity: sha512-36B2ryl4+oL5QxZ3AzD0t5SsMNGvTtQHpjgFO5tbNxfXbMFkY822ktCDe1MnlqV3301QQI9SLHDNJokDI+Z9pA==}
+  validator@13.15.20:
+    resolution: {integrity: sha512-KxPOq3V2LmfQPP4eqf3Mq/zrT0Dqp2Vmx2Bn285LwVahLc+CsxOM0crBHczm8ijlcjZ0Q5Xd6LW3z3odTPnlrw==}
     engines: {node: '>= 0.10'}
 
   vary@1.1.2:
@@ -4132,7 +4128,7 @@ snapshots:
 
   '@poppinss/validator-lite@1.0.3':
     dependencies:
-      validator: 13.11.0
+      validator: 13.15.20
 
   '@poppinss/validator-lite@2.1.0': {}
 
@@ -4395,7 +4391,7 @@ snapshots:
       dayjs: 1.11.13
       dlv: 1.1.3
       normalize-url: 8.0.1
-      validator: 13.15.0
+      validator: 13.15.20
 
   abbrev@2.0.0: {}
 
@@ -6798,9 +6794,7 @@ snapshots:
       spdx-correct: 3.2.0
       spdx-expression-parse: 3.0.1
 
-  validator@13.11.0: {}
-
-  validator@13.15.0: {}
+  validator@13.15.20: {}
 
   vary@1.1.2: {}
 
