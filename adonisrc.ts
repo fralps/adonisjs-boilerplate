@@ -40,6 +40,10 @@ export default defineConfig({
     () => import('@adonisjs/mail/mail_provider'),
     () => import('@adonisjs/core/providers/edge_provider'),
     () => import('@adonisjs/i18n/i18n_provider'),
+    {
+      file: () => import('@adminjs/adonis/adminjs_provider'),
+      environment: ['web'],
+    }
   ],
 
   /*
