@@ -19,7 +19,7 @@ const adminjsConfig: AdminJSProviderConfig = {
       {
         resource: new LucidResource(User, 'postgres'),
         options: {},
-      }
+      },
     ],
     pages: {},
     locale: {
