@@ -13,6 +13,7 @@
 - Node >= 20
 - pnpm
 - postgresql
+- Docker
 
 ## Development
 
@@ -31,7 +32,13 @@
 - Grant privileges to your DB: `GRANT ALL PRIVILEGES ON DATABASE db_name TO your_user;`
 - Run `./scripts/test` to start test suites
 
+## Mailer in development
+
+- We use [Mailcatcher](https://mailcatcher.me/) through [Docker](https://hub.docker.com/r/dockage/mailcatcher) as the mailer previewer for development only
+- Run the dev script and Mailcatcher interface is available on [http://0.0.0.0:1080/](http://0.0.0.0:1080/)
+
 ## Tools
 
 - ESLint
 - Prettier
+- Mailcatcher
