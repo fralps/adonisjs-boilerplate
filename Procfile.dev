@@ -1,0 +1,2 @@
+api: kill -9 $(lsof -i :3333 -t); pnpm run dev
+mailcatcher: docker rm --force adonisjs-boilerplate-mailcatcher; docker run --rm --pull always --name adonisjs-boilerplate-mailcatcher --publish 1080:1080 --publish=1025:1025 dockage/mailcatcher:0.9.0

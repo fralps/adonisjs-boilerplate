@@ -7,7 +7,7 @@
   "scripts": {
     "start": "node bin/server.js",
     "build": "node ace build",
-    "dev": "node ace serve --watch",
+    "dev": "NODE_ENV=development PORT=3333 HOST=localhost node ace serve --watch --no-clear",
     "test": "node ace test",
     "eslint": "eslint .",
     "format": "prettier --write .",
