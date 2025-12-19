@@ -4,7 +4,31 @@ set -o errexit
 set -o nounset
 set -o pipefail
 if [[ "${TRACE-0}" == "1" ]]; then
-  set -o xtrace
+    set -o xtrace
 fi
 
-NODE_ENV=development pnpm install && node ace serve --watch
+if [[ "${1-}" =~ ^-*h(elp)?$ ]]; then
+    echo 'Usage: ./dev
+
+Starts the development server of the app.
+
+'
+    exit
+fi
+
+cd "$(dirname "$0")"
+
+main() {
+  foreman --version > /dev/null || gem install foreman
+
+  # kill previously running servers, we kill 3333
+  ./_kill.sh 3333 2>/dev/null || true
+
+  sleep 1
+
+  NODE_ENV=development pnpm install
+
+  foreman start -f ../Procfile.dev
+}
+
+main "$@"
