@@ -55,7 +55,7 @@
     "@adonisjs/core": "^6.19.3",
     "@adonisjs/cors": "^2.2.1",
     "@adonisjs/i18n": "^2.2.3",
-    "@adonisjs/lucid": "^21.8.1",
+    "@adonisjs/lucid": "^21.8.2",
     "@adonisjs/mail": "^9.2.2",
     "@adonisjs/session": "^7.7.1",
     "@vinejs/vine": "^4.2.0",
