@@ -53,7 +53,7 @@ importers:
         version: 7.8.2(typescript@5.9.3)
       '@adonisjs/eslint-config':
         specifier: ^1.3.1
-        version: 1.3.1(eslint@8.57.1)(prettier@3.8.0)(typescript@5.9.3)
+        version: 1.3.1(eslint@8.57.1)(prettier@3.8.1)(typescript@5.9.3)
       '@adonisjs/prettier-config':
         specifier: ^1.4.5
         version: 1.4.5
@@ -91,8 +91,8 @@ importers:
         specifier: ^13.1.3
         version: 13.1.3
       prettier:
-        specifier: ^3.8.0
-        version: 3.8.0
+        specifier: ^3.8.1
+        version: 3.8.1
       ts-node:
         specifier: ^10.9.2
         version: 10.9.2(@swc/core@1.15.10)(@types/node@25.0.10)(typescript@5.9.3)
@@ -2718,8 +2718,8 @@ packages:
   prettier-plugin-edgejs@1.0.3:
     resolution: {integrity: sha512-fPDY1RPVPDmfHDbScjxYKa79oh3HfwbmV7s1+h6HVit6AUklxhuvdEmsliViO11FbDxa/C5UHIev0WQO0b9QPQ==}
 
-  prettier@3.8.0:
-    resolution: {integrity: sha512-yEPsovQfpxYfgWNhCfECjG5AQaO+K3dp6XERmOepyPDVqcJm+bjyCVO3pmU+nAPe0N5dDvekfGezt/EIiRe1TA==}
+  prettier@3.8.1:
+    resolution: {integrity: sha512-UOnG6LftzbdaHZcKoPFtOcCKztrQ57WkHDeRD9t/PTQtmT0NHSeWWepj6pS0z/N7+08BHFDQVUrfmfMRcZwbMg==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -3477,7 +3477,7 @@ snapshots:
       dotenv: 16.6.1
       split-lines: 3.0.0
 
-  '@adonisjs/eslint-config@1.3.1(eslint@8.57.1)(prettier@3.8.0)(typescript@5.9.3)':
+  '@adonisjs/eslint-config@1.3.1(eslint@8.57.1)(prettier@3.8.1)(typescript@5.9.3)':
     dependencies:
       '@adonisjs/eslint-plugin': 1.3.1(eslint@8.57.1)(typescript@5.9.3)
       '@typescript-eslint/eslint-plugin': 6.21.0(@typescript-eslint/parser@6.21.0(eslint@8.57.1)(typescript@5.9.3))(eslint@8.57.1)(typescript@5.9.3)
@@ -3485,10 +3485,10 @@ snapshots:
       eslint: 8.57.1
       eslint-config-prettier: 8.10.0(eslint@8.57.1)
       eslint-plugin-jsonc: 2.20.1(eslint@8.57.1)
-      eslint-plugin-prettier: 5.5.4(eslint-config-prettier@8.10.0(eslint@8.57.1))(eslint@8.57.1)(prettier@3.8.0)
+      eslint-plugin-prettier: 5.5.4(eslint-config-prettier@8.10.0(eslint@8.57.1))(eslint@8.57.1)(prettier@3.8.1)
       eslint-plugin-unicorn: 47.0.0(eslint@8.57.1)
       jsonc-eslint-parser: 2.4.0
-      prettier: 3.8.0
+      prettier: 3.8.1
     transitivePeerDependencies:
       - '@eslint/json'
       - '@types/eslint'
@@ -4888,10 +4888,10 @@ snapshots:
     transitivePeerDependencies:
       - '@eslint/json'
 
-  eslint-plugin-prettier@5.5.4(eslint-config-prettier@8.10.0(eslint@8.57.1))(eslint@8.57.1)(prettier@3.8.0):
+  eslint-plugin-prettier@5.5.4(eslint-config-prettier@8.10.0(eslint@8.57.1))(eslint@8.57.1)(prettier@3.8.1):
     dependencies:
       eslint: 8.57.1
-      prettier: 3.8.0
+      prettier: 3.8.1
       prettier-linter-helpers: 1.0.0
       synckit: 0.11.11
     optionalDependencies:
@@ -6241,10 +6241,10 @@ snapshots:
     dependencies:
       '@adobe/css-tools': 4.4.4
       edgejs-parser: 0.2.16
-      prettier: 3.8.0
+      prettier: 3.8.1
       uglify-js: 3.19.3
 
-  prettier@3.8.0: {}
+  prettier@3.8.1: {}
 
   pretty-format@30.2.0:
     dependencies:
