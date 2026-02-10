@@ -60,7 +60,7 @@
     "@adonisjs/lucid": "^21.8.2",
     "@adonisjs/mail": "^9.2.2",
     "@adonisjs/session": "^7.7.1",
-    "@vinejs/vine": "^4.2.0",
+    "@vinejs/vine": "^4.3.0",
     "edge.js": "^6.4.0",
     "luxon": "^3.7.2",
     "mjml": "^4.18.0",
