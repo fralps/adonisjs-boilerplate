@@ -2464,8 +2464,8 @@ packages:
   pump@3.0.3:
     resolution: {integrity: sha512-todwxLMY7/heScKmntwQG8CXVkWUOdYxIvY2s0VWAAMh/nd8SoYiRaKjlr7+iCs984f2P8zvrfWcDDYVb73NfA==}
 
-  qs@6.14.1:
-    resolution: {integrity: sha512-4EK3+xJl8Ts67nLYNwqw/dsFVnCf+qR7RgXSK9jEEm9unao3njwMDdmsdvoKBKHzxd7tCYz5e5M+SnMjdtXGQQ==}
+  qs@6.15.0:
+    resolution: {integrity: sha512-mAZTtNCeetKMH+pSjrb76NAM8V9a05I9aBZOHztWy/UqcJdQYNsf59vrRKWnojAT9Y+GbIvoTBC++CPHqpDBhQ==}
     engines: {node: '>=0.6'}
 
   queue-microtask@1.2.3:
@@ -3019,7 +3019,7 @@ snapshots:
       file-type: 21.3.0
       inflation: 2.1.0
       media-typer: 1.1.0
-      qs: 6.14.1
+      qs: 6.15.0
       raw-body: 3.0.2
     transitivePeerDependencies:
       - supports-color
@@ -3133,7 +3133,7 @@ snapshots:
       mime-types: 3.0.2
       on-finished: 2.4.1
       proxy-addr: 2.0.7
-      qs: 6.14.1
+      qs: 6.15.0
       tmp-cache: 1.1.0
       type-is: 2.0.1
       vary: 1.1.2
@@ -3172,7 +3172,7 @@ snapshots:
       knex: 3.1.0(pg@8.18.0)
       knex-dynamic-connection: 3.2.0(pg@8.18.0)
       pretty-hrtime: 1.0.3
-      qs: 6.14.1
+      qs: 6.15.0
       slash: 5.1.0
       tarn: 3.0.2
     optionalDependencies:
@@ -5456,7 +5456,7 @@ snapshots:
       end-of-stream: 1.4.5
       once: 1.4.0
 
-  qs@6.14.1:
+  qs@6.15.0:
     dependencies:
       side-channel: 1.1.0
 
@@ -5686,7 +5686,7 @@ snapshots:
       formidable: 3.5.4
       methods: 1.1.2
       mime: 2.6.0
-      qs: 6.14.1
+      qs: 6.15.0
     transitivePeerDependencies:
       - supports-color
 
