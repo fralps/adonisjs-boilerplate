@@ -2,11 +2,11 @@ name: CI
 on:
   push:
     branches:
-      - '**' # matches every branch
-      - '!main'
+      - "**" # matches every branch
+      - "!main"
   pull_request:
     branches:
-      - 'staging'
+      - "staging"
 
 jobs:
   build:
@@ -50,9 +50,9 @@ jobs:
 
       - uses: harmon758/postgresql-action@v1
         with:
-          postgresql db: 'adonisjs_boilerplate_test'
-          postgresql user: 'developer'
-          postgresql password: 'password'
+          postgresql db: "adonisjs_boilerplate_test"
+          postgresql user: "developer"
+          postgresql password: "password"
 
       - name: 🧪 Run tests
         shell: bash
@@ -77,8 +77,8 @@ jobs:
       - name: 🔧 Install modules
         run: pnpm install
 
-      - name: 🔬 Run ESLint
-        run: pnpm run eslint
+      - name: 🔬 Run Oxlint
+        run: pnpm run lint
 
   licenses:
     name: ©️ Licenses

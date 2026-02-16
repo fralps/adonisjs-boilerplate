@@ -7,15 +7,18 @@
 |
 */
 
-import router from '@adonisjs/core/services/router'
-import { middleware } from '#start/kernel'
+import { middleware } from "#start/kernel";
+import router from "@adonisjs/core/services/router";
 
 // Importing the health check routes
-const HealthChecksController = () => import('#controllers/health_checks_controller')
+const HealthChecksController = () =>
+  import("#controllers/health_checks_controller");
 
 // Lazy loading controllers
-const SessionsController = () => import('#controllers/api/v1/users/sessions_controller')
-const RegistrationsController = () => import('#controllers/api/v1/users/registrations_controller')
+const SessionsController = () =>
+  import("#controllers/api/v1/users/sessions_controller");
+const RegistrationsController = () =>
+  import("#controllers/api/v1/users/registrations_controller");
 
 router
   .group(() => {
@@ -23,18 +26,25 @@ router
     router
       .group(() => {
         router.group(() => {
-          router.post('login', [SessionsController, 'store']).use(middleware.guest())
-          router.post('registrations', [RegistrationsController, 'store']).use(middleware.guest())
-        })
+          router
+            .post("login", [SessionsController, "store"])
+            .use(middleware.guest());
+          router
+            .post("registrations", [RegistrationsController, "store"])
+            .use(middleware.guest());
+        });
 
         router
           .group(() => {
-            router.delete('logout', [SessionsController, 'destroy'])
-            router.delete('registrations', [RegistrationsController, 'destroy'])
+            router.delete("logout", [SessionsController, "destroy"]);
+            router.delete("registrations", [
+              RegistrationsController,
+              "destroy",
+            ]);
           })
-          .use(middleware.auth())
+          .use(middleware.auth());
       })
-      .prefix('users')
+      .prefix("users");
   })
-  .prefix('api/v1')
-router.get('/health', [HealthChecksController])
+  .prefix("api/v1");
+router.get("/health", [HealthChecksController]);

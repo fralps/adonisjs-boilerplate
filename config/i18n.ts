@@ -1,10 +1,10 @@
-import app from '@adonisjs/core/services/app'
-import { defineConfig, formatters, loaders } from '@adonisjs/i18n'
+import app from "@adonisjs/core/services/app";
+import { defineConfig, formatters, loaders } from "@adonisjs/i18n";
 
 const i18nConfig = defineConfig({
-  defaultLocale: 'fr',
+  defaultLocale: "fr",
   formatter: formatters.icu(),
-  supportedLocales: ['fr'],
+  supportedLocales: ["fr"],
   loaders: [
     /**
      * The fs loader will read translations from the
@@ -19,6 +19,6 @@ const i18nConfig = defineConfig({
       location: app.languageFilesPath(),
     }),
   ],
-})
+});
 
-export default i18nConfig
+export default i18nConfig;
