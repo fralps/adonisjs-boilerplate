@@ -1,4 +1,4 @@
-import { defineConfig } from '@adonisjs/core/app'
+import { defineConfig } from "@adonisjs/core/app";
 
 export default defineConfig({
   /*
@@ -11,9 +11,9 @@ export default defineConfig({
   |
   */
   commands: [
-    () => import('@adonisjs/core/commands'),
-    () => import('@adonisjs/lucid/commands'),
-    () => import('@adonisjs/mail/commands'),
+    () => import("@adonisjs/core/commands"),
+    () => import("@adonisjs/lucid/commands"),
+    () => import("@adonisjs/mail/commands"),
   ],
 
   /*
@@ -26,20 +26,20 @@ export default defineConfig({
   |
   */
   providers: [
-    () => import('@adonisjs/core/providers/app_provider'),
-    () => import('@adonisjs/core/providers/hash_provider'),
+    () => import("@adonisjs/core/providers/app_provider"),
+    () => import("@adonisjs/core/providers/hash_provider"),
     {
-      file: () => import('@adonisjs/core/providers/repl_provider'),
-      environment: ['repl', 'test'],
+      file: () => import("@adonisjs/core/providers/repl_provider"),
+      environment: ["repl", "test"],
     },
-    () => import('@adonisjs/core/providers/vinejs_provider'),
-    () => import('@adonisjs/cors/cors_provider'),
-    () => import('@adonisjs/lucid/database_provider'),
-    () => import('@adonisjs/session/session_provider'),
-    () => import('@adonisjs/auth/auth_provider'),
-    () => import('@adonisjs/mail/mail_provider'),
-    () => import('@adonisjs/core/providers/edge_provider'),
-    () => import('@adonisjs/i18n/i18n_provider'),
+    () => import("@adonisjs/core/providers/vinejs_provider"),
+    () => import("@adonisjs/cors/cors_provider"),
+    () => import("@adonisjs/lucid/database_provider"),
+    () => import("@adonisjs/session/session_provider"),
+    () => import("@adonisjs/auth/auth_provider"),
+    () => import("@adonisjs/mail/mail_provider"),
+    () => import("@adonisjs/core/providers/edge_provider"),
+    () => import("@adonisjs/i18n/i18n_provider"),
   ],
 
   /*
@@ -51,9 +51,9 @@ export default defineConfig({
   |
   */
   preloads: [
-    () => import('#start/routes'),
-    () => import('#start/kernel'),
-    () => import('#start/events'),
+    () => import("#start/routes"),
+    () => import("#start/kernel"),
+    () => import("#start/events"),
   ],
 
   /*
@@ -68,18 +68,18 @@ export default defineConfig({
   tests: {
     suites: [
       {
-        files: ['tests/functional/**/*.spec(.ts|.js)'],
-        name: 'functional',
+        files: ["tests/functional/**/*.spec(.ts|.js)"],
+        name: "functional",
         timeout: 30000,
       },
       {
-        files: ['tests/mails/**/*.spec(.ts|.js)'],
-        name: 'mails',
+        files: ["tests/mails/**/*.spec(.ts|.js)"],
+        name: "mails",
         timeout: 30000,
       },
       {
-        files: ['tests/models/**/*.spec(.ts|.js)'],
-        name: 'models',
+        files: ["tests/models/**/*.spec(.ts|.js)"],
+        name: "models",
         timeout: 30000,
       },
     ],
@@ -87,12 +87,12 @@ export default defineConfig({
   },
   metaFiles: [
     {
-      pattern: 'resources/views/**/*.edge',
+      pattern: "resources/views/**/*.edge",
       reloadServer: false,
     },
     {
-      pattern: 'resources/lang/**/*.json',
+      pattern: "resources/lang/**/*.json",
       reloadServer: false,
     },
   ],
-})
+});

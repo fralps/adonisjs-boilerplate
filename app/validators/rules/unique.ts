@@ -1,14 +1,14 @@
-import vine from '@vinejs/vine'
-import { FieldContext } from '@vinejs/vine/types'
-import db from '@adonisjs/lucid/services/db'
+import db from "@adonisjs/lucid/services/db";
+import vine from "@vinejs/vine";
+import { FieldContext } from "@vinejs/vine/types";
 
 /**
  * Options accepted by the unique rule
  */
 type Options = {
-  table: string
-  column: string
-}
+  table: string;
+  column: string;
+};
 
 /**
  * Implementation
@@ -19,23 +19,23 @@ async function unique(value: unknown, options: Options, field: FieldContext) {
    * values. The "string" rule will handle the
    * the validation.
    */
-  if (typeof value !== 'string') {
-    return
+  if (typeof value !== "string") {
+    return;
   }
 
   const row = await db
-    .from('users')
+    .from("users")
     .select(options.column)
     .from(options.table)
     .where(options.column, value)
-    .first()
+    .first();
 
   if (row) {
-    field.report('', 'email', field)
+    field.report("", "email", field);
   }
 }
 
 /**
  * Converting a function to a VineJS rule
  */
-export const uniqueRule = vine.createRule(unique)
+export const uniqueRule = vine.createRule(unique);

@@ -1,22 +1,22 @@
-import type { HttpContext } from '@adonisjs/core/http'
-import User from '#models/user'
+import User from "#models/user";
+import type { HttpContext } from "@adonisjs/core/http";
 
 export default class SessionsController {
   async store({ request, auth }: HttpContext) {
-    const { email, password } = request.only(['email', 'password'])
+    const { email, password } = request.only(["email", "password"]);
 
-    const user = await User.verifyCredentials(email, password)
+    const user = await User.verifyCredentials(email, password);
 
-    await auth.use('web').login(user)
+    await auth.use("web").login(user);
 
     return user.serialize({
       fields: {
-        pick: ['email', 'firstName', 'lastName', 'id'],
+        pick: ["email", "firstName", "lastName", "id"],
       },
-    })
+    });
   }
 
   async destroy({ auth }: HttpContext) {
-    await auth.use('web').logout()
+    await auth.use("web").logout();
   }
 }

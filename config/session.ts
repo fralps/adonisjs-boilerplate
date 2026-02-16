@@ -1,12 +1,12 @@
-import env from '#start/env'
-import app from '@adonisjs/core/services/app'
-import { defineConfig, stores } from '@adonisjs/session'
+import env from "#start/env";
+import app from "@adonisjs/core/services/app";
+import { defineConfig, stores } from "@adonisjs/session";
 
 const sessionConfig = defineConfig({
   enabled: true,
   cookieName: app.inProduction
-    ? 'adonisjs-boilerplate-session-production'
-    : 'adonisjs-boilerplate-session-development',
+    ? "adonisjs-boilerplate-session-production"
+    : "adonisjs-boilerplate-session-development",
 
   /**
    * When set to true, the session id cookie will be deleted
@@ -18,17 +18,17 @@ const sessionConfig = defineConfig({
    * Define how long to keep the session data alive without
    * any activity.
    */
-  age: '5h',
+  age: "5h",
 
   /**
    * Configuration for session cookie and the
    * cookie store
    */
   cookie: {
-    path: '/',
+    path: "/",
     httpOnly: true,
     secure: app.inProduction,
-    sameSite: 'lax',
+    sameSite: "lax",
   },
 
   /**
@@ -36,7 +36,7 @@ const sessionConfig = defineConfig({
    * variable in order to infer the store name without any
    * errors.
    */
-  store: env.get('SESSION_DRIVER'),
+  store: env.get("SESSION_DRIVER"),
 
   /**
    * List of configured stores. Refer documentation to see
@@ -45,6 +45,6 @@ const sessionConfig = defineConfig({
   stores: {
     cookie: stores.cookie(),
   },
-})
+});
 
-export default sessionConfig
+export default sessionConfig;
