@@ -34,6 +34,22 @@ jobs:
     if: success()
     needs: build
     runs-on: ubuntu-latest
+
+    # Postgres service
+    services:
+      postgres:
+        image: postgres
+        env:
+          POSTGRES_USER: developer
+          POSTGRES_DB: adonisjs_boilerplate_test
+          POSTGRES_PASSWORD: password
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+        ports: ["5432:5432"]
+
     steps:
       - uses: actions/checkout@v6
 
@@ -47,12 +63,6 @@ jobs:
 
       - name: 🔧 Install modules
         run: pnpm install
-
-      - uses: harmon758/postgresql-action@v1
-        with:
-          postgresql db: "adonisjs_boilerplate_test"
-          postgresql user: "developer"
-          postgresql password: "password"
 
       - name: 🧪 Run tests
         shell: bash
