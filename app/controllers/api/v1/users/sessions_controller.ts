@@ -1,6 +1,7 @@
+import type { HttpContext } from "@adonisjs/core/http";
+
 import User from "#models/user";
 import UserTransformer from "#transformers/user_transformer";
-import type { HttpContext } from "@adonisjs/core/http";
 
 export default class SessionsController {
   async store({ request, auth, serialize }: HttpContext) {

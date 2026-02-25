@@ -7,10 +7,11 @@ export const controllers = {
   api: {
     v1: {
       users: {
-        Registrations: () => import('#controllers/api/v1/users/registrations_controller'),
-        Sessions: () => import('#controllers/api/v1/users/sessions_controller'),
+        Registrations: () =>
+          import("#controllers/api/v1/users/registrations_controller"),
+        Sessions: () => import("#controllers/api/v1/users/sessions_controller"),
       },
     },
   },
-  HealthChecks: () => import('#controllers/health_checks_controller'),
-}
+  HealthChecks: () => import("#controllers/health_checks_controller"),
+};

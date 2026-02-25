@@ -1,8 +1,9 @@
+import type { HttpContext } from "@adonisjs/core/http";
+
 import FarewellEmail from "#mails/users/farewell_email";
 import WelcomeEmail from "#mails/users/welcome_email";
 import User from "#models/user";
 import { createUserValidator } from "#validators/user_validator";
-import type { HttpContext } from "@adonisjs/core/http";
 import mail from "@adonisjs/mail/services/main";
 
 export default class RegistrationsController {
