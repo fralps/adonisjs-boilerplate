@@ -1,3 +1,5 @@
+import type { Config } from "@japa/runner/types";
+
 import { authApiClient } from "@adonisjs/auth/plugins/api_client";
 import app from "@adonisjs/core/services/app";
 import testUtils from "@adonisjs/core/services/test_utils";
@@ -6,7 +8,6 @@ import { apiClient } from "@japa/api-client";
 import { assert } from "@japa/assert";
 import { expect } from "@japa/expect";
 import { pluginAdonisJS } from "@japa/plugin-adonisjs";
-import type { Config } from "@japa/runner/types";
 
 /**
  * This file is imported by the "bin/test.ts" entrypoint file

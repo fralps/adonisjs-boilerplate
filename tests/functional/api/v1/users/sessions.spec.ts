@@ -50,10 +50,12 @@ test.group("#POST /api/v1/users/login", (group): void => {
     });
 
     response.assertBody({
-      id: user.id,
-      email: user.email,
-      firstName: user.firstName,
-      lastName: user.lastName,
+      data: {
+        id: user.id,
+        email: user.email,
+        firstName: user.firstName,
+        lastName: user.lastName,
+      },
     });
   });
 });
