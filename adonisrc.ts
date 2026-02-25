@@ -1,4 +1,5 @@
 import { defineConfig } from "@adonisjs/core/app";
+import { indexEntities } from "@adonisjs/core";
 
 export default defineConfig({
   /*
@@ -56,6 +57,10 @@ export default defineConfig({
     () => import("#start/events"),
   ],
 
+  hooks: {
+    init: [indexEntities()],
+  },
+
   /*
   |--------------------------------------------------------------------------
   | Tests
@@ -68,17 +73,17 @@ export default defineConfig({
   tests: {
     suites: [
       {
-        files: ["tests/functional/**/*.spec(.ts|.js)"],
+        files: ["tests/functional/**/*.spec.{ts,js}"],
         name: "functional",
         timeout: 30000,
       },
       {
-        files: ["tests/mails/**/*.spec(.ts|.js)"],
+        files: ["tests/mails/**/*.spec.{ts,js}"],
         name: "mails",
         timeout: 30000,
       },
       {
-        files: ["tests/models/**/*.spec(.ts|.js)"],
+        files: ["tests/models/**/*.spec.{ts,js}"],
         name: "models",
         timeout: 30000,
       },

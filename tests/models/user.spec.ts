@@ -2,13 +2,14 @@ import User from "#models/user";
 import { test } from "@japa/runner";
 
 test.group("Model User", (group) => {
-  const subject = new User();
+  let subject: User;
 
   group.each.setup(async () => {
+    subject = new User();
     subject.fill({
       firstName: "Larry",
       lastName: "Cover",
-      email: "larry.cover@gmail.com",
+      email: `larry.cover+${Date.now()}@gmail.com`,
       password: "password123",
     });
     await subject.save();
