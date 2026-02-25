@@ -7,18 +7,9 @@
 |
 */
 
+import { controllers } from "#generated/controllers";
 import { middleware } from "#start/kernel";
 import router from "@adonisjs/core/services/router";
-
-// Importing the health check routes
-const HealthChecksController = () =>
-  import("#controllers/health_checks_controller");
-
-// Lazy loading controllers
-const SessionsController = () =>
-  import("#controllers/api/v1/users/sessions_controller");
-const RegistrationsController = () =>
-  import("#controllers/api/v1/users/registrations_controller");
 
 router
   .group(() => {
@@ -27,18 +18,24 @@ router
       .group(() => {
         router.group(() => {
           router
-            .post("login", [SessionsController, "store"])
+            .post("login", [controllers.api.v1.users.Sessions, "store"])
             .use(middleware.guest());
           router
-            .post("registrations", [RegistrationsController, "store"])
+            .post("registrations", [
+              controllers.api.v1.users.Registrations,
+              "store",
+            ])
             .use(middleware.guest());
         });
 
         router
           .group(() => {
-            router.delete("logout", [SessionsController, "destroy"]);
+            router.delete("logout", [
+              controllers.api.v1.users.Sessions,
+              "destroy",
+            ]);
             router.delete("registrations", [
-              RegistrationsController,
+              controllers.api.v1.users.Registrations,
               "destroy",
             ]);
           })
@@ -47,4 +44,4 @@ router
       .prefix("users");
   })
   .prefix("api/v1");
-router.get("/health", [HealthChecksController]);
+router.get("/health", [controllers.HealthChecks, "handle"]);

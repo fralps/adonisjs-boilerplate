@@ -1,5 +1,5 @@
-import { defineConfig } from "@adonisjs/core/app";
 import { indexEntities } from "@adonisjs/core";
+import { defineConfig } from "@adonisjs/core/app";
 
 export default defineConfig({
   /*
@@ -41,6 +41,7 @@ export default defineConfig({
     () => import("@adonisjs/mail/mail_provider"),
     () => import("@adonisjs/core/providers/edge_provider"),
     () => import("@adonisjs/i18n/i18n_provider"),
+    () => import("#providers/api_provider"),
   ],
 
   /*
