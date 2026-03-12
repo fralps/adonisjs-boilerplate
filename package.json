@@ -40,7 +40,7 @@
     "@adonisjs/core": "^7.0.1",
     "@adonisjs/cors": "^3.0.0",
     "@adonisjs/i18n": "^3.0.0",
-    "@adonisjs/lucid": "^22.0.0",
+    "@adonisjs/lucid": "^22.1.1",
     "@adonisjs/mail": "^10.0.0",
     "@adonisjs/session": "^8.0.0",
     "@vinejs/vine": "^4.3.0",
