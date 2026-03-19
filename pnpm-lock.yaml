@@ -24,8 +24,8 @@ importers:
         specifier: ^22.1.1
         version: 22.1.1(@adonisjs/assembler@8.1.0(typescript@5.9.3))(@adonisjs/core@7.0.1(@adonisjs/assembler@8.1.0(typescript@5.9.3))(@vinejs/vine@4.3.0)(edge.js@6.5.0)(pino-pretty@13.1.3)(youch@4.1.0))(@vinejs/vine@4.3.0)(luxon@3.7.2)(pg@8.20.0)
       '@adonisjs/mail':
-        specifier: ^10.0.0
-        version: 10.0.0(@adonisjs/assembler@8.1.0(typescript@5.9.3))(@adonisjs/core@7.0.1(@adonisjs/assembler@8.1.0(typescript@5.9.3))(@vinejs/vine@4.3.0)(edge.js@6.5.0)(pino-pretty@13.1.3)(youch@4.1.0))(@types/luxon@3.7.1)(@types/node@25.5.0)(dayjs@1.11.19)(edge.js@6.5.0)(luxon@3.7.2)(mjml@4.18.0)
+        specifier: ^10.0.1
+        version: 10.0.1(@adonisjs/assembler@8.1.0(typescript@5.9.3))(@adonisjs/core@7.0.1(@adonisjs/assembler@8.1.0(typescript@5.9.3))(@vinejs/vine@4.3.0)(edge.js@6.5.0)(pino-pretty@13.1.3)(youch@4.1.0))(@types/luxon@3.7.1)(@types/node@25.5.0)(dayjs@1.11.19)(edge.js@6.5.0)(luxon@3.7.2)(mjml@4.18.0)
       '@adonisjs/session':
         specifier: ^8.0.0
         version: 8.0.0(@adonisjs/assembler@8.1.0(typescript@5.9.3))(@adonisjs/core@7.0.1(@adonisjs/assembler@8.1.0(typescript@5.9.3))(@vinejs/vine@4.3.0)(edge.js@6.5.0)(pino-pretty@13.1.3)(youch@4.1.0))(@adonisjs/lucid@22.1.1(@adonisjs/assembler@8.1.0(typescript@5.9.3))(@adonisjs/core@7.0.1(@adonisjs/assembler@8.1.0(typescript@5.9.3))(@vinejs/vine@4.3.0)(edge.js@6.5.0)(pino-pretty@13.1.3)(youch@4.1.0))(@vinejs/vine@4.3.0)(luxon@3.7.2)(pg@8.20.0))(@japa/api-client@3.2.1(@japa/assert@4.2.0(@japa/runner@5.3.0))(@japa/runner@5.3.0))(@japa/plugin-adonisjs@5.1.0(@adonisjs/core@7.0.1(@adonisjs/assembler@8.1.0(typescript@5.9.3))(@vinejs/vine@4.3.0)(edge.js@6.5.0)(pino-pretty@13.1.3)(youch@4.1.0))(@japa/api-client@3.2.1(@japa/assert@4.2.0(@japa/runner@5.3.0))(@japa/runner@5.3.0))(@japa/runner@5.3.0))(edge.js@6.5.0)
@@ -290,8 +290,8 @@ packages:
       luxon:
         optional: true
 
-  '@adonisjs/mail@10.0.0':
-    resolution: {integrity: sha512-u8V7RI8YbLTBO6uITVzLsR/s2dwAXNvjBzmTT7tzGtZ2WPmQ8hPmDtEshkguWDuQpvMHKQEEHoAQ7KEUpZuQ0g==}
+  '@adonisjs/mail@10.0.1':
+    resolution: {integrity: sha512-H2MEoRllRd+Z2LuHl+M15GRuHLn0W5QpQSMN2PWNjokgTXrewQ/GzDfldaur2dhXKvRXWvb+ccMsqoFPId4JFg==}
     engines: {node: '>=24.0.0'}
     peerDependencies:
       '@adonisjs/assembler': ^8.0.0-next.14 || ^8.0.0
@@ -836,6 +836,9 @@ packages:
 
   '@poppinss/macroable@1.1.1':
     resolution: {integrity: sha512-WwdqJtEVtfKMkgPTVQBkiaqQcFbXFp4JSxmG7vYNa+gFbn9w3QtUAZpGN43czG7KsbAm2GJX/fCgBxozpTly1Q==}
+
+  '@poppinss/macroable@1.1.2':
+    resolution: {integrity: sha512-FAVBRzzWhYP5mA3lCwLH1A0fKBqq5anyjGet90Z81aRK5c/+LTGUE1zJhZrErjaenBSOOI9BVUs3WVmotneFQA==}
 
   '@poppinss/matchit@3.2.0':
     resolution: {integrity: sha512-9SoMICN+LMO7ZtMj2ja8N7RHlC4mmuv5WwIBXWjabMd2SyXE1dIydh29exlgm+dGMP84PjwvfJH1TmWL4qz1og==}
@@ -1692,8 +1695,8 @@ packages:
     resolution: {integrity: sha512-eKCa6bwnJhvxj14kZk5NCPc6Hb6BdsU9DZcOnmQKSnO1VKrfV0zCvtttPZUsBvjmNDn8rpcJfpwSYnHBjc95MQ==}
     engines: {node: '>=18.18.0'}
 
-  ical-generator@10.0.0:
-    resolution: {integrity: sha512-YUQ7H4eZdLfYvx3zE/qN4AoG0qqwMZG37vLdWzysXFDn/YQEfctZ9tQuPSBncARKgv79d2smWf5Sh67k6xiZfg==}
+  ical-generator@10.1.0:
+    resolution: {integrity: sha512-VgWzox2svupw4HoZo9Ym0pmj50Cr7CO+By/TraNUVTXQL5Qh0p13iGNzizhXd/KDuzOHUSSXwUWIMZmBHQU65Q==}
     engines: {node: 20 || 22 || >=24}
     peerDependencies:
       '@touch4it/ical-timezones': '>=1.6.0'
@@ -2127,8 +2130,8 @@ packages:
       encoding:
         optional: true
 
-  nodemailer@8.0.1:
-    resolution: {integrity: sha512-5kcldIXmaEjZcHR6F28IKGSgpmZHaF1IXLWFTG+Xh3S+Cce4MiakLtWY+PlBU69fLbRa8HlaGIrC/QolUpHkhg==}
+  nodemailer@8.0.3:
+    resolution: {integrity: sha512-JQNBqvK+bj3NMhUFR3wmCl3SYcOeMotDiwDBvIoCuQdF0PvlIY0BH+FJ2CG7u4cXKPChplE78oowlH/Otsc4ZQ==}
     engines: {node: '>=6.0.0'}
 
   nopt@7.2.1:
@@ -2979,16 +2982,16 @@ snapshots:
       - supports-color
       - tedious
 
-  '@adonisjs/mail@10.0.0(@adonisjs/assembler@8.1.0(typescript@5.9.3))(@adonisjs/core@7.0.1(@adonisjs/assembler@8.1.0(typescript@5.9.3))(@vinejs/vine@4.3.0)(edge.js@6.5.0)(pino-pretty@13.1.3)(youch@4.1.0))(@types/luxon@3.7.1)(@types/node@25.5.0)(dayjs@1.11.19)(edge.js@6.5.0)(luxon@3.7.2)(mjml@4.18.0)':
+  '@adonisjs/mail@10.0.1(@adonisjs/assembler@8.1.0(typescript@5.9.3))(@adonisjs/core@7.0.1(@adonisjs/assembler@8.1.0(typescript@5.9.3))(@vinejs/vine@4.3.0)(edge.js@6.5.0)(pino-pretty@13.1.3)(youch@4.1.0))(@types/luxon@3.7.1)(@types/node@25.5.0)(dayjs@1.11.19)(edge.js@6.5.0)(luxon@3.7.2)(mjml@4.18.0)':
     dependencies:
       '@adonisjs/core': 7.0.1(@adonisjs/assembler@8.1.0(typescript@5.9.3))(@vinejs/vine@4.3.0)(edge.js@6.5.0)(pino-pretty@13.1.3)(youch@4.1.0)
-      '@poppinss/macroable': 1.1.0
+      '@poppinss/macroable': 1.1.2
       '@poppinss/object-builder': 1.1.0
       '@types/nodemailer': 7.0.11
       fastq: 1.20.1
-      ical-generator: 10.0.0(@types/luxon@3.7.1)(@types/node@25.5.0)(dayjs@1.11.19)(luxon@3.7.2)
+      ical-generator: 10.1.0(@types/luxon@3.7.1)(@types/node@25.5.0)(dayjs@1.11.19)(luxon@3.7.2)
       ky: 1.14.3
-      nodemailer: 8.0.1
+      nodemailer: 8.0.3
     optionalDependencies:
       '@adonisjs/assembler': 8.1.0(typescript@5.9.3)
       edge.js: 6.5.0
@@ -3158,7 +3161,7 @@ snapshots:
   '@japa/core@10.4.0':
     dependencies:
       '@poppinss/hooks': 7.3.0
-      '@poppinss/macroable': 1.1.1
+      '@poppinss/macroable': 1.1.2
       '@poppinss/string': 1.7.1
       async-retry: 1.3.3
       emittery: 1.2.0
@@ -3398,6 +3401,8 @@ snapshots:
   '@poppinss/macroable@1.1.0': {}
 
   '@poppinss/macroable@1.1.1': {}
+
+  '@poppinss/macroable@1.1.2': {}
 
   '@poppinss/matchit@3.2.0':
     dependencies:
@@ -4224,7 +4229,7 @@ snapshots:
 
   human-signals@8.0.1: {}
 
-  ical-generator@10.0.0(@types/luxon@3.7.1)(@types/node@25.5.0)(dayjs@1.11.19)(luxon@3.7.2):
+  ical-generator@10.1.0(@types/luxon@3.7.1)(@types/node@25.5.0)(dayjs@1.11.19)(luxon@3.7.2):
     optionalDependencies:
       '@types/luxon': 3.7.1
       '@types/node': 25.5.0
@@ -4797,7 +4802,7 @@ snapshots:
     dependencies:
       whatwg-url: 5.0.0
 
-  nodemailer@8.0.1: {}
+  nodemailer@8.0.3: {}
 
   nopt@7.2.1:
     dependencies:
