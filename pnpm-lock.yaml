@@ -1925,8 +1925,8 @@ packages:
     resolution: {integrity: sha512-9zy9lkjac+TR1c2tG+mkNSVlyOpInnWdSMiue4F+kq8TwJSgv6o8jhLRg8Ho6SnZ9wOYUq/yozts9qQCfk7bIw==}
     engines: {node: '>=18'}
 
-  lodash@4.17.23:
-    resolution: {integrity: sha512-LgVTMpQtIopCi79SJeDiP0TfWi5CNEc/L/aRdTh3yIvmZXTnheWpKjSZhnvMl8iXbC1tFg9gdHHDMLoV7CnG+w==}
+  lodash@4.18.1:
+    resolution: {integrity: sha512-dMInicTPVE8d1e5otfwmmjlxkZoUpiVLwyeTdUsi/Caj/gfzzblBcCE5sRHV/AsjuCmxWrte2TNGSYuCeCq+0Q==}
 
   log-update@7.2.0:
     resolution: {integrity: sha512-iLs7dGSyjZiUgvrUvuD3FndAxVJk+TywBkkkwUSm9HdYoskJalWg5qVsEiXeufPvRVPbCUmNQewg798rx+sPXg==}
@@ -4421,7 +4421,7 @@ snapshots:
       get-package-type: 0.1.0
       getopts: 2.3.0
       interpret: 2.2.0
-      lodash: 4.17.23
+      lodash: 4.18.1
       pg-connection-string: 2.6.2
       rechoir: 0.8.0
       resolve-from: 5.0.0
@@ -4434,7 +4434,7 @@ snapshots:
 
   ky@1.14.3: {}
 
-  lodash@4.17.23: {}
+  lodash@4.18.1: {}
 
   log-update@7.2.0:
     dependencies:
@@ -4505,7 +4505,7 @@ snapshots:
   mjml-accordion@4.18.0:
     dependencies:
       '@babel/runtime': 7.28.6
-      lodash: 4.17.23
+      lodash: 4.18.1
       mjml-core: 4.18.0
     transitivePeerDependencies:
       - encoding
@@ -4513,7 +4513,7 @@ snapshots:
   mjml-body@4.18.0:
     dependencies:
       '@babel/runtime': 7.28.6
-      lodash: 4.17.23
+      lodash: 4.18.1
       mjml-core: 4.18.0
     transitivePeerDependencies:
       - encoding
@@ -4521,7 +4521,7 @@ snapshots:
   mjml-button@4.18.0:
     dependencies:
       '@babel/runtime': 7.28.6
-      lodash: 4.17.23
+      lodash: 4.18.1
       mjml-core: 4.18.0
     transitivePeerDependencies:
       - encoding
@@ -4529,7 +4529,7 @@ snapshots:
   mjml-carousel@4.18.0:
     dependencies:
       '@babel/runtime': 7.28.6
-      lodash: 4.17.23
+      lodash: 4.18.1
       mjml-core: 4.18.0
     transitivePeerDependencies:
       - encoding
@@ -4541,7 +4541,7 @@ snapshots:
       glob: 10.5.0
       html-minifier: 4.0.0
       js-beautify: 1.15.4
-      lodash: 4.17.23
+      lodash: 4.18.1
       minimatch: 9.0.7
       mjml-core: 4.18.0
       mjml-migrate: 4.18.0
@@ -4554,7 +4554,7 @@ snapshots:
   mjml-column@4.18.0:
     dependencies:
       '@babel/runtime': 7.28.6
-      lodash: 4.17.23
+      lodash: 4.18.1
       mjml-core: 4.18.0
     transitivePeerDependencies:
       - encoding
@@ -4567,7 +4567,7 @@ snapshots:
       html-minifier: 4.0.0
       js-beautify: 1.15.4
       juice: 10.0.1
-      lodash: 4.17.23
+      lodash: 4.18.1
       mjml-migrate: 4.18.0
       mjml-parser-xml: 4.18.0
       mjml-validator: 4.18.0
@@ -4577,7 +4577,7 @@ snapshots:
   mjml-divider@4.18.0:
     dependencies:
       '@babel/runtime': 7.28.6
-      lodash: 4.17.23
+      lodash: 4.18.1
       mjml-core: 4.18.0
     transitivePeerDependencies:
       - encoding
@@ -4585,7 +4585,7 @@ snapshots:
   mjml-group@4.18.0:
     dependencies:
       '@babel/runtime': 7.28.6
-      lodash: 4.17.23
+      lodash: 4.18.1
       mjml-core: 4.18.0
     transitivePeerDependencies:
       - encoding
@@ -4593,7 +4593,7 @@ snapshots:
   mjml-head-attributes@4.18.0:
     dependencies:
       '@babel/runtime': 7.28.6
-      lodash: 4.17.23
+      lodash: 4.18.1
       mjml-core: 4.18.0
     transitivePeerDependencies:
       - encoding
@@ -4601,7 +4601,7 @@ snapshots:
   mjml-head-breakpoint@4.18.0:
     dependencies:
       '@babel/runtime': 7.28.6
-      lodash: 4.17.23
+      lodash: 4.18.1
       mjml-core: 4.18.0
     transitivePeerDependencies:
       - encoding
@@ -4609,7 +4609,7 @@ snapshots:
   mjml-head-font@4.18.0:
     dependencies:
       '@babel/runtime': 7.28.6
-      lodash: 4.17.23
+      lodash: 4.18.1
       mjml-core: 4.18.0
     transitivePeerDependencies:
       - encoding
@@ -4617,7 +4617,7 @@ snapshots:
   mjml-head-html-attributes@4.18.0:
     dependencies:
       '@babel/runtime': 7.28.6
-      lodash: 4.17.23
+      lodash: 4.18.1
       mjml-core: 4.18.0
     transitivePeerDependencies:
       - encoding
@@ -4625,7 +4625,7 @@ snapshots:
   mjml-head-preview@4.18.0:
     dependencies:
       '@babel/runtime': 7.28.6
-      lodash: 4.17.23
+      lodash: 4.18.1
       mjml-core: 4.18.0
     transitivePeerDependencies:
       - encoding
@@ -4633,7 +4633,7 @@ snapshots:
   mjml-head-style@4.18.0:
     dependencies:
       '@babel/runtime': 7.28.6
-      lodash: 4.17.23
+      lodash: 4.18.1
       mjml-core: 4.18.0
     transitivePeerDependencies:
       - encoding
@@ -4641,7 +4641,7 @@ snapshots:
   mjml-head-title@4.18.0:
     dependencies:
       '@babel/runtime': 7.28.6
-      lodash: 4.17.23
+      lodash: 4.18.1
       mjml-core: 4.18.0
     transitivePeerDependencies:
       - encoding
@@ -4649,7 +4649,7 @@ snapshots:
   mjml-head@4.18.0:
     dependencies:
       '@babel/runtime': 7.28.6
-      lodash: 4.17.23
+      lodash: 4.18.1
       mjml-core: 4.18.0
     transitivePeerDependencies:
       - encoding
@@ -4657,7 +4657,7 @@ snapshots:
   mjml-hero@4.18.0:
     dependencies:
       '@babel/runtime': 7.28.6
-      lodash: 4.17.23
+      lodash: 4.18.1
       mjml-core: 4.18.0
     transitivePeerDependencies:
       - encoding
@@ -4665,7 +4665,7 @@ snapshots:
   mjml-image@4.18.0:
     dependencies:
       '@babel/runtime': 7.28.6
-      lodash: 4.17.23
+      lodash: 4.18.1
       mjml-core: 4.18.0
     transitivePeerDependencies:
       - encoding
@@ -4674,7 +4674,7 @@ snapshots:
     dependencies:
       '@babel/runtime': 7.28.6
       js-beautify: 1.15.4
-      lodash: 4.17.23
+      lodash: 4.18.1
       mjml-core: 4.18.0
       mjml-parser-xml: 4.18.0
       yargs: 17.7.2
@@ -4684,7 +4684,7 @@ snapshots:
   mjml-navbar@4.18.0:
     dependencies:
       '@babel/runtime': 7.28.6
-      lodash: 4.17.23
+      lodash: 4.18.1
       mjml-core: 4.18.0
     transitivePeerDependencies:
       - encoding
@@ -4694,7 +4694,7 @@ snapshots:
       '@babel/runtime': 7.28.6
       detect-node: 2.1.0
       htmlparser2: 9.1.0
-      lodash: 4.17.23
+      lodash: 4.18.1
 
   mjml-preset-core@4.18.0:
     dependencies:
@@ -4730,7 +4730,7 @@ snapshots:
   mjml-raw@4.18.0:
     dependencies:
       '@babel/runtime': 7.28.6
-      lodash: 4.17.23
+      lodash: 4.18.1
       mjml-core: 4.18.0
     transitivePeerDependencies:
       - encoding
@@ -4738,7 +4738,7 @@ snapshots:
   mjml-section@4.18.0:
     dependencies:
       '@babel/runtime': 7.28.6
-      lodash: 4.17.23
+      lodash: 4.18.1
       mjml-core: 4.18.0
     transitivePeerDependencies:
       - encoding
@@ -4746,7 +4746,7 @@ snapshots:
   mjml-social@4.18.0:
     dependencies:
       '@babel/runtime': 7.28.6
-      lodash: 4.17.23
+      lodash: 4.18.1
       mjml-core: 4.18.0
     transitivePeerDependencies:
       - encoding
@@ -4754,7 +4754,7 @@ snapshots:
   mjml-spacer@4.18.0:
     dependencies:
       '@babel/runtime': 7.28.6
-      lodash: 4.17.23
+      lodash: 4.18.1
       mjml-core: 4.18.0
     transitivePeerDependencies:
       - encoding
@@ -4762,7 +4762,7 @@ snapshots:
   mjml-table@4.18.0:
     dependencies:
       '@babel/runtime': 7.28.6
-      lodash: 4.17.23
+      lodash: 4.18.1
       mjml-core: 4.18.0
     transitivePeerDependencies:
       - encoding
@@ -4770,7 +4770,7 @@ snapshots:
   mjml-text@4.18.0:
     dependencies:
       '@babel/runtime': 7.28.6
-      lodash: 4.17.23
+      lodash: 4.18.1
       mjml-core: 4.18.0
     transitivePeerDependencies:
       - encoding
@@ -4782,7 +4782,7 @@ snapshots:
   mjml-wrapper@4.18.0:
     dependencies:
       '@babel/runtime': 7.28.6
-      lodash: 4.17.23
+      lodash: 4.18.1
       mjml-core: 4.18.0
       mjml-section: 4.18.0
     transitivePeerDependencies:
