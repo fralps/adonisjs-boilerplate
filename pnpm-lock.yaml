@@ -10,25 +10,25 @@ importers:
     dependencies:
       '@adonisjs/auth':
         specifier: ^10.1.0
-        version: 10.1.0(ade97ca6c60c885540216b6aa46cae4e)
+        version: 10.1.0(51a628aeb85b8573a348715a365a3b84)
       '@adonisjs/core':
-        specifier: ^7.3.2
-        version: 7.3.2(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@vinejs/vine@4.4.0)(edge.js@6.5.1)(pino-pretty@13.1.3)(youch@4.1.1)
+        specifier: ^7.3.3
+        version: 7.3.3(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@vinejs/vine@4.4.0)(edge.js@6.5.1)(pino-pretty@13.1.3)(youch@4.1.1)
       '@adonisjs/cors':
         specifier: ^3.0.0
-        version: 3.0.0(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@adonisjs/core@7.3.2(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@vinejs/vine@4.4.0)(edge.js@6.5.1)(pino-pretty@13.1.3)(youch@4.1.1))
+        version: 3.0.0(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@adonisjs/core@7.3.3(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@vinejs/vine@4.4.0)(edge.js@6.5.1)(pino-pretty@13.1.3)(youch@4.1.1))
       '@adonisjs/i18n':
         specifier: ^3.0.0
-        version: 3.0.0(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@adonisjs/core@7.3.2(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@vinejs/vine@4.4.0)(edge.js@6.5.1)(pino-pretty@13.1.3)(youch@4.1.1))(@vinejs/vine@4.4.0)(edge.js@6.5.1)
+        version: 3.0.0(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@adonisjs/core@7.3.3(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@vinejs/vine@4.4.0)(edge.js@6.5.1)(pino-pretty@13.1.3)(youch@4.1.1))(@vinejs/vine@4.4.0)(edge.js@6.5.1)
       '@adonisjs/lucid':
         specifier: ^22.4.2
-        version: 22.4.2(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@adonisjs/core@7.3.2(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@vinejs/vine@4.4.0)(edge.js@6.5.1)(pino-pretty@13.1.3)(youch@4.1.1))(@vinejs/vine@4.4.0)(luxon@3.7.2)(pg@8.21.0)
+        version: 22.4.2(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@adonisjs/core@7.3.3(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@vinejs/vine@4.4.0)(edge.js@6.5.1)(pino-pretty@13.1.3)(youch@4.1.1))(@vinejs/vine@4.4.0)(luxon@3.7.2)(pg@8.21.0)
       '@adonisjs/mail':
         specifier: ^10.2.1
-        version: 10.2.1(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@adonisjs/core@7.3.2(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@vinejs/vine@4.4.0)(edge.js@6.5.1)(pino-pretty@13.1.3)(youch@4.1.1))(@types/luxon@3.7.1)(@types/node@25.9.1)(dayjs@1.11.20)(edge.js@6.5.1)(luxon@3.7.2)(mjml@4.18.0)
+        version: 10.2.1(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@adonisjs/core@7.3.3(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@vinejs/vine@4.4.0)(edge.js@6.5.1)(pino-pretty@13.1.3)(youch@4.1.1))(@types/luxon@3.7.1)(@types/node@25.9.1)(dayjs@1.11.20)(edge.js@6.5.1)(luxon@3.7.2)(mjml@4.18.0)
       '@adonisjs/session':
         specifier: ^8.1.0
-        version: 8.1.0(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@adonisjs/core@7.3.2(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@vinejs/vine@4.4.0)(edge.js@6.5.1)(pino-pretty@13.1.3)(youch@4.1.1))(@adonisjs/lucid@22.4.2(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@adonisjs/core@7.3.2(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@vinejs/vine@4.4.0)(edge.js@6.5.1)(pino-pretty@13.1.3)(youch@4.1.1))(@vinejs/vine@4.4.0)(luxon@3.7.2)(pg@8.21.0))(@japa/api-client@3.2.1(@japa/assert@4.2.0(@japa/runner@5.3.0))(@japa/runner@5.3.0))(@japa/plugin-adonisjs@5.2.0(@adonisjs/core@7.3.2(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@vinejs/vine@4.4.0)(edge.js@6.5.1)(pino-pretty@13.1.3)(youch@4.1.1))(@japa/api-client@3.2.1(@japa/assert@4.2.0(@japa/runner@5.3.0))(@japa/runner@5.3.0))(@japa/runner@5.3.0))(edge.js@6.5.1)
+        version: 8.1.0(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@adonisjs/core@7.3.3(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@vinejs/vine@4.4.0)(edge.js@6.5.1)(pino-pretty@13.1.3)(youch@4.1.1))(@adonisjs/lucid@22.4.2(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@adonisjs/core@7.3.3(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@vinejs/vine@4.4.0)(edge.js@6.5.1)(pino-pretty@13.1.3)(youch@4.1.1))(@vinejs/vine@4.4.0)(luxon@3.7.2)(pg@8.21.0))(@japa/api-client@3.2.1(@japa/assert@4.2.0(@japa/runner@5.3.0))(@japa/runner@5.3.0))(@japa/plugin-adonisjs@5.2.0(@adonisjs/core@7.3.3(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@vinejs/vine@4.4.0)(edge.js@6.5.1)(pino-pretty@13.1.3)(youch@4.1.1))(@japa/api-client@3.2.1(@japa/assert@4.2.0(@japa/runner@5.3.0))(@japa/runner@5.3.0))(@japa/runner@5.3.0))(edge.js@6.5.1)
       '@vinejs/vine':
         specifier: ^4.4.0
         version: 4.4.0
@@ -65,7 +65,7 @@ importers:
         version: 3.0.7(@japa/runner@5.3.0)
       '@japa/plugin-adonisjs':
         specifier: ^5.2.0
-        version: 5.2.0(@adonisjs/core@7.3.2(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@vinejs/vine@4.4.0)(edge.js@6.5.1)(pino-pretty@13.1.3)(youch@4.1.1))(@japa/api-client@3.2.1(@japa/assert@4.2.0(@japa/runner@5.3.0))(@japa/runner@5.3.0))(@japa/runner@5.3.0)
+        version: 5.2.0(@adonisjs/core@7.3.3(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@vinejs/vine@4.4.0)(edge.js@6.5.1)(pino-pretty@13.1.3)(youch@4.1.1))(@japa/api-client@3.2.1(@japa/assert@4.2.0(@japa/runner@5.3.0))(@japa/runner@5.3.0))(@japa/runner@5.3.0)
       '@japa/runner':
         specifier: ^5.3.0
         version: 5.3.0
@@ -102,8 +102,8 @@ packages:
     peerDependencies:
       youch: ^4.1.0-beta.11 || ^4.1.0
 
-  '@adonisjs/application@9.0.0':
-    resolution: {integrity: sha512-iQpq/JRJsnrqOMHfu72CYjmlkH5FwT28DhUKEOjktccmFh8OLdVZ2Sieb8b2/qNv4c+w8Yo7keOGEzOYUrU+kA==}
+  '@adonisjs/application@9.0.1':
+    resolution: {integrity: sha512-bSUC8vcECEr9qvvHeMAhjvH73ngAm5c6kOnEJYNCczP6rgG7AdH03MGtrY2ewKYDyS/QepNpDKj4oVE2XtxVtw==}
     engines: {node: '>=24.0.0'}
     peerDependencies:
       '@adonisjs/assembler': ^8.0.0-next.23 || ^8.0.0
@@ -147,18 +147,18 @@ packages:
       '@japa/plugin-adonisjs':
         optional: true
 
-  '@adonisjs/bodyparser@11.0.1':
-    resolution: {integrity: sha512-RUpkRRSvCSMLmVJcYUyaAwC9Z1tWlThBvVGiIU5bkWwwe5CcbG2f9sifzod04B+hcgJ4xWSs+FF/WNdbwWFwhQ==}
+  '@adonisjs/bodyparser@11.0.4':
+    resolution: {integrity: sha512-amqMPVFbzxkOoCMbkFs5sC+rTu7cER2rSv+1v8dsGKszolk5lnGuyNjkha1Lqksvw1qykIIbC1fXr37B9WJTdg==}
     engines: {node: '>=24.0.0'}
     peerDependencies:
-      '@adonisjs/http-server': ^8.0.0-next.17 || ^8.0.0
+      '@adonisjs/http-server': ^8.0.0-next.17 || ^8.0.0 || ^9.0.0
 
   '@adonisjs/config@6.1.0':
     resolution: {integrity: sha512-YVDRL8xHCtM6iMnAefOBaz6iXVpojwBPDQWPKxnVSucycYeNGrGitJiLy+cGaeAU7Gjm8al9SJRJt3rRPr5PKg==}
     engines: {node: '>=24.0.0'}
 
-  '@adonisjs/core@7.3.2':
-    resolution: {integrity: sha512-rwF9Cdw2CCFODeWUfCb4wjeuQOZIy7Bma1NYA769kVCXyMYoA/QIp86V8PmpwBabdoK4M+JitXgWwAzB9eInGg==}
+  '@adonisjs/core@7.3.3':
+    resolution: {integrity: sha512-FSrfhuj8rQM96/L3aiVIH2Um9CSHjfJukopaQAyllGGUs/ct1bQZb3pursMRunYXnpEJzbX+YC/oCP4QcMEXog==}
     engines: {node: '>=24.0.0'}
     hasBin: true
     peerDependencies:
@@ -226,8 +226,8 @@ packages:
     resolution: {integrity: sha512-m3doBnSwi/l9v1DO79xmjAoSPl9b2XCp+crGwF8QUlhe5CgWgtfnL0SeFNEiZGliD3c4gYdihKz4Pnydctva8A==}
     engines: {node: '>=24.0.0'}
 
-  '@adonisjs/http-server@8.2.0':
-    resolution: {integrity: sha512-rqrvPd5RclMB4ubLN85Mj2zl/zFmDl2M1MIjCEbjh0R9iyaVNEvMX0R6FEPmZxxnz4EKAmN3zffHlB0p8j5e1w==}
+  '@adonisjs/http-server@9.0.2':
+    resolution: {integrity: sha512-x+kfbX8wzy/p2TgbhhnQ5E93/eIioIII0cgOH9l0nqlYRktJkFR0PvH+RmvvX05OVhkt+TZ0jz2t+2EgreDkaw==}
     engines: {node: '>=24.0.0'}
     peerDependencies:
       '@adonisjs/application': ^9.0.0-next.14 || ^9.0.0
@@ -894,8 +894,8 @@ packages:
     resolution: {integrity: sha512-P1Cz1dWaFfR4IR+U13mqqiGsLFf1KbayybWwdd2vfctdV6hDpUkgCY0nKOLLTMSoRd/jJNjtbqzf13K8DCCXQw==}
     engines: {node: '>=18'}
 
-  '@sindresorhus/is@8.0.0':
-    resolution: {integrity: sha512-YvOsokBE5NsyHuXMnwEVB7lgFk6lX8F4OXCruYVgFII0hUHof0RGUvhMoabVt9hRqbg+qVzayzEG24RCcxcYeA==}
+  '@sindresorhus/is@8.1.0':
+    resolution: {integrity: sha512-2SX/1jW6CIMAiebvVv5ZInoCEuWQmMyBoJXXGC6Vjakjp/fpxP5eHs7/V6WKuPEIbuK06+VpjH+vjLQhr98rDQ==}
     engines: {node: '>=22'}
 
   '@sindresorhus/merge-streams@4.0.0':
@@ -1290,9 +1290,9 @@ packages:
     resolution: {integrity: sha512-5jRCH9Z/+DRP7rkvY83B+yGIGX96OYdJmzngqnw2SBSxqCFPd0w2km3s5iawpGX8krnwSGmF0FW5Nhr0Hfai3g==}
     engines: {node: '>=18'}
 
-  content-type@1.0.5:
-    resolution: {integrity: sha512-nTjqfcBFEipKdXCv4YDQWCfmcLZKm81ldF0pAopTvyrFGVbcR6P/VAAd5G7N+0tTr8QqiU0tFadD6FK4NtJwOA==}
-    engines: {node: '>= 0.6'}
+  content-type@2.0.0:
+    resolution: {integrity: sha512-j/O/d7GcZCyNl7/hwZAb606rzqkyvaDctLmckbxLzHvFBzTJHuGEdodATcP3yIRoDrLHkIATJuvzbFlp/ki2cQ==}
+    engines: {node: '>=18'}
 
   cookie-es@2.0.1:
     resolution: {integrity: sha512-aVf4A4hI2w70LnF7GG+7xDQUkliwiXWXFvTjkip4+b64ygDQ2sJPRSKFDHbxn8o0xu9QzPkMuuiWIXyFSE2slA==}
@@ -1571,9 +1571,9 @@ packages:
     resolution: {integrity: sha512-d+l3qxjSesT4V7v2fh+QnmFnUWv9lSpjarhShNTgBOfA0ttejbQUAlHLitbjkoRiDulW0OPoQPYIGhIC8ohejg==}
     engines: {node: '>=18'}
 
-  file-type@21.3.4:
-    resolution: {integrity: sha512-Ievi/yy8DS3ygGvT47PjSfdFoX+2isQueoYP1cntFW1JLYAuS4GD7NUPGg4zv2iZfV52uDyk5w5Z0TdpRS6Q1g==}
-    engines: {node: '>=20'}
+  file-type@22.0.1:
+    resolution: {integrity: sha512-ww5Mhre0EE+jmBvOXTmXAbEMuZE7uX4a3+oRCQFNj8w++g3ev913N6tXQz0XTXbueQ5TWQfm6BdaViEHHn8bhA==}
+    engines: {node: '>=22'}
 
   fill-range@7.1.1:
     resolution: {integrity: sha512-YsGpe3WHLK8ZYi4tWDg2Jy3ebRz2rXowDxnld4bkQB00cc/1Zw9AWnC0i9ztDJitivtQvaI9KaLyKrc+hBW0yg==}
@@ -1623,8 +1623,8 @@ packages:
     resolution: {integrity: sha512-DyFP3BM/3YHTQOCUL/w0OZHR0lpKeGrxotcHWcqNEdnltqFwXVfhEBQ94eIo34AfQpo0rGki4cyIiftY06h2Fg==}
     engines: {node: 6.* || 8.* || >= 10.*}
 
-  get-east-asian-width@1.5.0:
-    resolution: {integrity: sha512-CQ+bEO+Tva/qlmw24dCejulK5pMzVnUOFOijVogd3KQs07HnRIgp8TGipvCCRT06xeYEbpbgwaCxglFyiuIcmA==}
+  get-east-asian-width@1.6.0:
+    resolution: {integrity: sha512-QRbvDIbx6YklUe6RxeTeleMR0yv3cYH6PsPZHcnVn7xv7zO1BHN8r0XETu8n6Ye3Q+ahtSarc3WgtNWmehIBfA==}
     engines: {node: '>=18'}
 
   get-intrinsic@1.3.0:
@@ -2441,6 +2441,9 @@ packages:
     resolution: {integrity: sha512-57frrGM/OCTLqLOAh0mhVA9VBMHd+9U7Zb2THMGdBUoZVOtGbJzjxsYGDJ3A9AYYCP4hn6y1TVbaOfzWtm5GFg==}
     engines: {node: '>= 12.13.0'}
 
+  real-require@1.0.0:
+    resolution: {integrity: sha512-P4nbQYQfePJxRSmY+v/KINxVucm4NF3p3s7pJveMTtom52FR4YGltUQLB8idDXwDDWW+eYrWDFbuzUnjoWHF7g==}
+
   rechoir@0.8.0:
     resolution: {integrity: sha512-/vxpCXddiX8NGfGO/mTafwjq4aFa/71pvamip0++IQk3zG8cbCj0fifNPrjjF1XMXUne91jL9OoxmdykoEtifQ==}
     engines: {node: '>= 10.13.0'}
@@ -2648,8 +2651,8 @@ packages:
     resolution: {integrity: sha512-avMLDQpUI9I5XFrklECw1ZEUPJhqzcwSWsyyI8blhRLT+8N1jLJWLWWYQpB2q2xthq8xDvjZPISVh53T/+CLYQ==}
     engines: {node: '>=18'}
 
-  thread-stream@4.0.0:
-    resolution: {integrity: sha512-4iMVL6HAINXWf1ZKZjIPcz5wYaOdPhtO8ATvZ+Xqp3BTdaqtAwQkNmKORqcIo5YkQqGXq5cwfswDwMqqQNrpJA==}
+  thread-stream@4.2.0:
+    resolution: {integrity: sha512-e2zZ96wSChazBsbENf/Pcm/4swHt2cEKQ92rhUjkL9GCKiTDJIaTBenjE/m9DXi0QBmTMDkFDdOomUy20A1tDQ==}
     engines: {node: '>=20'}
 
   tildify@2.0.0:
@@ -2693,9 +2696,9 @@ packages:
   ts-morph@27.0.2:
     resolution: {integrity: sha512-fhUhgeljcrdZ+9DZND1De1029PrE+cMkIP7ooqkLRTrRLTqcki2AstsyJm0vRNbTbVCNJ0idGlbBrfqc7/nA8w==}
 
-  type-is@2.0.1:
-    resolution: {integrity: sha512-OZs6gsjF4vMp32qrCbiVSkrFmXtG/AZhY3t0iAMrMBiAZyV9oALtXO8hsrHbMXF9x6L3grlFuwW2oAz7cav+Gw==}
-    engines: {node: '>= 0.6'}
+  type-is@2.1.0:
+    resolution: {integrity: sha512-faYHw0anBbc/kWF3zFTEnxSFOAGUX9GFbOBthvDdLsIlEoWOFOtS0zgCiQYwIskL9iGXZL3kAXD8OoZ4GmMATA==}
+    engines: {node: '>= 18'}
 
   typescript@6.0.3:
     resolution: {integrity: sha512-y2TvuxSZPDyQakkFRPZHKFm+KKVqIisdg9/CZwm9ftvKXLP8NRWj38/ODjNbr43SsoXqNuAisEf1GdCxqWcdBw==}
@@ -2816,7 +2819,7 @@ snapshots:
       yargs-parser: 22.0.0
       youch: 4.1.1
 
-  '@adonisjs/application@9.0.0(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@adonisjs/config@6.1.0)(@adonisjs/fold@11.0.0)':
+  '@adonisjs/application@9.0.1(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@adonisjs/config@6.1.0)(@adonisjs/fold@11.0.0)':
     dependencies:
       '@adonisjs/config': 6.1.0
       '@adonisjs/fold': 11.0.0
@@ -2855,28 +2858,28 @@ snapshots:
     transitivePeerDependencies:
       - babel-plugin-macros
 
-  '@adonisjs/auth@10.1.0(ade97ca6c60c885540216b6aa46cae4e)':
+  '@adonisjs/auth@10.1.0(51a628aeb85b8573a348715a365a3b84)':
     dependencies:
-      '@adonisjs/core': 7.3.2(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@vinejs/vine@4.4.0)(edge.js@6.5.1)(pino-pretty@13.1.3)(youch@4.1.1)
-      '@adonisjs/presets': 3.0.0(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@adonisjs/core@7.3.2(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@vinejs/vine@4.4.0)(edge.js@6.5.1)(pino-pretty@13.1.3)(youch@4.1.1))
+      '@adonisjs/core': 7.3.3(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@vinejs/vine@4.4.0)(edge.js@6.5.1)(pino-pretty@13.1.3)(youch@4.1.1)
+      '@adonisjs/presets': 3.0.0(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@adonisjs/core@7.3.3(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@vinejs/vine@4.4.0)(edge.js@6.5.1)(pino-pretty@13.1.3)(youch@4.1.1))
       basic-auth: 2.0.1
     optionalDependencies:
       '@adonisjs/assembler': 8.4.0(typescript@6.0.3)
-      '@adonisjs/i18n': 3.0.0(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@adonisjs/core@7.3.2(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@vinejs/vine@4.4.0)(edge.js@6.5.1)(pino-pretty@13.1.3)(youch@4.1.1))(@vinejs/vine@4.4.0)(edge.js@6.5.1)
-      '@adonisjs/lucid': 22.4.2(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@adonisjs/core@7.3.2(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@vinejs/vine@4.4.0)(edge.js@6.5.1)(pino-pretty@13.1.3)(youch@4.1.1))(@vinejs/vine@4.4.0)(luxon@3.7.2)(pg@8.21.0)
-      '@adonisjs/session': 8.1.0(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@adonisjs/core@7.3.2(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@vinejs/vine@4.4.0)(edge.js@6.5.1)(pino-pretty@13.1.3)(youch@4.1.1))(@adonisjs/lucid@22.4.2(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@adonisjs/core@7.3.2(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@vinejs/vine@4.4.0)(edge.js@6.5.1)(pino-pretty@13.1.3)(youch@4.1.1))(@vinejs/vine@4.4.0)(luxon@3.7.2)(pg@8.21.0))(@japa/api-client@3.2.1(@japa/assert@4.2.0(@japa/runner@5.3.0))(@japa/runner@5.3.0))(@japa/plugin-adonisjs@5.2.0(@adonisjs/core@7.3.2(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@vinejs/vine@4.4.0)(edge.js@6.5.1)(pino-pretty@13.1.3)(youch@4.1.1))(@japa/api-client@3.2.1(@japa/assert@4.2.0(@japa/runner@5.3.0))(@japa/runner@5.3.0))(@japa/runner@5.3.0))(edge.js@6.5.1)
+      '@adonisjs/i18n': 3.0.0(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@adonisjs/core@7.3.3(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@vinejs/vine@4.4.0)(edge.js@6.5.1)(pino-pretty@13.1.3)(youch@4.1.1))(@vinejs/vine@4.4.0)(edge.js@6.5.1)
+      '@adonisjs/lucid': 22.4.2(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@adonisjs/core@7.3.3(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@vinejs/vine@4.4.0)(edge.js@6.5.1)(pino-pretty@13.1.3)(youch@4.1.1))(@vinejs/vine@4.4.0)(luxon@3.7.2)(pg@8.21.0)
+      '@adonisjs/session': 8.1.0(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@adonisjs/core@7.3.3(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@vinejs/vine@4.4.0)(edge.js@6.5.1)(pino-pretty@13.1.3)(youch@4.1.1))(@adonisjs/lucid@22.4.2(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@adonisjs/core@7.3.3(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@vinejs/vine@4.4.0)(edge.js@6.5.1)(pino-pretty@13.1.3)(youch@4.1.1))(@vinejs/vine@4.4.0)(luxon@3.7.2)(pg@8.21.0))(@japa/api-client@3.2.1(@japa/assert@4.2.0(@japa/runner@5.3.0))(@japa/runner@5.3.0))(@japa/plugin-adonisjs@5.2.0(@adonisjs/core@7.3.3(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@vinejs/vine@4.4.0)(edge.js@6.5.1)(pino-pretty@13.1.3)(youch@4.1.1))(@japa/api-client@3.2.1(@japa/assert@4.2.0(@japa/runner@5.3.0))(@japa/runner@5.3.0))(@japa/runner@5.3.0))(edge.js@6.5.1)
       '@japa/api-client': 3.2.1(@japa/assert@4.2.0(@japa/runner@5.3.0))(@japa/runner@5.3.0)
-      '@japa/plugin-adonisjs': 5.2.0(@adonisjs/core@7.3.2(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@vinejs/vine@4.4.0)(edge.js@6.5.1)(pino-pretty@13.1.3)(youch@4.1.1))(@japa/api-client@3.2.1(@japa/assert@4.2.0(@japa/runner@5.3.0))(@japa/runner@5.3.0))(@japa/runner@5.3.0)
+      '@japa/plugin-adonisjs': 5.2.0(@adonisjs/core@7.3.3(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@vinejs/vine@4.4.0)(edge.js@6.5.1)(pino-pretty@13.1.3)(youch@4.1.1))(@japa/api-client@3.2.1(@japa/assert@4.2.0(@japa/runner@5.3.0))(@japa/runner@5.3.0))(@japa/runner@5.3.0)
 
-  '@adonisjs/bodyparser@11.0.1(@adonisjs/http-server@8.2.0(@adonisjs/application@9.0.0(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@adonisjs/config@6.1.0)(@adonisjs/fold@11.0.0))(@adonisjs/events@10.2.0(@adonisjs/application@9.0.0(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@adonisjs/config@6.1.0)(@adonisjs/fold@11.0.0))(@adonisjs/fold@11.0.0))(@adonisjs/fold@11.0.0)(@adonisjs/logger@7.1.1(pino-pretty@13.1.3))(@boringnode/encryption@1.0.0)(youch@4.1.1))':
+  '@adonisjs/bodyparser@11.0.4(@adonisjs/http-server@9.0.2(@adonisjs/application@9.0.1(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@adonisjs/config@6.1.0)(@adonisjs/fold@11.0.0))(@adonisjs/events@10.2.0(@adonisjs/application@9.0.1(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@adonisjs/config@6.1.0)(@adonisjs/fold@11.0.0))(@adonisjs/fold@11.0.0))(@adonisjs/fold@11.0.0)(@adonisjs/logger@7.1.1(pino-pretty@13.1.3))(@boringnode/encryption@1.0.0)(youch@4.1.1))':
     dependencies:
-      '@adonisjs/http-server': 8.2.0(@adonisjs/application@9.0.0(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@adonisjs/config@6.1.0)(@adonisjs/fold@11.0.0))(@adonisjs/events@10.2.0(@adonisjs/application@9.0.0(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@adonisjs/config@6.1.0)(@adonisjs/fold@11.0.0))(@adonisjs/fold@11.0.0))(@adonisjs/fold@11.0.0)(@adonisjs/logger@7.1.1(pino-pretty@13.1.3))(@boringnode/encryption@1.0.0)(youch@4.1.1)
+      '@adonisjs/http-server': 9.0.2(@adonisjs/application@9.0.1(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@adonisjs/config@6.1.0)(@adonisjs/fold@11.0.0))(@adonisjs/events@10.2.0(@adonisjs/application@9.0.1(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@adonisjs/config@6.1.0)(@adonisjs/fold@11.0.0))(@adonisjs/fold@11.0.0))(@adonisjs/fold@11.0.0)(@adonisjs/logger@7.1.1(pino-pretty@13.1.3))(@boringnode/encryption@1.0.0)(youch@4.1.1)
       '@poppinss/macroable': 1.1.2
       '@poppinss/middleware': 3.2.7
       '@poppinss/multiparty': 3.0.0
       '@poppinss/qs': 6.15.0
       '@poppinss/utils': 7.0.1
-      file-type: 21.3.4
+      file-type: 22.0.1
       inflation: 2.1.0
       media-typer: 1.1.0
       raw-body: 3.0.2
@@ -2887,18 +2890,18 @@ snapshots:
     dependencies:
       '@poppinss/utils': 7.0.1
 
-  '@adonisjs/core@7.3.2(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@vinejs/vine@4.4.0)(edge.js@6.5.1)(pino-pretty@13.1.3)(youch@4.1.1)':
+  '@adonisjs/core@7.3.3(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@vinejs/vine@4.4.0)(edge.js@6.5.1)(pino-pretty@13.1.3)(youch@4.1.1)':
     dependencies:
       '@adonisjs/ace': 14.1.0(youch@4.1.1)
-      '@adonisjs/application': 9.0.0(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@adonisjs/config@6.1.0)(@adonisjs/fold@11.0.0)
-      '@adonisjs/bodyparser': 11.0.1(@adonisjs/http-server@8.2.0(@adonisjs/application@9.0.0(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@adonisjs/config@6.1.0)(@adonisjs/fold@11.0.0))(@adonisjs/events@10.2.0(@adonisjs/application@9.0.0(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@adonisjs/config@6.1.0)(@adonisjs/fold@11.0.0))(@adonisjs/fold@11.0.0))(@adonisjs/fold@11.0.0)(@adonisjs/logger@7.1.1(pino-pretty@13.1.3))(@boringnode/encryption@1.0.0)(youch@4.1.1))
+      '@adonisjs/application': 9.0.1(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@adonisjs/config@6.1.0)(@adonisjs/fold@11.0.0)
+      '@adonisjs/bodyparser': 11.0.4(@adonisjs/http-server@9.0.2(@adonisjs/application@9.0.1(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@adonisjs/config@6.1.0)(@adonisjs/fold@11.0.0))(@adonisjs/events@10.2.0(@adonisjs/application@9.0.1(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@adonisjs/config@6.1.0)(@adonisjs/fold@11.0.0))(@adonisjs/fold@11.0.0))(@adonisjs/fold@11.0.0)(@adonisjs/logger@7.1.1(pino-pretty@13.1.3))(@boringnode/encryption@1.0.0)(youch@4.1.1))
       '@adonisjs/config': 6.1.0
       '@adonisjs/env': 7.0.0
-      '@adonisjs/events': 10.2.0(@adonisjs/application@9.0.0(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@adonisjs/config@6.1.0)(@adonisjs/fold@11.0.0))(@adonisjs/fold@11.0.0)
+      '@adonisjs/events': 10.2.0(@adonisjs/application@9.0.1(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@adonisjs/config@6.1.0)(@adonisjs/fold@11.0.0))(@adonisjs/fold@11.0.0)
       '@adonisjs/fold': 11.0.0
       '@adonisjs/hash': 10.1.0
       '@adonisjs/health': 3.1.0
-      '@adonisjs/http-server': 8.2.0(@adonisjs/application@9.0.0(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@adonisjs/config@6.1.0)(@adonisjs/fold@11.0.0))(@adonisjs/events@10.2.0(@adonisjs/application@9.0.0(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@adonisjs/config@6.1.0)(@adonisjs/fold@11.0.0))(@adonisjs/fold@11.0.0))(@adonisjs/fold@11.0.0)(@adonisjs/logger@7.1.1(pino-pretty@13.1.3))(@boringnode/encryption@1.0.0)(youch@4.1.1)
+      '@adonisjs/http-server': 9.0.2(@adonisjs/application@9.0.1(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@adonisjs/config@6.1.0)(@adonisjs/fold@11.0.0))(@adonisjs/events@10.2.0(@adonisjs/application@9.0.1(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@adonisjs/config@6.1.0)(@adonisjs/fold@11.0.0))(@adonisjs/fold@11.0.0))(@adonisjs/fold@11.0.0)(@adonisjs/logger@7.1.1(pino-pretty@13.1.3))(@boringnode/encryption@1.0.0)(youch@4.1.1)
       '@adonisjs/http-transformers': 2.3.1(@adonisjs/fold@11.0.0)
       '@adonisjs/logger': 7.1.1(pino-pretty@13.1.3)
       '@adonisjs/repl': 5.0.0
@@ -2907,7 +2910,7 @@ snapshots:
       '@poppinss/dumper': 0.7.0
       '@poppinss/macroable': 1.1.2
       '@poppinss/utils': 7.0.1
-      '@sindresorhus/is': 8.0.0
+      '@sindresorhus/is': 8.1.0
       '@types/he': 1.2.3
       error-stack-parser-es: 1.0.5
       he: 1.2.0
@@ -2922,9 +2925,9 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@adonisjs/cors@3.0.0(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@adonisjs/core@7.3.2(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@vinejs/vine@4.4.0)(edge.js@6.5.1)(pino-pretty@13.1.3)(youch@4.1.1))':
+  '@adonisjs/cors@3.0.0(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@adonisjs/core@7.3.3(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@vinejs/vine@4.4.0)(edge.js@6.5.1)(pino-pretty@13.1.3)(youch@4.1.1))':
     dependencies:
-      '@adonisjs/core': 7.3.2(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@vinejs/vine@4.4.0)(edge.js@6.5.1)(pino-pretty@13.1.3)(youch@4.1.1)
+      '@adonisjs/core': 7.3.3(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@vinejs/vine@4.4.0)(edge.js@6.5.1)(pino-pretty@13.1.3)(youch@4.1.1)
     optionalDependencies:
       '@adonisjs/assembler': 8.4.0(typescript@6.0.3)
 
@@ -2934,9 +2937,9 @@ snapshots:
       '@poppinss/validator-lite': 2.1.2
       split-lines: 3.0.0
 
-  '@adonisjs/events@10.2.0(@adonisjs/application@9.0.0(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@adonisjs/config@6.1.0)(@adonisjs/fold@11.0.0))(@adonisjs/fold@11.0.0)':
+  '@adonisjs/events@10.2.0(@adonisjs/application@9.0.1(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@adonisjs/config@6.1.0)(@adonisjs/fold@11.0.0))(@adonisjs/fold@11.0.0)':
     dependencies:
-      '@adonisjs/application': 9.0.0(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@adonisjs/config@6.1.0)(@adonisjs/fold@11.0.0)
+      '@adonisjs/application': 9.0.1(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@adonisjs/config@6.1.0)(@adonisjs/fold@11.0.0)
       '@adonisjs/fold': 11.0.0
       '@poppinss/utils': 7.0.1
       '@sindresorhus/is': 7.2.0
@@ -2957,10 +2960,10 @@ snapshots:
       '@poppinss/utils': 7.0.1
       check-disk-space: 3.4.0
 
-  '@adonisjs/http-server@8.2.0(@adonisjs/application@9.0.0(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@adonisjs/config@6.1.0)(@adonisjs/fold@11.0.0))(@adonisjs/events@10.2.0(@adonisjs/application@9.0.0(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@adonisjs/config@6.1.0)(@adonisjs/fold@11.0.0))(@adonisjs/fold@11.0.0))(@adonisjs/fold@11.0.0)(@adonisjs/logger@7.1.1(pino-pretty@13.1.3))(@boringnode/encryption@1.0.0)(youch@4.1.1)':
+  '@adonisjs/http-server@9.0.2(@adonisjs/application@9.0.1(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@adonisjs/config@6.1.0)(@adonisjs/fold@11.0.0))(@adonisjs/events@10.2.0(@adonisjs/application@9.0.1(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@adonisjs/config@6.1.0)(@adonisjs/fold@11.0.0))(@adonisjs/fold@11.0.0))(@adonisjs/fold@11.0.0)(@adonisjs/logger@7.1.1(pino-pretty@13.1.3))(@boringnode/encryption@1.0.0)(youch@4.1.1)':
     dependencies:
-      '@adonisjs/application': 9.0.0(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@adonisjs/config@6.1.0)(@adonisjs/fold@11.0.0)
-      '@adonisjs/events': 10.2.0(@adonisjs/application@9.0.0(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@adonisjs/config@6.1.0)(@adonisjs/fold@11.0.0))(@adonisjs/fold@11.0.0)
+      '@adonisjs/application': 9.0.1(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@adonisjs/config@6.1.0)(@adonisjs/fold@11.0.0)
+      '@adonisjs/events': 10.2.0(@adonisjs/application@9.0.1(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@adonisjs/config@6.1.0)(@adonisjs/fold@11.0.0))(@adonisjs/fold@11.0.0)
       '@adonisjs/fold': 11.0.0
       '@adonisjs/logger': 7.1.1(pino-pretty@13.1.3)
       '@boringnode/encryption': 1.0.0
@@ -2969,7 +2972,7 @@ snapshots:
       '@poppinss/middleware': 3.2.7
       '@poppinss/qs': 6.15.0
       '@poppinss/utils': 7.0.1
-      '@sindresorhus/is': 7.2.0
+      '@sindresorhus/is': 8.1.0
       content-disposition: 1.1.0
       cookie-es: 3.1.1
       destroy: 1.2.0
@@ -2980,7 +2983,7 @@ snapshots:
       on-finished: 2.4.1
       proxy-addr: 2.0.7
       tmp-cache: 1.1.0
-      type-is: 2.0.1
+      type-is: 2.1.0
       vary: 1.1.2
     optionalDependencies:
       youch: 4.1.1
@@ -2991,9 +2994,9 @@ snapshots:
       '@poppinss/exception': 1.2.3
       '@poppinss/types': 1.2.1
 
-  '@adonisjs/i18n@3.0.0(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@adonisjs/core@7.3.2(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@vinejs/vine@4.4.0)(edge.js@6.5.1)(pino-pretty@13.1.3)(youch@4.1.1))(@vinejs/vine@4.4.0)(edge.js@6.5.1)':
+  '@adonisjs/i18n@3.0.0(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@adonisjs/core@7.3.3(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@vinejs/vine@4.4.0)(edge.js@6.5.1)(pino-pretty@13.1.3)(youch@4.1.1))(@vinejs/vine@4.4.0)(edge.js@6.5.1)':
     dependencies:
-      '@adonisjs/core': 7.3.2(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@vinejs/vine@4.4.0)(edge.js@6.5.1)(pino-pretty@13.1.3)(youch@4.1.1)
+      '@adonisjs/core': 7.3.3(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@vinejs/vine@4.4.0)(edge.js@6.5.1)(pino-pretty@13.1.3)(youch@4.1.1)
       '@poppinss/intl-formatter': 3.2.0
       '@poppinss/utils': 7.0.1
       intl-messageformat: 11.2.1
@@ -3012,10 +3015,10 @@ snapshots:
     optionalDependencies:
       pino-pretty: 13.1.3
 
-  '@adonisjs/lucid@22.4.2(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@adonisjs/core@7.3.2(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@vinejs/vine@4.4.0)(edge.js@6.5.1)(pino-pretty@13.1.3)(youch@4.1.1))(@vinejs/vine@4.4.0)(luxon@3.7.2)(pg@8.21.0)':
+  '@adonisjs/lucid@22.4.2(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@adonisjs/core@7.3.3(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@vinejs/vine@4.4.0)(edge.js@6.5.1)(pino-pretty@13.1.3)(youch@4.1.1))(@vinejs/vine@4.4.0)(luxon@3.7.2)(pg@8.21.0)':
     dependencies:
-      '@adonisjs/core': 7.3.2(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@vinejs/vine@4.4.0)(edge.js@6.5.1)(pino-pretty@13.1.3)(youch@4.1.1)
-      '@adonisjs/presets': 3.0.0(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@adonisjs/core@7.3.2(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@vinejs/vine@4.4.0)(edge.js@6.5.1)(pino-pretty@13.1.3)(youch@4.1.1))
+      '@adonisjs/core': 7.3.3(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@vinejs/vine@4.4.0)(edge.js@6.5.1)(pino-pretty@13.1.3)(youch@4.1.1)
+      '@adonisjs/presets': 3.0.0(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@adonisjs/core@7.3.3(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@vinejs/vine@4.4.0)(edge.js@6.5.1)(pino-pretty@13.1.3)(youch@4.1.1))
       '@faker-js/faker': 10.4.0
       '@poppinss/hooks': 7.3.0
       '@poppinss/macroable': 1.1.2
@@ -3045,9 +3048,9 @@ snapshots:
       - supports-color
       - tedious
 
-  '@adonisjs/mail@10.2.1(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@adonisjs/core@7.3.2(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@vinejs/vine@4.4.0)(edge.js@6.5.1)(pino-pretty@13.1.3)(youch@4.1.1))(@types/luxon@3.7.1)(@types/node@25.9.1)(dayjs@1.11.20)(edge.js@6.5.1)(luxon@3.7.2)(mjml@4.18.0)':
+  '@adonisjs/mail@10.2.1(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@adonisjs/core@7.3.3(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@vinejs/vine@4.4.0)(edge.js@6.5.1)(pino-pretty@13.1.3)(youch@4.1.1))(@types/luxon@3.7.1)(@types/node@25.9.1)(dayjs@1.11.20)(edge.js@6.5.1)(luxon@3.7.2)(mjml@4.18.0)':
     dependencies:
-      '@adonisjs/core': 7.3.2(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@vinejs/vine@4.4.0)(edge.js@6.5.1)(pino-pretty@13.1.3)(youch@4.1.1)
+      '@adonisjs/core': 7.3.3(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@vinejs/vine@4.4.0)(edge.js@6.5.1)(pino-pretty@13.1.3)(youch@4.1.1)
       '@poppinss/macroable': 1.1.2
       '@poppinss/object-builder': 1.1.0
       '@types/nodemailer': 8.0.0
@@ -3070,9 +3073,9 @@ snapshots:
       - moment-timezone
       - rrule
 
-  '@adonisjs/presets@3.0.0(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@adonisjs/core@7.3.2(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@vinejs/vine@4.4.0)(edge.js@6.5.1)(pino-pretty@13.1.3)(youch@4.1.1))':
+  '@adonisjs/presets@3.0.0(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@adonisjs/core@7.3.3(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@vinejs/vine@4.4.0)(edge.js@6.5.1)(pino-pretty@13.1.3)(youch@4.1.1))':
     dependencies:
-      '@adonisjs/core': 7.3.2(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@vinejs/vine@4.4.0)(edge.js@6.5.1)(pino-pretty@13.1.3)(youch@4.1.1)
+      '@adonisjs/core': 7.3.3(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@vinejs/vine@4.4.0)(edge.js@6.5.1)(pino-pretty@13.1.3)(youch@4.1.1)
     optionalDependencies:
       '@adonisjs/assembler': 8.4.0(typescript@6.0.3)
 
@@ -3081,16 +3084,16 @@ snapshots:
       '@poppinss/colors': 4.1.6
       string-width: 8.2.1
 
-  '@adonisjs/session@8.1.0(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@adonisjs/core@7.3.2(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@vinejs/vine@4.4.0)(edge.js@6.5.1)(pino-pretty@13.1.3)(youch@4.1.1))(@adonisjs/lucid@22.4.2(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@adonisjs/core@7.3.2(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@vinejs/vine@4.4.0)(edge.js@6.5.1)(pino-pretty@13.1.3)(youch@4.1.1))(@vinejs/vine@4.4.0)(luxon@3.7.2)(pg@8.21.0))(@japa/api-client@3.2.1(@japa/assert@4.2.0(@japa/runner@5.3.0))(@japa/runner@5.3.0))(@japa/plugin-adonisjs@5.2.0(@adonisjs/core@7.3.2(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@vinejs/vine@4.4.0)(edge.js@6.5.1)(pino-pretty@13.1.3)(youch@4.1.1))(@japa/api-client@3.2.1(@japa/assert@4.2.0(@japa/runner@5.3.0))(@japa/runner@5.3.0))(@japa/runner@5.3.0))(edge.js@6.5.1)':
+  '@adonisjs/session@8.1.0(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@adonisjs/core@7.3.3(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@vinejs/vine@4.4.0)(edge.js@6.5.1)(pino-pretty@13.1.3)(youch@4.1.1))(@adonisjs/lucid@22.4.2(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@adonisjs/core@7.3.3(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@vinejs/vine@4.4.0)(edge.js@6.5.1)(pino-pretty@13.1.3)(youch@4.1.1))(@vinejs/vine@4.4.0)(luxon@3.7.2)(pg@8.21.0))(@japa/api-client@3.2.1(@japa/assert@4.2.0(@japa/runner@5.3.0))(@japa/runner@5.3.0))(@japa/plugin-adonisjs@5.2.0(@adonisjs/core@7.3.3(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@vinejs/vine@4.4.0)(edge.js@6.5.1)(pino-pretty@13.1.3)(youch@4.1.1))(@japa/api-client@3.2.1(@japa/assert@4.2.0(@japa/runner@5.3.0))(@japa/runner@5.3.0))(@japa/runner@5.3.0))(edge.js@6.5.1)':
     dependencies:
-      '@adonisjs/core': 7.3.2(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@vinejs/vine@4.4.0)(edge.js@6.5.1)(pino-pretty@13.1.3)(youch@4.1.1)
+      '@adonisjs/core': 7.3.3(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@vinejs/vine@4.4.0)(edge.js@6.5.1)(pino-pretty@13.1.3)(youch@4.1.1)
       '@poppinss/macroable': 1.1.2
       '@poppinss/utils': 7.0.1
     optionalDependencies:
       '@adonisjs/assembler': 8.4.0(typescript@6.0.3)
-      '@adonisjs/lucid': 22.4.2(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@adonisjs/core@7.3.2(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@vinejs/vine@4.4.0)(edge.js@6.5.1)(pino-pretty@13.1.3)(youch@4.1.1))(@vinejs/vine@4.4.0)(luxon@3.7.2)(pg@8.21.0)
+      '@adonisjs/lucid': 22.4.2(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@adonisjs/core@7.3.3(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@vinejs/vine@4.4.0)(edge.js@6.5.1)(pino-pretty@13.1.3)(youch@4.1.1))(@vinejs/vine@4.4.0)(luxon@3.7.2)(pg@8.21.0)
       '@japa/api-client': 3.2.1(@japa/assert@4.2.0(@japa/runner@5.3.0))(@japa/runner@5.3.0)
-      '@japa/plugin-adonisjs': 5.2.0(@adonisjs/core@7.3.2(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@vinejs/vine@4.4.0)(edge.js@6.5.1)(pino-pretty@13.1.3)(youch@4.1.1))(@japa/api-client@3.2.1(@japa/assert@4.2.0(@japa/runner@5.3.0))(@japa/runner@5.3.0))(@japa/runner@5.3.0)
+      '@japa/plugin-adonisjs': 5.2.0(@adonisjs/core@7.3.3(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@vinejs/vine@4.4.0)(edge.js@6.5.1)(pino-pretty@13.1.3)(youch@4.1.1))(@japa/api-client@3.2.1(@japa/assert@4.2.0(@japa/runner@5.3.0))(@japa/runner@5.3.0))(@japa/runner@5.3.0)
       edge.js: 6.5.1
 
   '@adonisjs/tsconfig@2.0.0': {}
@@ -3223,9 +3226,9 @@ snapshots:
       '@japa/runner': 5.3.0
       expect: 30.3.0
 
-  '@japa/plugin-adonisjs@5.2.0(@adonisjs/core@7.3.2(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@vinejs/vine@4.4.0)(edge.js@6.5.1)(pino-pretty@13.1.3)(youch@4.1.1))(@japa/api-client@3.2.1(@japa/assert@4.2.0(@japa/runner@5.3.0))(@japa/runner@5.3.0))(@japa/runner@5.3.0)':
+  '@japa/plugin-adonisjs@5.2.0(@adonisjs/core@7.3.3(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@vinejs/vine@4.4.0)(edge.js@6.5.1)(pino-pretty@13.1.3)(youch@4.1.1))(@japa/api-client@3.2.1(@japa/assert@4.2.0(@japa/runner@5.3.0))(@japa/runner@5.3.0))(@japa/runner@5.3.0)':
     dependencies:
-      '@adonisjs/core': 7.3.2(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@vinejs/vine@4.4.0)(edge.js@6.5.1)(pino-pretty@13.1.3)(youch@4.1.1)
+      '@adonisjs/core': 7.3.3(@adonisjs/assembler@8.4.0(typescript@6.0.3))(@vinejs/vine@4.4.0)(edge.js@6.5.1)(pino-pretty@13.1.3)(youch@4.1.1)
       '@japa/runner': 5.3.0
     optionalDependencies:
       '@japa/api-client': 3.2.1(@japa/assert@4.2.0(@japa/runner@5.3.0))(@japa/runner@5.3.0)
@@ -3499,7 +3502,7 @@ snapshots:
 
   '@sindresorhus/is@7.2.0': {}
 
-  '@sindresorhus/is@8.0.0': {}
+  '@sindresorhus/is@8.1.0': {}
 
   '@sindresorhus/merge-streams@4.0.0': {}
 
@@ -3847,7 +3850,7 @@ snapshots:
 
   content-disposition@1.1.0: {}
 
-  content-type@1.0.5: {}
+  content-type@2.0.0: {}
 
   cookie-es@2.0.1: {}
 
@@ -4104,7 +4107,7 @@ snapshots:
     dependencies:
       is-unicode-supported: 2.1.0
 
-  file-type@21.3.4:
+  file-type@22.0.1:
     dependencies:
       '@tokenizer/inflate': 0.4.1
       strtok3: 10.3.5
@@ -4156,7 +4159,7 @@ snapshots:
 
   get-caller-file@2.0.5: {}
 
-  get-east-asian-width@1.5.0: {}
+  get-east-asian-width@1.6.0: {}
 
   get-intrinsic@1.3.0:
     dependencies:
@@ -4317,7 +4320,7 @@ snapshots:
 
   is-fullwidth-code-point@5.1.0:
     dependencies:
-      get-east-asian-width: 1.5.0
+      get-east-asian-width: 1.6.0
 
   is-glob@4.0.3:
     dependencies:
@@ -5062,7 +5065,7 @@ snapshots:
       real-require: 0.2.0
       safe-stable-stringify: 2.5.0
       sonic-boom: 4.2.1
-      thread-stream: 4.0.0
+      thread-stream: 4.2.0
 
   pkg-dir@8.0.0:
     dependencies:
@@ -5134,6 +5137,8 @@ snapshots:
   readdirp@5.0.0: {}
 
   real-require@0.2.0: {}
+
+  real-require@1.0.0: {}
 
   rechoir@0.8.0:
     dependencies:
@@ -5266,7 +5271,7 @@ snapshots:
 
   string-width@8.2.1:
     dependencies:
-      get-east-asian-width: 1.5.0
+      get-east-asian-width: 1.6.0
       strip-ansi: 7.2.0
 
   stringify-attributes@4.0.0:
@@ -5317,9 +5322,9 @@ snapshots:
 
   terminal-size@4.0.1: {}
 
-  thread-stream@4.0.0:
+  thread-stream@4.2.0:
     dependencies:
-      real-require: 0.2.0
+      real-require: 1.0.0
 
   tildify@2.0.0: {}
 
@@ -5355,9 +5360,9 @@ snapshots:
       '@ts-morph/common': 0.28.1
       code-block-writer: 13.0.3
 
-  type-is@2.0.1:
+  type-is@2.1.0:
     dependencies:
-      content-type: 1.0.5
+      content-type: 2.0.0
       media-typer: 1.1.0
       mime-types: 3.0.2
 
