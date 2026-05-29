@@ -44,7 +44,7 @@
     "@adonisjs/mail": "^10.2.1",
     "@adonisjs/session": "^8.1.0",
     "@vinejs/vine": "^4.4.0",
-    "edge.js": "^6.5.0",
+    "edge.js": "^6.5.1",
     "luxon": "^3.7.2",
     "mjml": "^4.18.0",
     "pg": "^8.21.0",
