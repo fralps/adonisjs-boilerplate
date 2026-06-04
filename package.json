@@ -41,7 +41,7 @@
     "@adonisjs/cors": "^3.0.0",
     "@adonisjs/i18n": "^3.0.0",
     "@adonisjs/lucid": "^22.4.2",
-    "@adonisjs/mail": "^10.2.1",
+    "@adonisjs/mail": "^10.3.0",
     "@adonisjs/session": "^8.1.0",
     "@vinejs/vine": "^4.4.0",
     "edge.js": "^6.5.1",
