@@ -39,7 +39,7 @@
     "@adonisjs/auth": "^10.1.0",
     "@adonisjs/core": "^7.3.3",
     "@adonisjs/cors": "^3.0.0",
-    "@adonisjs/i18n": "^3.0.0",
+    "@adonisjs/i18n": "^3.0.1",
     "@adonisjs/lucid": "^22.4.2",
     "@adonisjs/mail": "^10.3.0",
     "@adonisjs/session": "^8.1.0",
