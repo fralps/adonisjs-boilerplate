@@ -60,7 +60,7 @@
     "@japa/runner": "^5.3.0",
     "@poppinss/ts-exec": "^1.4.4",
     "@types/luxon": "^3.7.5",
-    "@types/node": "^26.5.0",
+    "@types/node": "^26.5.1",
     "oxfmt": "^0.68.0",
     "oxlint": "^1.83.0",
     "pino-pretty": "^13.1.3",
