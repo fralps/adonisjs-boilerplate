@@ -58,7 +58,7 @@
     "@japa/expect": "^3.0.7",
     "@japa/plugin-adonisjs": "^5.2.0",
     "@japa/runner": "^5.4.0",
-    "@poppinss/ts-exec": "^1.4.4",
+    "@poppinss/ts-exec": "^1.5.1",
     "@types/luxon": "^3.7.6",
     "@types/node": "^26.6.5",
     "oxfmt": "^0.74.0",
