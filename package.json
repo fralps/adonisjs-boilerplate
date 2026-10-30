@@ -61,7 +61,7 @@
     "@poppinss/ts-exec": "^1.4.4",
     "@types/luxon": "^3.7.6",
     "@types/node": "^26.6.5",
-    "oxfmt": "^0.72.0",
+    "oxfmt": "^0.74.0",
     "oxlint": "^1.87.0",
     "pino-pretty": "^13.2.0",
     "typescript": "^6.0.3",
