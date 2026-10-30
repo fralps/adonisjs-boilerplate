@@ -42,7 +42,7 @@
     "@adonisjs/i18n": "^3.0.1",
     "@adonisjs/lucid": "^22.4.2",
     "@adonisjs/mail": "^10.4.0",
-    "@adonisjs/session": "^8.1.0",
+    "@adonisjs/session": "^8.3.0",
     "@vinejs/vine": "^4.4.0",
     "edge.js": "^6.5.1",
     "luxon": "^3.7.2",
