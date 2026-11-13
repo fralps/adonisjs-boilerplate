@@ -62,7 +62,7 @@
     "@types/luxon": "^3.7.6",
     "@types/node": "^26.6.6",
     "oxfmt": "^0.75.0",
-    "oxlint": "^1.90.0",
+    "oxlint": "^1.93.0",
     "pino-pretty": "^13.2.0",
     "typescript": "^6.0.3",
     "youch": "^4.1.1"
