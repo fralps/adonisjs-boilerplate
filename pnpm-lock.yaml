@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@adonisjs/auth':
-        specifier: ^10.1.0
-        version: 10.1.0(e5e9f0fe58f7870d66cd0aceed806c93)
+        specifier: ^10.1.1
+        version: 10.1.1(e5e9f0fe58f7870d66cd0aceed806c93)
       '@adonisjs/core':
         specifier: ^7.7.0
         version: 7.7.0(@adonisjs/assembler@8.6.0(typescript@6.0.3))(@vinejs/vine@4.4.0)(edge.js@6.5.1)(pino-pretty@13.2.0)(youch@4.1.1)
@@ -119,8 +119,8 @@ packages:
     peerDependencies:
       typescript: ^5.0.0 || ^6.0.0
 
-  '@adonisjs/auth@10.1.0':
-    resolution: {integrity: sha512-H92C4HLWBpvxtQrgnsdWdWfoGu2bM/j+nyk/tHmpxH9ETkNOH0z3dRfEebLJI63vtTDpRp5cwiI0bzn32gUQiA==}
+  '@adonisjs/auth@10.1.1':
+    resolution: {integrity: sha512-X0o8BPCFUEki2sU4Wq8gE/JxqzghukPfU4ZknM/WYvOk0HmIiPR5Fd3QrP/gVoFlD1WGyXqZKPZmIx5zFcHYlQ==}
     engines: {node: '>=24.0.0'}
     peerDependencies:
       '@adonisjs/assembler': ^8.0.0-next.26 || ^8.0.0
@@ -3240,7 +3240,7 @@ snapshots:
     transitivePeerDependencies:
       - babel-plugin-macros
 
-  '@adonisjs/auth@10.1.0(e5e9f0fe58f7870d66cd0aceed806c93)':
+  '@adonisjs/auth@10.1.1(e5e9f0fe58f7870d66cd0aceed806c93)':
     dependencies:
       '@adonisjs/core': 7.7.0(@adonisjs/assembler@8.6.0(typescript@6.0.3))(@vinejs/vine@4.4.0)(edge.js@6.5.1)(pino-pretty@13.2.0)(youch@4.1.1)
       '@adonisjs/presets': 3.0.0(@adonisjs/assembler@8.6.0(typescript@6.0.3))(@adonisjs/core@7.7.0(@adonisjs/assembler@8.6.0(typescript@6.0.3))(@vinejs/vine@4.4.0)(edge.js@6.5.1)(pino-pretty@13.2.0)(youch@4.1.1))
